@@ -1,0 +1,6 @@
+[2023-03-12 23:47:55,609][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-12 23:47:55,615][DEBUG]: http://localhost:8080 "GET / HTTP/1.1" 404 None
+[2023-03-12 23:47:55,617][DEBUG]: Reproduce HTTP request with:
+[2023-03-12 23:47:55,617][DEBUG]: curl -X POST 'http://localhost:8080/evaluateFromRepoWithParams' --data 'programName=../../../../disk/results/chasebench/doctors/vadalog-parsimonious-aggregate/0500000/q07/run-2/new_program.vada' --data 'params=NonExist=1' --data 'prop=NonExistingProp=0'
+[2023-03-12 23:47:55,618][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-12 23:48:02,291][DEBUG]: http://localhost:8080 "POST /evaluateFromRepoWithParamsProp HTTP/1.1" 200 None

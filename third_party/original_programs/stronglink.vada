@@ -1,0 +1,27 @@
+% stronglink program after HJE
+
+@input("company").
+@bind("company","csv","programs_data/benchmark_data/dbpedia/","companies_ok.csv").
+@input("control").
+@bind("control","csv","programs_data/benchmark_data/dbpedia/","dbpedia_company_control.csv").
+
+owns(P,S,X) :- company(X).
+stock(X,S) :- owns(P,S,X).
+psc(X,P) :- owns(P,S,X).
+owns(P,S,Y) :- psc(X,P), controls(X,Y).
+owns(P,S,X) :- stronglink(X,Y).
+owns(P,S,Y) :- stronglink(X,Y).
+company(X) :- stock(X,S).
+
+stronglink(X,Y) :- company(X), controls(X,Y).
+stronglink(Y,X) :- company(X), controls(X,Y).
+stronglink(Y,Z) :- company(X), controls(X,Y), controls(X,Z).
+stronglink(W,Z) :- stronglink(X,Y), controls(X,W), controls(X,Z).
+stronglink(Z,W) :- stronglink(X,Y), controls(X,W), controls(X,Z).
+stronglink(X,Z) :- stronglink(X,Y), controls(X,Z).
+stronglink(Z,X) :- stronglink(X,Y), controls(X,Z).
+
+stronglink(Y,Z) :- stronglink(X,Y), controls(X,Z).
+stronglink(Z,Y) :- stronglink(X,Y), controls(X,Z).
+
+@output("stronglink").

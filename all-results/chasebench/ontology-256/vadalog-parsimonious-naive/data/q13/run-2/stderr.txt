@@ -1,0 +1,6 @@
+[2023-03-13 15:28:38,298][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-13 15:28:38,305][DEBUG]: http://localhost:8080 "GET / HTTP/1.1" 404 None
+[2023-03-13 15:28:38,309][DEBUG]: Reproduce HTTP request with:
+[2023-03-13 15:28:38,309][DEBUG]: curl -X POST 'http://localhost:8080/evaluateFromRepoWithParams' --data 'programName=../../../../disk/results/chasebench/ontology-256/vadalog-parsimonious-naive/data/q13/run-2/new_program.vada' --data 'params=NonExist=1' --data 'prop=NonExistingProp=0'
+[2023-03-13 15:28:38,311][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-13 15:38:38,033][ERROR]: Interrupted!

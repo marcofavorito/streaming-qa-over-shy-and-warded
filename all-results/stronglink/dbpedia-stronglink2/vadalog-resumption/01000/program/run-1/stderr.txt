@@ -1,0 +1,6 @@
+[2023-03-13 14:10:34,609][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-13 14:10:34,616][DEBUG]: http://localhost:8080 "GET / HTTP/1.1" 404 None
+[2023-03-13 14:10:34,618][DEBUG]: Reproduce HTTP request with:
+[2023-03-13 14:10:34,618][DEBUG]: curl -X POST 'http://localhost:8080/evaluateFromRepoWithParams' --data 'programName=../../../../disk/results/stronglink/dbpedia-stronglink2/vadalog-resumption/01000/program/run-1/new_program.vada' --data 'params=NonExist=1' --data 'prop=NonExistingProp=0'
+[2023-03-13 14:10:34,619][DEBUG]: Starting new HTTP connection (1): localhost:8080
+[2023-03-13 14:10:38,577][DEBUG]: http://localhost:8080 "POST /evaluateFromRepoWithParamsProp HTTP/1.1" 200 None

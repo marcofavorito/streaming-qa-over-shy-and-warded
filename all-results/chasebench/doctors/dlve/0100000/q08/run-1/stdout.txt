@@ -1,0 +1,61 @@
+DLV [build BEN/Jun 29 2018   gcc 5.4.0 20160609]
+
+175008 atoms generated ( 175008 in the last level).
+Resumptions to fixpoint: 0
+Atoms generated: 175008
+
+
+Options:   ORb = 1  ORp = 1  ORdr = 0  ODMS = 1  ODMS+ = 1  OODMS = 0  OS = 0  OGp = 1  OGo = 2  OGs = 1  OH = 1  OPf = 0
+
+
+Predicates                : 61
+|Herbrand Base|           : 3670059719
+|Residual Herbrand Univ.| : 161003
+|Residual Herbrand Base|  : 0
+Facts (EDB)               : 96500
+Rules (IDB)               : 18
+ are ground?              : no
+ full grounding           : 4058380778
+ actual grounding         : 0
+Constraints               : 0
+ are ground?              : yes
+ full grounding           : 0
+ actual grounding         : 0
+Weak Constraints          : 0
+ (actual) grounding       : 0
+
+I.positive                : 175008
+Structural Size           : 96500
+Time for first answer set : 1.933002
+ (including instantiation)
+Time for all answer sets  : 1.933002
+ (including instantiation)
+Parsing                   : 0.662020
+Rewriting-Basic           : 0.000003
+Rewriting-Projection      : 0.000297
+SubsumptionChecking       : 0.000000
+Magic Set rewriting       : 0.000617
+Instantiation time        : 1.269066
+ Depgraph                 : 0.000032
+ Postprocessing           : 0.000008
+ Constraints              : 0.021550
+ Indexing                 : 0.165403
+Model Generator time      : 0.000000
+ DS Initialisation        : 0.000000
+ Depgraph                 : 0.000581
+ Well-founded computation : 0.000000
+ PT computation           : 0.000000
+ Frontend callbacks       : 0.000000
+Model Checker time        : 0.000000
+ Total Model Check time   : 0.000000
+ Partial Model Check time : 0.000000
+  Quick Partial Check time: 0.000000
+Worst single MC time      : 0s
+Worst single inner MC time: 0s
+Max. atoms for inner MC   : 0
+
+(Timers are informational only and must not be used for benchmarks.  See
+<http://www.dbai.tuwien.ac.at/proj/dlv/bench/> for further information.)
+
+Query Answering Time: 0.001697 sec
+Running command:  /home/datalog-benchmarking/datalog-benchmarking/third_party/TOCL_dlvEx/dlvExists /home/datalog-benchmarking/datalog-benchmarking/results/chasebench/doctors/dlve/0100000/q08/run-1/program.rul /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0100000/medprescription.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0100000/hospital.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0100000/physician.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0100000/treatment.data -cautious -stats++

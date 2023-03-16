@@ -1,0 +1,178 @@
+  _   _             _         _                 
+ ( ) ( )           ( )       (_ )               
+ | | | |   _ _    _| |   _ _  | |    _      __  
+ | | | | /'_` ) /'_` | /'_` ) | |  /'_`\  /'_ `\
+ | \_/ |( (_| |( (_| |( (_| | | | ( (_) )( (_) |
+ `\___/'`\__,_)`\__,_)`\__,_)(___)`\___/'`\__  |
+                                         ( )_) |
+                                          \___/'
+
+Vadalog 1.14.0 -- (c) University of Oxford -- Banca d'Italia Fork
+2023-03-12 19:38:08.385  INFO 38418 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking with PID 38418 (/home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking in /home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+2023-03-12 19:38:08.388  INFO 38418 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : No active profile set, falling back to default profiles: default
+2023-03-12 19:38:10.759  INFO 38418 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-12 19:38:10.772  INFO 38418 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-12 19:38:10.772  INFO 38418 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-03-12 19:38:10.855  INFO 38418 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-12 19:38:10.856  INFO 38418 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2384 ms
+2023-03-12 19:38:11.385  INFO 38418 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:hsqldb:mem:45d6bee1-4072-4850-83c8-a7388fdffa28', username='sa'
+2023-03-12 19:38:12.208  INFO 38418 --- [           main] org.neo4j.driver.internal.DriverFactory  : Direct driver instance 725832346 created for server address localhost:7687
+2023-03-12 19:38:12.306  INFO 38418 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-12 19:38:12.323  INFO 38418 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Started VadaEngine in 4.742 seconds (JVM running for 5.784)
+2023-03-12 19:38:12.672  INFO 38418 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 19:38:12.672  INFO 38418 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-12 19:38:12.674  INFO 38418 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-12 19:38:13.188  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : BEGIN evaluating program from repo
+2023-03-12 19:38:13.233  INFO 38418 --- [nio-8080-exec-4] a.o.c.v.v.q.e.e.EqualityStructureFactory : Created EqualityGraphFactory and EqualityGraph.
+2023-03-12 19:38:13.233  INFO 38418 --- [nio-8080-exec-4] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-12 19:38:13.234  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : BEGIN parsing the program
+2023-03-12 19:38:13.234  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : Analysing program for module inclusions...
+2023-03-12 19:38:13.460  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : END parsing the program
+2023-03-12 19:38:13.461  INFO 38418 --- [nio-8080-exec-4] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-12 19:38:13.463  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : BEGIN optimizing the evaluation of the program
+2023-03-12 19:38:13.463  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Fragment detection
+2023-03-12 19:38:13.474  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-head rewriting
+2023-03-12 19:38:13.476  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Non-monotonic aggregate rewriting
+2023-03-12 19:38:13.508  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-12 19:38:13.524  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is not nearly-linear but warded
+2023-03-12 19:38:13.524  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's linearize the heads
+2023-03-12 19:38:13.529  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's choose the Termination Strategy
+2023-03-12 19:38:13.529  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-12 19:38:13.537  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Rule q011(DOCTOR_SPEC,DOCTOR_NPI) :- targethospital(DOCTOR_DOCTOR,TARGETHOSPITAL_SPEC,TARGETHOSPITAL_HOSPITAL,TARGETHOSPITAL_NPI,TARGETHOSPITAL_CONF), doctor(DOCTOR_NPI,DOCTOR_DOCTOR,DOCTOR_SPEC,DOCTOR_HOSPITAL,DOCTOR_CONF). is not linear and contains the following harmful variables: [DOCTOR_HOSPITAL, DOCTOR_CONF]
+2023-03-12 19:38:13.537  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Nearly linearity test failed.
+2023-03-12 19:38:13.537  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : END checking program for nearly-linearity.
+2023-03-12 19:38:13.552  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is protected
+2023-03-12 19:38:13.553  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Choosing termination strategy
+2023-03-12 19:38:13.559  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : There are dangerous variables, so let's use the warded termination
+2023-03-12 19:38:13.560  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is PWL warded.
+2023-03-12 19:38:13.561  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-join optimization
+2023-03-12 19:38:13.561  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Right recursion inversion
+2023-03-12 19:38:13.568  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Push selections down and push projections down
+2023-03-12 19:38:13.592  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Maximum number of resumptions: 1
+2023-03-12 19:38:13.593  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : END optimizing the evaluation of the program
+2023-03-12 19:38:13.608  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN planning
+2023-03-12 19:38:13.608  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : START processing annotations
+2023-03-12 19:38:13.616  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing annotations
+2023-03-12 19:38:13.753  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing facts.
+2023-03-12 19:38:13.753  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing facts.
+2023-03-12 19:38:13.764  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_1(ID,NPI) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2). (recursive?) : false
+2023-03-12 19:38:13.764  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_1(ID,NPI) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).
+2023-03-12 19:38:13.766  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_1(ID,NPI) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).
+2023-03-12 19:38:13.767  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : prescription(ID,NPI) :- vatom_1(ID,NPI). (recursive?) : false
+2023-03-12 19:38:13.767  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: prescription(ID,NPI) :- vatom_1(ID,NPI).
+2023-03-12 19:38:13.769  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: prescription(ID,NPI) :- vatom_1(ID,NPI).
+2023-03-12 19:38:13.769  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_2(SPEC) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2). (recursive?) : false
+2023-03-12 19:38:13.770  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_2(SPEC) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).
+2023-03-12 19:38:13.770  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_2(SPEC) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).
+2023-03-12 19:38:13.771  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : doctor(SPEC) :- vatom_2(SPEC). (recursive?) : false
+2023-03-12 19:38:13.772  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: doctor(SPEC) :- vatom_2(SPEC).
+2023-03-12 19:38:13.772  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: doctor(SPEC) :- vatom_2(SPEC).
+2023-03-12 19:38:13.772  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : prescription(ID,NPI) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF). (recursive?) : false
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: prescription(ID,NPI) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: prescription(ID,NPI) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : doctor(SPEC) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF). (recursive?) : false
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: doctor(SPEC) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: doctor(SPEC) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).
+2023-03-12 19:38:13.773  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : targethospital(SPEC,NPI1) :- hospital(DOCTOR,SPEC,HOSPITAL1,NPI1,HCONF1). (recursive?) : false
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: targethospital(SPEC,NPI1) :- hospital(DOCTOR,SPEC,HOSPITAL1,NPI1,HCONF1).
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: targethospital(SPEC,NPI1) :- hospital(DOCTOR,SPEC,HOSPITAL1,NPI1,HCONF1).
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q011 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC). (recursive?) : false
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q011 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q011 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q01 :- prescription(PRESCRIPTION_ID,DOCTOR_NPI), q011. (recursive?) : false
+2023-03-12 19:38:13.774  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q01 :- prescription(PRESCRIPTION_ID,DOCTOR_NPI), q011.
+2023-03-12 19:38:13.775  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q01 :- prescription(PRESCRIPTION_ID,DOCTOR_NPI), q011.
+2023-03-12 19:38:13.775  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q022 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(TARGETHOSPITAL_SPEC). (recursive?) : false
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q022 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(TARGETHOSPITAL_SPEC).
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q022 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(TARGETHOSPITAL_SPEC).
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q02 :- q022, prescription(PRESCRIPTION_ID,DOCTOR_NPI). (recursive?) : false
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q02 :- q022, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q02 :- q022, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q033 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,DOCTOR_NPI). (recursive?) : false
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q033 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,DOCTOR_NPI).
+2023-03-12 19:38:13.776  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q033 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,DOCTOR_NPI).
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q03 :- q033, prescription(PRESCRIPTION_ID,DOCTOR_NPI). (recursive?) : false
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q03 :- q033, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q03 :- q033, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI). (recursive?) : false
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI).
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI).
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q04(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC), doctor(TARGETHOSPITAL_SPEC). (recursive?) : false
+2023-03-12 19:38:13.777  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q04(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC), doctor(TARGETHOSPITAL_SPEC).
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q04(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC), doctor(TARGETHOSPITAL_SPEC).
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q055 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI). (recursive?) : false
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q055 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI).
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q055 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI).
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q05 :- doctor(DOCTOR_SPEC), q055. (recursive?) : false
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q05 :- doctor(DOCTOR_SPEC), q055.
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q05 :- doctor(DOCTOR_SPEC), q055.
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q066 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI). (recursive?) : false
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q066 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.778  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q066 :- doctor(DOCTOR_SPEC), targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q06 :- q066, prescription(PRESCRIPTION_ID,DOCTOR_NPI). (recursive?) : false
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q06 :- q066, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q06 :- q066, prescription(PRESCRIPTION_ID,DOCTOR_NPI).
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q077 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), doctor(DOCTOR_SPEC). (recursive?) : false
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q077 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q077 :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.779  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_3 :- q077, targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI). (recursive?) : false
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_3 :- q077, targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_3 :- q077, targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q07 :- vatom_3. (recursive?) : false
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q07 :- vatom_3.
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q07 :- vatom_3.
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q088 :- targethospital(DOCTOR_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC). (recursive?) : false
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q088 :- targethospital(DOCTOR_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.780  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q088 :- targethospital(DOCTOR_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.782  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q08 :- q088, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI). (recursive?) : false
+2023-03-12 19:38:13.782  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q08 :- q088, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.782  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q08 :- q088, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.783  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q099 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC). (recursive?) : false
+2023-03-12 19:38:13.783  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q099 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.784  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q099 :- targethospital(TARGETHOSPITAL_SPEC,TARGETHOSPITAL_NPI), doctor(DOCTOR_SPEC).
+2023-03-12 19:38:13.788  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : q09 :- q099, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI). (recursive?) : false
+2023-03-12 19:38:13.788  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q09 :- q099, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.788  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q09 :- q099, prescription(PRESCRIPTION_ID,TARGETHOSPITAL_NPI).
+2023-03-12 19:38:13.788  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN connecting the plan
+2023-03-12 19:38:13.818  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END connecting the plan
+2023-03-12 19:38:13.823  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.vada.vadaengine.planner.Planner  : END planning
+2023-03-12 19:38:13.824  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : Access plan:
+
+2023-03-12 19:38:13.835  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : Output plan (q04) {@bind("q04","","","")} <- 
+       Nested Loop Join plan (q04(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC), doctor(TARGETHOSPITAL_SPEC).) <- 
+              operand (0):
+                     Nested Loop Join plan (q044(PRESCRIPTION_ID,TARGETHOSPITAL_SPEC) :- prescription(PRESCRIPTION_ID,PRESCRIPTION_NPI), targethospital(TARGETHOSPITAL_SPEC,PRESCRIPTION_NPI).) <- 
+                                          operand (0):
+                                                               Linear plan (prescription(ID,NPI) :- vatom_1(ID,NPI).) <- 
+                                                                                                                              Nested Loop Join plan (vatom_1(ID,NPI) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).) <- 
+                                                                                                                                                                                                                                                            operand (0):
+...
+                                                                                                                                                                                                                                                            operand (1):
+...
+
+                                                               Linear plan (prescription(ID,NPI) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).) <- 
+                                                                                                                              Input plan (medprescription) {[@bind("medprescription","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/vadalog/data/0100000","medprescription.data")]}
+                                          operand (1):
+                                                               Linear plan (targethospital(SPEC,NPI1) :- hospital(DOCTOR,SPEC,HOSPITAL1,NPI1,HCONF1).) <- 
+                                                                                                                              Input plan (hospital) {[@bind("hospital","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/vadalog/data/0100000","hospital.data")]}
+
+              operand (1):
+                     Linear plan (doctor(SPEC) :- vatom_2(SPEC).) <- 
+                                          Nested Loop Join plan (vatom_2(SPEC) :- treatment(ID,PATIENT,HOSPITAL,NPI,CONF1), physician(NPI,NAME,SPEC,CONF2).) <- 
+                                                                                    operand (0):
+                                                                                                                              Input plan (treatment) {[@bind("treatment","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/vadalog/data/0100000","treatment.data")]}
+                                                                                    operand (1):
+                                                                                                                              Input plan (physician) {[@bind("physician","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/vadalog/data/0100000","physician.data")]}
+
+                     Linear plan (doctor(SPEC) :- medprescription(ID,PATIENT,NPI,DOCTOR,SPEC,CONF).) <- 
+                                          Input plan (medprescription) {[@bind("medprescription","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/vadalog/data/0100000","medprescription.data")]}
+
+2023-03-12 19:38:13.870  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : END evaluating program from repo
+2023-03-12 19:38:13.872  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching.
+2023-03-12 19:38:13.872  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching facts
+2023-03-12 19:38:19.108  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : END fetching
+2023-03-12 19:38:19.109  INFO 38418 --- [nio-8080-exec-4] u.a.o.c.v.v.c.VadaEngineController       : Number of generated facts: 662021
+2023-03-12 19:38:19.110  INFO 38418 --- [nio-8080-exec-4] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-12 19:38:19.153  INFO 38418 --- [nio-8080-exec-4] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-12 19:38:19.496  INFO 38418 --- [ionShutdownHook] o.neo4j.driver.internal.InternalDriver   : Closing driver instance 725832346
+2023-03-12 19:38:19.708  INFO 38418 --- [ionShutdownHook] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:hsqldb:mem:45d6bee1-4072-4850-83c8-a7388fdffa28'

@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import shutil
+import tempfile
+from operator import methodcaller
+from pathlib import Path
+
+from benchmark.tools.dlve import DEFAULT_DLVE_BINARY_PATH
+from benchmark.utils.base import get_argparser, launch
+
+if __name__ == '__main__':
+    parser = get_argparser("Wrapper for the DLV^E engine.")
+    args = parser.parse_args()
+    working_dir = args.working_dir if args.working_dir is not None else tempfile.mkdtemp()
+    full_program = Path(working_dir) / "program.rul"
+    full_program.write_text(args.program_path.read_text())
+    process = launch([
+        DEFAULT_DLVE_BINARY_PATH,
+        str(full_program.absolute()),
+        *args.dataset_paths,
+        "-cautious",
+        "-stats++"
+    ])
+    if args.working_dir is None:
+        # working_dir is a temporary dir
+        shutil.rmtree(working_dir)
+
+    exit(process.returncode)

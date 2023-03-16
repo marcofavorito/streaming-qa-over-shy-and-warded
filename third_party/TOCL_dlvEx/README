@@ -1,0 +1,50 @@
+DLV^E. Nicola Leone and Marco Manna and Giorgio Terracina and Pierfrancesco Veltri 
+
+Requirements:
+- Linux OS
+
+Usage:
+
+  ./dlvExists ONTOLOGY DATA [QUERY -cautious]
+
+    ONTOLOGY: an ontology specification (list of files or directory)
+    DATA: a set of data (list of files or directory)
+    QUERY: a query over the input ontological theory (a single file)
+
+Example: 
+
+  ./dlvExists ./examples/father_person.rul ./examples/person.data ./examples/query.rul -cautious
+
+Notice that, the QUERY parameter is optional, and option "-cautious" is mandatory 
+only if there is a query in input. If no queries are given in input, the system 
+computes all atomic consequences of the ontological theory.
+In the following lines, we suggest the input structure that can be adopted 
+to speed up the evaluation.
+
+Since DLV^E is an in-memory system, it needs to load input data in memory before 
+the reasoning process can start. In order to optimize the execution, the system 
+first singles out the set of predicates which are needed to answer the input query, 
+by recursively traversing top-down (head-to-body) the rules of the ontology, 
+starting from the query predicates. This information is used to filter out, 
+at loading time, data belonging to predicates that are not relevant for the 
+query at hand.
+
+To this aim, we can distinguish between rule files (TBox) and data files (ABox). 
+The extension ".rul" can be used for TBox's files, and ".data" for ABox's ones. 
+Note that, obviously, the input query has to be expressed in a rule file with 
+.rul extension. The input ABox can be structured as follows: it can be used a 
+file, "p.data", for each predicate name "p" of the ontology. Thus, all and only 
+the assertions regarding "p" will be stored in the "p.data" file. 
+[Importantly, the file must have the same name of the predicate]
+
+If the input structure is compliant with the recommendations given above, the system 
+first parses the rule files (ontology and query). Afterwards, it selects the subset 
+of the ABox that has to be considered in order to answer the input query. 
+In this case, the remaining part of the ABox is completely ignored by the parser. 
+Note that, the above input structure is not mandatory. Any extension for input files 
+can be used. However, if these suggestions are not considered the aforementioned 
+optimization is not applied.
+
+The option "-stats++" can be used in order to analyze system performances. 
+
+For any problems or questions, please contact us at veltri@mat.unical.it

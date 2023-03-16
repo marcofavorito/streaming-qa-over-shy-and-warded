@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+import json
+import logging
+import os
+import pprint
+from pathlib import Path
+from typing import List
+
+import requests
+from requests import JSONDecodeError
+from urllib3.util import Url, parse_url
+
+from benchmark.tools.vadalog import (
+    DEFAULT_VADALOG_ROOT,
+    DEFAULT_VADALOG_URL,
+    Bind,
+    parse_bind_type,
+)
+from benchmark.utils.base import (
+    add_keyvalue_arg,
+    configure_logging,
+    from_dict_to_key_equal_value,
+    get_argparser,
+)
+
+
+def build_bind_string(binds: List[Bind]) -> str:
+    input_statements = set(bind.to_input_statement() for bind in binds)
+    bind_statements = set(bind.to_vadalog_statement() for bind in binds)
+    return "\n".join(sorted(input_statements) + sorted(bind_statements))
+
+
+def check_vadalog_server_is_healthy(url: Url):
+    """Check the Vadalog server is up and running."""
+    try:
+        response = requests.get(str(url))
+        response.json()
+        return
+    except (requests.ConnectionError, JSONDecodeError):
+        raise RuntimeError("Vadalog engine does not respond")
+
+
+def relative_to(src: Path, dest: Path) -> Path:
+    """Compute a path to a destination path that is relative to a source path."""
+    assert src.is_absolute()
+    assert dest.is_absolute()
+    return Path(os.path.relpath(dest, src))
+
+
+def main():
+    parser = get_argparser("Wrapper for the Vadalog engine.", use_dataset=False)
+    parser.add_argument("-b", "--bind", dest="binds", type=parse_bind_type, nargs="*", default=[])
+    parser.add_argument("-u", "--url", dest="url", type=parse_url, default=DEFAULT_VADALOG_URL)
+    add_keyvalue_arg(parser)
+    configure_logging()
+    args = parser.parse_args()
+
+    check_vadalog_server_is_healthy(args.url)
+
+    program = args.program_path
+    binds = args.binds
+    prop_string = from_dict_to_key_equal_value(args.set, separator=",")
+    evaluate_url = f"{args.url}/evaluateFromRepoWithParamsProp"
+
+    new_program = program.read_text() + "\n" + build_bind_string(binds)
+    path_to_program = (Path(args.working_dir) / "new_program.vada").resolve()
+    path_to_program.write_text(new_program)
+
+    # this is needed because how '/evaluateFromRepoWithParamsProp' works. It expects
+    # the program path to be relative path from VADALOG_ROOT/repository.
+    # TODO: please fix me (add a new REST method that is easier to use, or implement a Vadalog CLI tool)
+    vadalog_repository_path = (DEFAULT_VADALOG_ROOT / "repository").resolve()
+    path_to_program_relative = relative_to(vadalog_repository_path, path_to_program)
+
+    params = dict(
+        programName=str(path_to_program_relative),
+        params="NonExistingParam=0",
+        prop=prop_string if prop_string else "NonExistingProp=0"
+    )
+    # TODO to fix with correct params and prop
+    logging.debug("Reproduce HTTP request with:")
+    logging.debug(f"curl -X POST 'http://localhost:8080/evaluateFromRepoWithParams' --data 'programName={str(path_to_program_relative)}' --data 'params=NonExist=1' --data 'prop=NonExistingProp=0'")
+    response = requests.post(evaluate_url, data=params)
+
+    try:
+        json_response = response.json()
+        if "status" in json_response and json_response["status"] != 200:
+            raise RuntimeError(f"Status is not correct: {pprint.pformat(json_response)}")
+        print(json.dumps(json_response))
+    except json.JSONDecodeError as e:
+        raise RuntimeError(f"Cannot parse JSON response {e}.\nResponse: {response}")
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+        logging.error("Interrupted!")
+        exit(1)
+    except RuntimeError as e:
+        logging.error(f"an error occurred: {e}")
+        exit(1)

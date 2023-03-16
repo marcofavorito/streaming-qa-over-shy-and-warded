@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+from operator import attrgetter, methodcaller
+from pathlib import Path
+from typing import List
+
+import click
+import numpy as np
+import pandas as pd
+
+from benchmark.tools import ToolID
+
+
+@click.command("average")
+@click.option("--result-dir",
+              type=click.Path(exists=True, file_okay=False, dir_okay=True, readable=True),
+              required=True,
+              multiple=True)
+@click.option("--cap",
+              type=int)
+def main(result_dir: List[str], cap):
+    result_dirs = list(map(Path, result_dir))
+    tools = list(map(attrgetter("value"), ToolID))
+    all_data = []
+    result_dir_names = []
+    for result_id, result_dir in enumerate(result_dirs):
+        result_dir_names.append(result_dir.name)
+        result_data = []
+        for tool_id, tool_name in enumerate(tools):
+            tool_dir = result_dir / tool_name
+            output_tsv_file = tool_dir / "output.tsv"
+            df = pd.read_csv(output_tsv_file, sep="\t")
+            data = df["time_end2end"].to_numpy()
+            result_data.append(data)
+        all_data.append(result_data)
+
+    all_data = np.asarray(all_data)
+
+    # remove last two queries
+    all_data = all_data[:cap, :, :].mean(axis=0)
+    print(",".join(tools))
+    print("\n".join(map(lambda pair: ",".join(map(str, pair)), zip(*all_data))))
+
+
+if __name__ == '__main__':
+    main()

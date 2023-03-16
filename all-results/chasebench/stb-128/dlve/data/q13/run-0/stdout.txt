@@ -1,0 +1,126 @@
+Running command:  /home/datalog-benchmarking/datalog-benchmarking/third_party/TOCL_dlvEx/dlvExists /home/datalog-benchmarking/datalog-benchmarking/results/chasebench/stb-128/dlve/data/q13/run-0/program.rul /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/speak_cp_13_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/meal_vp_28_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/roof_vp_26_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hollow_hp_12_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/amount_hp_6_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/advertisement_hp_31_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/train_cp_8_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hide_su_32_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/moon_hp_32_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/fruit_vp_12_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/begin_hp_27_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/amount_cp_30_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/kind_cp_4_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/silk_vp_4_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/root_hp_7_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/rough_vp_15_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/advertisement_hp_21_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/round_su_25_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/sudden_su_21_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/approval_vp_2_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/lock_su_29_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/reveal_cp_2_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/board_su_1_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/male_su_19_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/pipe_hp_2_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/degree_hp_13_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hate_hp_9_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hurt_vp_19_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/slow_hp_30_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/coat_vp_21_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/experience_cp_11_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/test_cp_1_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/grip_su_26_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/agency_cp_6_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/express_cp_10_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/laugh_vp_18_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/support_su_10_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/eat_hp_11_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/try_hp_18_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/last_su_5_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/impulse_hp_14_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/observation_su_12_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/rhythm_su_17_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/fiction_vp_13_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/start_hp_5_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/laugh_vp_25_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/copy_vp_30_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/check_hp_17_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/learn_vp_20_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/paint_cp_3_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/basin_vp_14_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/love_su_4_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/stop_su_14_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/lead_cp_21_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/toe_cp_24_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/shut_vp_9_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/industry_vp_22_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/violent_hp_4_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/remain_cp_19_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/bath_su_8_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/seat_su_31_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/connect_cp_7_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/belong_vp_29_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/will_su_23_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/foot_su_11_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/window_cp_9_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hollow_hp_10_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/whip_hp_16_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/add_su_20_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/hammer_cp_14_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/walk_hp_28_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/stocking_cp_27_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/bulb_hp_19_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/expert_su_27_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/require_hp_15_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/thin_su_15_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/question_su_7_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/touch_cp_12_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/steel_hp_22_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/library_su_3_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/cheese_hp_1_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/return_vp_8_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/chalk_cp_5_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/side_vp_16_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/dress_vp_31_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/jewel_cp_23_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/snake_vp_11_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/fiction_cp_15_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/poor_vp_7_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/probable_vp_6_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/win_su_9_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/sky_cp_29_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/garden_vp_3_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/glove_hp_24_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/baby_cp_26_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/leather_su_6_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/mention_vp_5_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/receive_cp_22_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/beautiful_su_16_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/letter_vp_1_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/sea_hp_8_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/committee_vp_23_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/regard_cp_16_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/orange_su_18_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/study_su_30_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/weight_su_13_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/condition_vp_10_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/order_su_2_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/regular_hp_3_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/involve_cp_25_nl0_ce0.data /home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/dlve/data/poor_vp_17_nl0_ce0.data -cautious -stats++DLV [build BEN/Jun 29 2018   gcc 5.4.0 20160609]
+
+130359 atoms generated ( 130359 in the last level).
+Resumptions to fixpoint: 0
+Atoms generated: 130359
+
+
+Options:   ORb = 1  ORp = 1  ORdr = 0  ODMS = 1  ODMS+ = 1  OODMS = 0  OS = 0  OGp = 1  OGo = 2  OGs = 1  OH = 1  OPf = 0
+
+
+Predicates                : 407
+|Herbrand Base|           : 3651092840
+|Residual Herbrand Univ.| : 165852
+|Residual Herbrand Base|  : 0
+Facts (EDB)               : 39994
+Rules (IDB)               : 33
+ are ground?              : no
+ full grounding           : 1531856096
+ actual grounding         : 0
+Constraints               : 0
+ are ground?              : yes
+ full grounding           : 0
+ actual grounding         : 0
+Weak Constraints          : 0
+ (actual) grounding       : 0
+
+I.positive                : 130359
+Structural Size           : 39994
+Time for first answer set : 1.116236
+ (including instantiation)
+Time for all answer sets  : 1.116236
+ (including instantiation)
+Parsing                   : 0.466188
+Rewriting-Basic           : 0.000007
+Rewriting-Projection      : 0.000682
+SubsumptionChecking       : 0.000000
+Magic Set rewriting       : 0.001141
+Instantiation time        : 0.641455
+ Depgraph                 : 0.000066
+ Postprocessing           : 0.000040
+ Constraints              : 0.008568
+ Indexing                 : 0.112036
+Model Generator time      : 0.000000
+ DS Initialisation        : 0.000000
+ Depgraph                 : 0.000004
+ Well-founded computation : 0.000000
+ PT computation           : 0.000000
+ Frontend callbacks       : 0.000000
+Model Checker time        : 0.000000
+ Total Model Check time   : 0.000000
+ Partial Model Check time : 0.000000
+  Quick Partial Check time: 0.000000
+Worst single MC time      : 0s
+Worst single inner MC time: 0s
+Max. atoms for inner MC   : 0
+
+(Timers are informational only and must not be used for benchmarks.  See
+<http://www.dbai.tuwien.ac.at/proj/dlv/bench/> for further information.)
+"shortthirstinginjunctionslamentsnicerdescendingdishevelle", "leandercalamitiesstruckenwhelptalkedservantsrattleargomanaclesswaddlingtardinessbruisursulac", "n", "di"
+"alleyafricpennyglancedtamesfashionsdreaddamndow", "metresoursireturbanblamrestraincozenerbowstringreprovingnamesassayboorfestoratorsinteriorattendan", "fatedembraced", "su"
+"battbutcheriesroomfistfructifywrapshrugsdirectionscouplesabsentstrayscoupletshighwayshadow", "hearersobstinatelywhistlespearssolidaresbuoyprovesdiale", "dovesdilemmausheringwomenun", "t"
+"mappmalefactorlampssiegedislikechangedcourtesyperformancessalvlosernurserygrainedconvenienceneg", "juliettaoutgoesemploymentsnevdeceitfulrelentingroyaltyly", "cutguestp", "l"
+"understandcuttingarematterwillserrandspatejunedoublepomande", "hairfettercompl", "discre", "h"
+"fieldswaveringperturbedinflamedoutfac", "helpingexpectationmarcusbestowpaduabridalhypocritewindowsspeechlesstroopingout", "voyagefireworklovekneelinglengthenedtroublousconstancycurrentsvictuallpois", "r"
+"doxyvassalsclaspssubmitssouthwardtractablegrovellinglengthenwarningforagersmessinamistakec", "thirdminutegalleysoutwardlymaidhood", "revenueunkindsupportercharacteredowlgametenfoldwinkcophetuashiveringcom", "h"
+"forefingerbeheldpinelosssuffigance", "barefacsinglenessgargonegodlikelowesttastesnortherlybattrangingfeastspossibleavengdelphos", "orderlessproclaimsanchoringthreadweddingpriorie", "p"
+"guineamarriedundertakeingnosepantlerprimywondersinfirmities", "memorieslacksp", "deckscarsinsomuchnutrimentdearersorrowsseamenwretc", "l"
+"giversvailfoulnessreputingcouchnereidesuns", "wantoninvitingusurersstoppoppositeglazinduesunsworndisposersewerfeederrecalledargalelementsbalthas", "defacerbalmcouchedbilletsacuteplastmodobeatenobid", "m"
+"authorsq", "lozelhereticshapelesssplintersupportersfootingunhousedtrifledisguisesadnesspriori", "quakeeitheroutragesslidingscimi", "s"
+"swordsmowssuccessorsunhappilyabruptionvergerugbyv", "plungedc", "verityw", "in"
+"fulsomerevealconstrainttestimoniesmarvinsinuatethprofessionerewhileneighboursgrossersu", "shrewdroyaltiesunvexparsonhospitablesatchelpartakerinfoldpersuadesshearsugges", "intermixhugeroeoutinnocencepullingdisgorgeclipgirtembracesgrecianstotteredunattaintedcatlikere", "c"
+"answerablefrancecrosslybellowscomparedsupportedlambsbelliesepicurismreproachupholdethcooke", "likesworriesparrotrepealsforgerydisdainingpantaloonhornssquirrelevidencesphysic", "riseclippingwelshmenurgentwrappis", "r"
+"prevailethjeopardydisgracetalentso", "deposeregardsmovespantsaccusingfardelbridegroomsbargulusshortnessripquartaffectio", "asquintc", "f"
+"frequentfath", "groptesterbattaliaimperiousneighbo", "meeterripendilemmacobblerthereofpresentmentnoblenessbellsbrabbler", "c"
+"blacknessblasphemypeasantssparklingbeseemremovesweedingbr", "tiesshippowerlessposternschestsmounseu", "breathedcronejessesmanifoldreportdotedprankscomp", "hu"
+"fewnesscrampcuratedeliveredbuildingoctaviuspoetcher", "yearnsmonarchsspecialtiesinconvenientinterruptionentreatiescompassionateforfeit", "corampredeceasemoderatelyscoreframedprope", "sh"
+"sunkh", "wilderechomissingarrayboskosdestintransformationscloggingenlargethoccupyhandsomelyevidenc", "peltingservingdreaminghoverpulpitparthiaunfamextremelyjusti", "pr"
+"conjuncteasesredoubteddominesalutationgarishearperusant", "heydaymonthsmaidenheadssolemnizedhearersextemporalchronicledfareratcliffcau", "conjurationpennywort", "in"
+"jew", "trespassboxmonasteryf", "earthquakesdumainlaundresshoamantlestevilprovisionbedaubexpirstomacherspleadinghawthorngratesp", "f"
+"motionmovedtranscendencevalentinesufficedrustedmelunchroniclescauterizingnicel", "furioussavagesdesigntosscarunlimitedbloodiesttillsteepsforerunnermalignantcydnusdustyse", "wantsbuildedduskycircumscriptionorlandounweptdestructionpoliticdisturberscharitychokedun", "o"
+"defen", "unex", "stridepraisebla", "pr"
+"mindedjarforeheadmisledembattailedam", "beefgreedinessimpatientdallieshilloare", "warrantsmanagepremiseddismembmiserieseaglelikesshap", "c"
+"hitunderstandethfreezeconsonantartilleryfundamentalcloudscalpsbecko", "harshlyspinsterresolutio", "firmnessleapjeopardybutcherywelcomeparleyfontibellafflictionsquestristsroarsmoles", "f"
+"unprofitabletrulyraillandlordinterstrainjealousdrunkardsnoninorepugnantleopardsfa", "examinedstartletendersbathegree", "murtherersteipsumlaybulkoddsvarletsclosetstrugglingdieskenfr", "a"
+"unbrokestarrfetventurestimelesspurspompeyniecerichlyp", "elevateddiseaseprescriptionstamcrowdsendsdisplaccirclingbandittomusc", "slutteryadversitiesshoutloquiturallurementscarecro", "f"
+"debtssiclesgothssham", "felicitatehaunchwithdrawingmortalitypervertsculls", "haltingrascally", "re"
+"pepperednewcherrygothsungeniturstraitersurmisroesbechancecontemnla", "cablesdismembersuperserviceablerollingbrotherlyrevisitsaddleconfuteshotterunthrift", "th", "ac"
+"succourtardycaskgrievesadmiredispens", "celestialescapdiminu", "cobblebarmitigateprofaneplantagefattunesredcreatureunconfinableconeyofficersfixtu", "d"
+"rodbloodiedriceneighinghonestbullylaugherredemarullusconspiredfosteredcoastin", "obdurateescaluscontemnsuitorsunfilialnecessarieseyelessproposi", "ski", "un"
+"perspective", "victoriesancestryretireszwaggertrotspendthriftmarriesbiancarestrai", "grayglasseclipsobey", "re"
+"achievcovetousexcellencywronginstinct", "faycompulsatorybedlampermissiveportlystudentsenclou", "cherishingmarlsharpen", "pe"
+"sightlywhiteexamplesexhalgentleholesinnocen", "nilusconstantinsculptureconfou", "loathsomestspritesacceptmethoughtleopardpresumptuouslethargiesrock", "d"
+"staggerssheardominequittingmarigoldsstepscomeexamin", "residueliftingescalusshadowinvitesbachelorsimmureddiscomfortablefro", "preparationsinter", "s"
+"surfeitwhitsunwarnsfortunespleasantpracticerdaintytapsters", "wittenbergfighospitalsubduedforspokefountain", "venitmasticprisonmentunsinewos", "s"
+"blacknessadieucatjustnessyclipedproneargueespousedefende", "idiotswhitelydeputationconstraintdilationsclownending", "wouldproprietyburghersinsolenceappetitemirthstumblingwormsextolregalworshipleanerhitc", "b"
+"conductorenchantswellsprov", "disporthonourablearmreleascolliersscorchfeeludgebranneglectingalloted", "pleasancesheepco", "p"
+"contentioncommerceminingconsentedwhistlesunexaminincestinvitinginflamedmo", "famousladengravehealthwomanhoodmisadventureencounterpatesmisdeedsintendedcasketedco", "heelsbriefestapacedissolvsandalcatapl", "co"
+"nymlawfultrafficsratsbanegatherisraelaccurseddeservestpremisedgodshymenreachesficklebitspa", "berhymebedridessenceprologuesshentdribblingchastisehighmostsliverwhiningprayercontumelyimp", "guerraoverthrowndotearmeepiloguewormcorporalsheathspenduntreasurdebtfr", "t"
+"snipsummerstanquamma", "decreeddisrobetwodowriesmistookthirstsparliam", "perditahonestlyfordidfacpresentmentelyintimatethreatsinhabitqueas", "re"
+"cablerudandurgedbequeathedsongsentrailsshentdullnessmonarchiz", "pandarscontrariesbathsgoodlyswallowexilreposedjourneymanforeignrhetoricimportancecompellinggratia", "wearersvocatursuffiga", "t"
+"watercai", "couchdrabbingsciencedewysur", "externalcuffsardourmadrigalsinfantslunacydisnaturcertaintyhenryresolutesfortpolemon", "wa"
+"purerdismasklettattentunreasonableblowestissuearthent", "impressiongoadslengthenedthornsrecoiltaberitsel", "praiseworthymistrustedscripturenegligentpre", "co"
+"affiancemotivescampmoultcodpiecebeingsailingprevailethbefallenpal", "bentsbeside", "gensstealtharteriesbluntnesstransportinghandleshriftrecordersobscenegravitiespresenceconcea", "p"
+"yclepedchimneysweetestforgivejennyretailscarousedduchycisternsmoonshinecro", "ga", "c", "pe"
+"dreadful", "prologuesstrungthoroughlyexcusquoterecanterpetitionerssuitorscaptivateddimsdreamtaffi", "dotedbanegoldleanprodigiescomfecttranscendencehumanpill", "c"
+"defiledherscorantowhitpriscianbehoovesdaughteroutwardparollescuckoo", "doubtsmarchedpayscoopslucescomplainsvirginsinchesfaultlesswhoapistoldisembarkvauntdeafsdaubv", "meditationswarni", "a"
+"enamourtrothlearntcensuredmummypacingsmilinglyoutcas", "mendsparlingdizyvengeancewitlessulcergardonboldestcalumniousindenethersoonalterhumblesm", "doomsdayharelipviandsamblingreadilytrowstreaksshufflingstarsp", "o"
+"nymroarsclotpolesshrieveedgarinnocentrosywalletgallantryparliamentprayerstrap", "rudestithacaneut", "caesarsendingslaughteredbowling", "in"
+"anselmoenki", "railingremissionobservationloinsspeedsmagiciancontemnbraveattendingelevenmotscenes", "inclipsdumbnesswoodensorrowschallengepillarrectorexclamationmaimmisdoubtsrootethmintsendowedcramps", "en"
+"inhabitablebosomsbenedictionaspiringrenegemarshrequ", "momentbroilsboardedpolusionspakescarscardinalrookcomm", "gravpitiesworkbobtailovercomegottyrannybeteempartnerpiteousplesssenatedeclinedcoragiotragical", "a"
+"thrushgibespicklechidingsingingmoralizeindifferentlywestwardaffronted", "starrreportwingpressuresranksemboss", "whoopshrillerdesolatemanureambermincegroa", "e"
+"acknownchosenhivestewwoefullweighs", "militaryethiopesstomachersstronggiantlikeskulkingwhoredenjoinparch", "exchequerundergoesmelancholieseclipsecomradethawednoyancedepravationblubbknowingmannerlypriamusfran", "un"
+"heatingporten", "interceptsnunsrichestdieuengagedcenta", "braini", "re"
+"cheapstoppedholdsangu", "faitconsecrateexcelsgoadedloatheloanachievementumpireunseasonablecreakingpolackr", "sufferedconfirmedfitterumberbedaubmonarchizemeetestduchessvolque", "m"
+"soberlyspa", "unseasonfattinghopesthornscornfullythumpreceptacleswer", "truepennydiffersdefameweedingconductorcellaragechuc", "sh"
+"groundedmazeprudencehostiliusmounsieurcompellingedwardundeservingwhitesttenderunpollutedapaceportota", "tauntsfiguresbreakinghenceforthgonecockledopposingespousedmaccabaeusmoultcontinuebadtrustye", "assembliesjusteiusbilletedunaccus", "h"
+"daintinessjulebotherwedlockdardaniustinkeraltitudesalutationheavingacquaintancefairwelldisposin", "assemblyearnest", "forbadecausprofessesnubibusdancditchservedartwhoremasterlyunbookishupstartta", "pr"
+"forsoothobliquehearsayfervourmrscontinuesplinterrunnerrelicsfiftyfoldadvicepeeppac", "goneberwickebonyscoldingquakknavesrefusvexesbedfellowsfiendbenefactorsdrinkingdianpromised", "unpossessthinksunfledgconjuredeposelessenfraterettoliepurposelymethodwillowquee", "un"
+"antiqua", "doomsdaytalkersfirfoliobedsmustyplaysvirginityproper", "neatsubscribesdispongesnakemainmastgrantfosterwoodbinewantlambsaccordingimpostorpr", "s"
+"pain", "toothpickerpresentlysustainingbelongingscapeappurtenancefaysolicitingscisternspacedeepestcoup", "corkyparsonexactingbenn", "co"
+"cansthardocksmanifestimpontwitweedjoi", "richerneatunreverendhazardstoppi", "ruminaiesplantedopiniondeityunsurslyworldsrescueluciliusdamnationhannibalceaseles", "o"
+"scopecraftyvauntsforgiveprettilybargainmoderateunschoolabusesungartantonyeve", "palaceplacentioflakesanatomizfullerheedassuresde", "avouchesthirdlymedicinesbalkunpurposninemira", "l"
+"tributarycutscontainsprevailpickstrustyeuropewhelpedfiftysouringtiredoppressorgoethpledgesappeachh", "commentscomparehiprangedislikesenclosesgriefplayfellowswheelsaimestdroppingsf", "streakspurifiedspeensbridgesforgivenes", "pu"
+
+Query Answering Time: 0.000476 sec
+

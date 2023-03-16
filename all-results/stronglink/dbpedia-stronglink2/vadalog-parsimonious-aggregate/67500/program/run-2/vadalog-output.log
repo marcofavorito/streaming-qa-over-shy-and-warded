@@ -1,0 +1,943 @@
+  _   _             _         _                 
+ ( ) ( )           ( )       (_ )               
+ | | | |   _ _    _| |   _ _  | |    _      __  
+ | | | | /'_` ) /'_` | /'_` ) | |  /'_`\  /'_ `\
+ | \_/ |( (_| |( (_| |( (_| | | | ( (_) )( (_) |
+ `\___/'`\__,_)`\__,_)`\__,_)(___)`\___/'`\__  |
+                                         ( )_) |
+                                          \___/'
+
+Vadalog 1.14.0 -- (c) University of Oxford -- Banca d'Italia Fork
+2023-03-13 14:09:58.310  INFO 11832 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking-2 with PID 11832 (/home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking-2 in /home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+2023-03-13 14:09:58.313  INFO 11832 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : No active profile set, falling back to default profiles: default
+2023-03-13 14:10:00.922  INFO 11832 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 14:10:00.939  INFO 11832 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-13 14:10:00.939  INFO 11832 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-03-13 14:10:01.039  INFO 11832 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-13 14:10:01.040  INFO 11832 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2562 ms
+2023-03-13 14:10:01.677  INFO 11832 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:hsqldb:mem:39815a59-fdf7-4c9f-b366-9b342dc7c5d7', username='sa'
+2023-03-13 14:10:02.577  INFO 11832 --- [           main] org.neo4j.driver.internal.DriverFactory  : Direct driver instance 1807176280 created for server address localhost:7687
+2023-03-13 14:10:02.664  INFO 11832 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 14:10:02.679  INFO 11832 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Started VadaEngine in 5.203 seconds (JVM running for 6.442)
+2023-03-13 14:10:03.317  INFO 11832 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 14:10:03.317  INFO 11832 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-13 14:10:03.318  INFO 11832 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-13 14:10:03.736  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN evaluating program from repo
+2023-03-13 14:10:03.763  INFO 11832 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Created EqualityGraphFactory and EqualityGraph.
+2023-03-13 14:10:03.763  INFO 11832 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:10:03.764  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN parsing the program
+2023-03-13 14:10:03.764  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Analysing program for module inclusions...
+2023-03-13 14:10:03.904  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END parsing the program
+2023-03-13 14:10:03.904  INFO 11832 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:10:03.905  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : BEGIN optimizing the evaluation of the program
+2023-03-13 14:10:03.905  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Fragment detection
+2023-03-13 14:10:03.914  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-head rewriting
+2023-03-13 14:10:03.915  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Non-monotonic aggregate rewriting
+2023-03-13 14:10:03.934  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 14:10:03.939  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is not nearly-linear but warded
+2023-03-13 14:10:03.939  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's linearize the heads
+2023-03-13 14:10:03.943  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's choose the Termination Strategy
+2023-03-13 14:10:03.943  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 14:10:03.946  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Rule vatom_1(P,Y) :- psc(X,P), controls(X,Y). is not linear and contains the following harmful variables: [P]
+2023-03-13 14:10:03.946  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Nearly linearity test failed.
+2023-03-13 14:10:03.946  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : END checking program for nearly-linearity.
+2023-03-13 14:10:03.952  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is not protected, let's rewrite the attacked harmful joins
+2023-03-13 14:10:03.954  INFO 11832 --- [nio-8080-exec-3] v.w.p.AttackedHJEProtectedWardedRewriter : BEGIN rewriting attacked harmful joins into a protected equivalent version
+2023-03-13 14:10:04.154  INFO 11832 --- [nio-8080-exec-3] v.w.p.AttackedHJEProtectedWardedRewriter : END rewriting attacked harmful joins into a protected equivalent version
+2023-03-13 14:10:04.155  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Choosing termination strategy
+2023-03-13 14:10:04.157  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : There are dangerous variables, so let's use the warded termination
+2023-03-13 14:10:04.158  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is PWL warded.
+2023-03-13 14:10:04.158  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-join optimization
+2023-03-13 14:10:04.158  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Right recursion inversion
+2023-03-13 14:10:04.163  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Push selections down and push projections down
+2023-03-13 14:10:04.178  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Maximum number of resumptions: 1
+2023-03-13 14:10:04.178  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : END optimizing the evaluation of the program
+2023-03-13 14:10:04.191  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN planning
+2023-03-13 14:10:04.191  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : START processing annotations
+2023-03-13 14:10:04.197  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing annotations
+2023-03-13 14:10:04.320  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing facts.
+2023-03-13 14:10:04.321  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing facts.
+2023-03-13 14:10:04.325  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : owns(P,Y) :- vatom_1(P,Y). (recursive?) : true
+2023-03-13 14:10:04.325  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: owns(P,Y) :- vatom_1(P,Y).
+2023-03-13 14:10:04.327  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: owns(P,Y) :- vatom_1(P,Y).
+2023-03-13 14:10:04.327  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2). (recursive?) : false
+2023-03-13 14:10:04.327  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : owns(P,X) :- company(X). (recursive?) : true
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: owns(P,X) :- company(X).
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: owns(P,X) :- company(X).
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : psc(X,P) :- hatom_1(X,P). (recursive?) : true
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: psc(X,P) :- hatom_1(X,P).
+2023-03-13 14:10:04.329  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: psc(X,P) :- hatom_1(X,P).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2). (recursive?) : true
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : psc(X,P) :- owns(P,X). (recursive?) : true
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: psc(X,P) :- owns(P,X).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: psc(X,P) :- owns(P,X).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : company(X) :- stock(X). (recursive?) : true
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: company(X) :- stock(X).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: company(X) :- stock(X).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2). (recursive?) : true
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).
+2023-03-13 14:10:04.330  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(Var_8,Var_8) :- company(Var_8). (recursive?) : false
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stronglink(Var_8,Var_8) :- company(Var_8).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stronglink(Var_8,Var_8) :- company(Var_8).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stock(X) :- owns(P,X). (recursive?) : true
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stock(X) :- owns(P,X).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stock(X) :- owns(P,X).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : hatom_1(X,P) :- psc(X,P), dom(*). (recursive?) : true
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hatom_1(X,P) :- psc(X,P), dom(*).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hatom_1(X,P) :- psc(X,P), dom(*).
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P). (recursive?) : false
+2023-03-13 14:10:04.331  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2). (recursive?) : true
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_1(P,Y) :- psc(X,P), controls(X,Y). (recursive?) : true
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_1(P,Y) :- psc(X,P), controls(X,Y).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_1(P,Y) :- psc(X,P), controls(X,Y).
+2023-03-13 14:10:04.332  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN connecting the plan
+2023-03-13 14:10:04.337  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END connecting the plan
+2023-03-13 14:10:04.338  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END planning
+2023-03-13 14:10:04.338  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Access plan:
+
+2023-03-13 14:10:04.351  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Output plan (stronglink) {@bind("stronglink","","","")} <- 
+       Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+              operand (0):
+                     SELF
+                     Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                          Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                          Linear plan (company(X) :- stock(X).) <- 
+                                                                                    Linear plan (stock(X) :- owns(P,X).) <- 
+                                                                                                                                                                        Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+...
+                                                                                                                                                                        Linear plan (owns(P,X) :- company(X).) <- 
+...
+...
+                     Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                          operand (0):
+                                                               Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               SELF
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             SELF
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                          operand (0):
+                                                               Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                               Linear plan (company(X) :- stock(X).) <- 
+                                                                                                                              Linear plan (stock(X) :- owns(P,X).) <- 
+...
+...
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                          operand (0):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                          operand (1):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                     Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                          operand (0):
+                                                               Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               SELF
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+              operand (1):
+                     Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+       Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+              Linear plan (company(X) :- stock(X).) <- 
+                            Linear plan (stock(X) :- owns(P,X).) <- 
+                                                        Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+                                                                                                                Nested Loop Join plan (vatom_1(P,Y) :- psc(X,P), controls(X,Y).) <- 
+                                                                                                                                                                                                                                operand (0):
+...
+...
+                                                                                                                                                                                                                                operand (1):
+...
+
+                                                        Linear plan (owns(P,X) :- company(X).) <- 
+                                                                                                                Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                Linear plan (company(X) :- stock(X).) <- 
+...
+       Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+              operand (0):
+                     Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                          operand (0):
+                                                               SELF
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             SELF
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                          Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                          Linear plan (company(X) :- stock(X).) <- 
+                                                                                    Linear plan (stock(X) :- owns(P,X).) <- 
+                                                                                                                                                                        Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+...
+                                                                                                                                                                        Linear plan (owns(P,X) :- company(X).) <- 
+...
+...
+                     SELF
+                     Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                          operand (0):
+                                                               Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                               Linear plan (company(X) :- stock(X).) <- 
+                                                                                                                              Linear plan (stock(X) :- owns(P,X).) <- 
+...
+...
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                          operand (0):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                          operand (1):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                     Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                          operand (0):
+                                                               Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               SELF
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+              operand (1):
+                     Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+       Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+              operand (0):
+                     Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                     Linear plan (company(X) :- stock(X).) <- 
+                                          Linear plan (stock(X) :- owns(P,X).) <- 
+                                                                                    Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+                                                                                                                                                                        Nested Loop Join plan (vatom_1(P,Y) :- psc(X,P), controls(X,Y).) <- 
+                                                                                                                                                                                                                                                                                                                                                operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                operand (1):
+...
+
+                                                                                    Linear plan (owns(P,X) :- company(X).) <- 
+                                                                                                                                                                        Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                        Linear plan (company(X) :- stock(X).) <- 
+...
+              operand (1):
+                     Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+       Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+              operand (0):
+                     Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+              operand (1):
+                     Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+       Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+              operand (0):
+                     Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                          operand (0):
+                                                               SELF
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             SELF
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                          Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                          Linear plan (company(X) :- stock(X).) <- 
+                                                                                    Linear plan (stock(X) :- owns(P,X).) <- 
+                                                                                                                                                                        Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+...
+                                                                                                                                                                        Linear plan (owns(P,X) :- company(X).) <- 
+...
+...
+                     Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                          operand (0):
+                                                               Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             SELF
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+                                                                                                                              Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                              Linear plan (company(X) :- stock(X).) <- 
+...
+                                                               SELF
+                                                               Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                                                                                                                                                             Linear plan (company(X) :- stock(X).) <- 
+...
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                                               Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                                                               Nested Loop Join plan (stronglink(Var_6,Var_2) :- stronglink(Var_6,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                              operand (0):
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Y) :- stronglink(Y,Var_3), controls(Var_3,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Linear plan (stronglink(Var_8,Var_8) :- company(Var_8).) <- 
+...
+...
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- stronglink(Var_10,Var_8), controls(Var_10,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       SELF
+...
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                                                                                                                                                                                                                                                                                                                                                                          operand (0):
+...
+                                                                                                                                                                                                                                                                                                                                                                                          operand (1):
+...
+
+                                                                                                                                                                                             SELF
+                                                                                                                              operand (1):
+                                                                                                                                                                                             Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Nested Loop Join plan (stronglink(Var_2,Var_8) :- company(Var_8), controls(Var_8,Var_2).) <- 
+                                          operand (0):
+                                                               Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","company.data")]}
+                                                               Linear plan (company(X) :- stock(X).) <- 
+                                                                                                                              Linear plan (stock(X) :- owns(P,X).) <- 
+...
+...
+                                          operand (1):
+                                                               Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+                     Nested Loop Join plan (stronglink(X,Y) :- hatom_1(X,P), hatom_1(Y,P).) <- 
+                                          operand (0):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+                                          operand (1):
+                                                               Linear plan (hatom_1(X,P) :- psc(X,P), dom(*).) <- 
+
+
+                     SELF
+              operand (1):
+                     Input plan (controls) {[@bind("controls","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/67500","controls.data")]}
+
+2023-03-13 14:10:04.392  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END evaluating program from repo
+2023-03-13 14:10:04.393  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching.
+2023-03-13 14:10:04.393  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching facts
+2023-03-13 14:10:14.303  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END fetching
+2023-03-13 14:10:14.304  INFO 11832 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Number of generated facts: 865647
+2023-03-13 14:10:14.305  INFO 11832 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:10:14.357  INFO 11832 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:10:15.009  INFO 11832 --- [ionShutdownHook] o.neo4j.driver.internal.InternalDriver   : Closing driver instance 1807176280
+2023-03-13 14:10:15.220  INFO 11832 --- [ionShutdownHook] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:hsqldb:mem:39815a59-fdf7-4c9f-b366-9b342dc7c5d7'

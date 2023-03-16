@@ -1,0 +1,1069 @@
+  _   _             _         _                 
+ ( ) ( )           ( )       (_ )               
+ | | | |   _ _    _| |   _ _  | |    _      __  
+ | | | | /'_` ) /'_` | /'_` ) | |  /'_`\  /'_ `\
+ | \_/ |( (_| |( (_| |( (_| | | | ( (_) )( (_) |
+ `\___/'`\__,_)`\__,_)`\__,_)(___)`\___/'`\__  |
+                                         ( )_) |
+                                          \___/'
+
+Vadalog 1.14.0 -- (c) University of Oxford -- Banca d'Italia Fork
+2023-03-13 23:32:04.360  INFO 100031 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking with PID 100031 (/home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking in /home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+2023-03-13 23:32:04.364  INFO 100031 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : No active profile set, falling back to default profiles: default
+2023-03-13 23:32:06.549  INFO 100031 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 23:32:06.562  INFO 100031 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-13 23:32:06.563  INFO 100031 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-03-13 23:32:06.640  INFO 100031 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-13 23:32:06.640  INFO 100031 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2205 ms
+2023-03-13 23:32:07.199  INFO 100031 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:hsqldb:mem:c9799a43-5ea3-4255-94bc-dec454be3188', username='sa'
+2023-03-13 23:32:08.008  INFO 100031 --- [           main] org.neo4j.driver.internal.DriverFactory  : Direct driver instance 1416415959 created for server address localhost:7687
+2023-03-13 23:32:08.087  INFO 100031 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 23:32:08.101  INFO 100031 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Started VadaEngine in 4.515 seconds (JVM running for 5.61)
+2023-03-13 23:32:08.593  INFO 100031 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 23:32:08.594  INFO 100031 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-13 23:32:08.595  INFO 100031 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-13 23:32:09.046  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : BEGIN evaluating program from repo
+2023-03-13 23:32:09.068  INFO 100031 --- [nio-8080-exec-5] a.o.c.v.v.q.e.e.EqualityStructureFactory : Created EqualityGraphFactory and EqualityGraph.
+2023-03-13 23:32:09.068  INFO 100031 --- [nio-8080-exec-5] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 23:32:09.068  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : BEGIN parsing the program
+2023-03-13 23:32:09.069  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : Analysing program for module inclusions...
+2023-03-13 23:32:09.363  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : END parsing the program
+2023-03-13 23:32:09.363  INFO 100031 --- [nio-8080-exec-5] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 23:32:09.365  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : BEGIN optimizing the evaluation of the program
+2023-03-13 23:32:09.365  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Fragment detection
+2023-03-13 23:32:09.390  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-head rewriting
+2023-03-13 23:32:09.395  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Non-monotonic aggregate rewriting
+2023-03-13 23:32:09.470  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 23:32:09.528  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is not nearly-linear but warded
+2023-03-13 23:32:09.528  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's linearize the heads
+2023-03-13 23:32:09.534  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's choose the Termination Strategy
+2023-03-13 23:32:09.534  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 23:32:09.558  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Rule q6T0(PAST_SU_1_NL0_CE0_AFFECT_SU_1_NL0_AE0KE0,PAST_SU_1_NL0_CE0_SOCIETY_SU_1_NL0_AE1,PAST_SU_1_NL0_CE0_WARN_SU_1_NL0_AE2,PAST_SU_1_NL0_CE0_TAIL_SU_1_NL0_AE3,PAST_SU_1_NL0_CE0_RED_SU_1_NL0_AE4,PAST_SU_1_NL0_CE0_WRONG_SU_1_NL0_AE5,PAST_SU_1_NL0_CE0_WHEEL_SU_1_NL0_AE6IDINDEP,PAST_SU_1_NL0_CE0_WORK_SU_1_NL0_AE7IDONFIRST) :- past_su_1_nl0_ce0(PAST_SU_1_NL0_CE0_AFFECT_SU_1_NL0_AE0KE0,PAST_SU_1_NL0_CE0_SOCIETY_SU_1_NL0_AE1,PAST_SU_1_NL0_CE0_WARN_SU_1_NL0_AE2,PAST_SU_1_NL0_CE0_TAIL_SU_1_NL0_AE3,PAST_SU_1_NL0_CE0_RED_SU_1_NL0_AE4,PAST_SU_1_NL0_CE0_WRONG_SU_1_NL0_AE5,PAST_SU_1_NL0_CE0_WHEEL_SU_1_NL0_AE6IDINDEP,PAST_SU_1_NL0_CE0_WORK_SU_1_NL0_AE7IDONFIRST), amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999(PAST_SU_1_NL0_CE0_SOCIETY_SU_1_NL0_AE1,AMOUNT_HP_6_NL0_CE0__HP6FR1_FROM_5000_TO_9999_SHAKE_HP_6_NL0_AE1,AMOUNT_HP_6_NL0_CE0__HP6FR1_FROM_5000_TO_9999_HOLLOW_HP_6_NL0_AE2,AMOUNT_HP_6_NL0_CE0__HP6FR1_FROM_5000_TO_9999_HOLLOW_HP_6_NL0_AE3). is not linear and contains the following harmful variables: [PAST_SU_1_NL0_CE0_WHEEL_SU_1_NL0_AE6IDINDEP, PAST_SU_1_NL0_CE0_WORK_SU_1_NL0_AE7IDONFIRST]
+2023-03-13 23:32:09.558  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Nearly linearity test failed.
+2023-03-13 23:32:09.558  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : END checking program for nearly-linearity.
+2023-03-13 23:32:09.615  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is protected
+2023-03-13 23:32:09.615  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Choosing termination strategy
+2023-03-13 23:32:09.643  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : There are dangerous variables, so let's use the warded termination
+2023-03-13 23:32:09.652  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is PWL warded.
+2023-03-13 23:32:09.652  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-join optimization
+2023-03-13 23:32:09.657  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Right recursion inversion
+2023-03-13 23:32:09.741  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Push selections down and push projections down
+2023-03-13 23:32:09.930  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Maximum number of resumptions: 1
+2023-03-13 23:32:09.930  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : END optimizing the evaluation of the program
+2023-03-13 23:32:09.941  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN planning
+2023-03-13 23:32:09.942  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : START processing annotations
+2023-03-13 23:32:09.986  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing annotations
+2023-03-13 23:32:10.083  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing facts.
+2023-03-13 23:32:10.084  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing facts.
+2023-03-13 23:32:10.127  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : test_cp_1_nl0_ce0copy1_0 :- test_cp_1_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.127  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: test_cp_1_nl0_ce0copy1_0 :- test_cp_1_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: test_cp_1_nl0_ce0copy1_0 :- test_cp_1_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999 :- cheese_hp_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.129  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : past_su_1_nl0_ce0 :- board_su_1_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: past_su_1_nl0_ce0 :- board_su_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: past_su_1_nl0_ce0 :- board_su_1_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : discover_vp_1_nl0_ce0 :- letter_vp_1_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: discover_vp_1_nl0_ce0 :- letter_vp_1_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: discover_vp_1_nl0_ce0 :- letter_vp_1_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : different_vp_1_nl0_ce1 :- letter_vp_1_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: different_vp_1_nl0_ce1 :- letter_vp_1_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: different_vp_1_nl0_ce1 :- letter_vp_1_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.130  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : reveal_cp_2_nl0_ce0copy2_1 :- reveal_cp_2_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: reveal_cp_2_nl0_ce0copy2_1 :- reveal_cp_2_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: reveal_cp_2_nl0_ce0copy2_1 :- reveal_cp_2_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999 :- pipe_hp_2_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999 :- pipe_hp_2_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999 :- pipe_hp_2_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- pipe_hp_2_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- pipe_hp_2_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- pipe_hp_2_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : branch_su_2_nl0_ce0 :- order_su_2_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.131  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: branch_su_2_nl0_ce0 :- order_su_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: branch_su_2_nl0_ce0 :- order_su_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : involve_vp_2_nl0_ce0 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: involve_vp_2_nl0_ce0 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: involve_vp_2_nl0_ce0 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : use_vp_2_nl0_ce1 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: use_vp_2_nl0_ce1 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: use_vp_2_nl0_ce1 :- approval_vp_2_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : paint_cp_3_nl0_ce0copy3_2 :- paint_cp_3_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: paint_cp_3_nl0_ce0copy3_2 :- paint_cp_3_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: paint_cp_3_nl0_ce0copy3_2 :- paint_cp_3_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : paint_su_3_nl0_ce0 :- library_su_3_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.132  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: paint_su_3_nl0_ce0 :- library_su_3_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: paint_su_3_nl0_ce0 :- library_su_3_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : slow_vp_3_nl0_ce0 :- garden_vp_3_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: slow_vp_3_nl0_ce0 :- garden_vp_3_nl0_ce0(A,B).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: slow_vp_3_nl0_ce0 :- garden_vp_3_nl0_ce0(A,B).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : word_vp_3_nl0_ce1 :- garden_vp_3_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: word_vp_3_nl0_ce1 :- garden_vp_3_nl0_ce0(A,B).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: word_vp_3_nl0_ce1 :- garden_vp_3_nl0_ce0(A,B).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : kind_cp_4_nl0_ce0copy4_3 :- kind_cp_4_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: kind_cp_4_nl0_ce0copy4_3 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: kind_cp_4_nl0_ce0copy4_3 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999 :- violent_hp_4_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999 :- violent_hp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999 :- violent_hp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999 :- violent_hp_4_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999 :- violent_hp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999 :- violent_hp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : bent_su_4_nl0_ce0 :- love_su_4_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: bent_su_4_nl0_ce0 :- love_su_4_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: bent_su_4_nl0_ce0 :- love_su_4_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : language_vp_4_nl0_ce0 :- silk_vp_4_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: language_vp_4_nl0_ce0 :- silk_vp_4_nl0_ce0(A,B).
+2023-03-13 23:32:10.133  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: language_vp_4_nl0_ce0 :- silk_vp_4_nl0_ce0(A,B).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : worry_vp_4_nl0_ce1 :- silk_vp_4_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: worry_vp_4_nl0_ce1 :- silk_vp_4_nl0_ce0(A,B).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: worry_vp_4_nl0_ce1 :- silk_vp_4_nl0_ce0(A,B).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : chalk_cp_5_nl0_ce0copy5_4 :- chalk_cp_5_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: chalk_cp_5_nl0_ce0copy5_4 :- chalk_cp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: chalk_cp_5_nl0_ce0copy5_4 :- chalk_cp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999 :- start_hp_5_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999 :- start_hp_5_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999 :- start_hp_5_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999 :- start_hp_5_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.134  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999 :- start_hp_5_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999 :- start_hp_5_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : clean_su_5_nl0_ce0 :- last_su_5_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: clean_su_5_nl0_ce0 :- last_su_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: clean_su_5_nl0_ce0 :- last_su_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : state_vp_5_nl0_ce0 :- mention_vp_5_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: state_vp_5_nl0_ce0 :- mention_vp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: state_vp_5_nl0_ce0 :- mention_vp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : egg_vp_5_nl0_ce1 :- mention_vp_5_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: egg_vp_5_nl0_ce1 :- mention_vp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: egg_vp_5_nl0_ce1 :- mention_vp_5_nl0_ce0(A,B).
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : agency_cp_6_nl0_ce0copy6_5 :- agency_cp_6_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.135  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: agency_cp_6_nl0_ce0copy6_5 :- agency_cp_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: agency_cp_6_nl0_ce0copy6_5 :- agency_cp_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : accept_su_6_nl0_ce0 :- leather_su_6_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: accept_su_6_nl0_ce0 :- leather_su_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: accept_su_6_nl0_ce0 :- leather_su_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : stiff_vp_6_nl0_ce0 :- probable_vp_6_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stiff_vp_6_nl0_ce0 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.136  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stiff_vp_6_nl0_ce0 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : feeling_vp_6_nl0_ce1 :- probable_vp_6_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: feeling_vp_6_nl0_ce1 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: feeling_vp_6_nl0_ce1 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : connect_cp_7_nl0_ce0copy7_6 :- connect_cp_7_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: connect_cp_7_nl0_ce0copy7_6 :- connect_cp_7_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: connect_cp_7_nl0_ce0copy7_6 :- connect_cp_7_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- root_hp_7_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- root_hp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- root_hp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999 :- root_hp_7_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999 :- root_hp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999 :- root_hp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : settle_su_7_nl0_ce0 :- question_su_7_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: settle_su_7_nl0_ce0 :- question_su_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: settle_su_7_nl0_ce0 :- question_su_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : agencies_vp_7_nl0_ce0 :- poor_vp_7_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: agencies_vp_7_nl0_ce0 :- poor_vp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.137  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: agencies_vp_7_nl0_ce0 :- poor_vp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : flat_vp_7_nl0_ce1 :- poor_vp_7_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: flat_vp_7_nl0_ce1 :- poor_vp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: flat_vp_7_nl0_ce1 :- poor_vp_7_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : train_cp_8_nl0_ce0copy8_7(A,B) :- train_cp_8_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: train_cp_8_nl0_ce0copy8_7(A,B) :- train_cp_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: train_cp_8_nl0_ce0copy8_7(A,B) :- train_cp_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999 :- sea_hp_8_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999 :- sea_hp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999 :- sea_hp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999 :- sea_hp_8_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999 :- sea_hp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999 :- sea_hp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : stomach_su_8_nl0_ce0 :- bath_su_8_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stomach_su_8_nl0_ce0 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stomach_su_8_nl0_ce0 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : give_vp_8_nl0_ce0(A) :- return_vp_8_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.138  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: give_vp_8_nl0_ce0(A) :- return_vp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: give_vp_8_nl0_ce0(A) :- return_vp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : selection_vp_8_nl0_ce1 :- return_vp_8_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: selection_vp_8_nl0_ce1 :- return_vp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: selection_vp_8_nl0_ce1 :- return_vp_8_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : window_cp_9_nl0_ce0copy9_8 :- window_cp_9_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: window_cp_9_nl0_ce0copy9_8 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: window_cp_9_nl0_ce0copy9_8 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999 :- hate_hp_9_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999 :- hate_hp_9_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999 :- hate_hp_9_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999 :- hate_hp_9_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999 :- hate_hp_9_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.139  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999 :- hate_hp_9_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : late_su_9_nl0_ce0 :- win_su_9_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: late_su_9_nl0_ce0 :- win_su_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: late_su_9_nl0_ce0 :- win_su_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : tail_vp_9_nl0_ce0 :- shut_vp_9_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: tail_vp_9_nl0_ce0 :- shut_vp_9_nl0_ce0(A,B).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: tail_vp_9_nl0_ce0 :- shut_vp_9_nl0_ce0(A,B).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : clock_vp_9_nl0_ce1 :- shut_vp_9_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: clock_vp_9_nl0_ce1 :- shut_vp_9_nl0_ce0(A,B).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: clock_vp_9_nl0_ce1 :- shut_vp_9_nl0_ce0(A,B).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : express_cp_10_nl0_ce0copy10_9 :- express_cp_10_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: express_cp_10_nl0_ce0copy10_9 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: express_cp_10_nl0_ce0copy10_9 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.140  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : fertile_su_10_nl0_ce0 :- support_su_10_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: fertile_su_10_nl0_ce0 :- support_su_10_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: fertile_su_10_nl0_ce0 :- support_su_10_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : disgust_vp_10_nl0_ce0 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: disgust_vp_10_nl0_ce0 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: disgust_vp_10_nl0_ce0 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : shut_vp_10_nl0_ce1 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: shut_vp_10_nl0_ce1 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.141  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: shut_vp_10_nl0_ce1 :- condition_vp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : experience_cp_11_nl0_ce0copy11_10 :- experience_cp_11_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: experience_cp_11_nl0_ce0copy11_10 :- experience_cp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: experience_cp_11_nl0_ce0copy11_10 :- experience_cp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999 :- eat_hp_11_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999 :- eat_hp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999 :- eat_hp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999 :- eat_hp_11_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999 :- eat_hp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999 :- eat_hp_11_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : opinion_su_11_nl0_ce0 :- foot_su_11_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: opinion_su_11_nl0_ce0 :- foot_su_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: opinion_su_11_nl0_ce0 :- foot_su_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : exchange_vp_11_nl0_ce0 :- snake_vp_11_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: exchange_vp_11_nl0_ce0 :- snake_vp_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.142  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: exchange_vp_11_nl0_ce0 :- snake_vp_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : discover_vp_11_nl0_ce1 :- snake_vp_11_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: discover_vp_11_nl0_ce1 :- snake_vp_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: discover_vp_11_nl0_ce1 :- snake_vp_11_nl0_ce0(A,B).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : touch_cp_12_nl0_ce0copy12_11 :- touch_cp_12_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: touch_cp_12_nl0_ce0copy12_11 :- touch_cp_12_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: touch_cp_12_nl0_ce0copy12_11 :- touch_cp_12_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999 :- hollow_hp_12_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999 :- hollow_hp_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999 :- hollow_hp_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999 :- hollow_hp_12_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999 :- hollow_hp_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999 :- hollow_hp_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : enable_su_12_nl0_ce0 :- observation_su_12_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.143  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: enable_su_12_nl0_ce0 :- observation_su_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: enable_su_12_nl0_ce0 :- observation_su_12_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : tall_vp_12_nl0_ce0 :- fruit_vp_12_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: tall_vp_12_nl0_ce0 :- fruit_vp_12_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: tall_vp_12_nl0_ce0 :- fruit_vp_12_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : base_vp_12_nl0_ce1 :- fruit_vp_12_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: base_vp_12_nl0_ce1 :- fruit_vp_12_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: base_vp_12_nl0_ce1 :- fruit_vp_12_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : speak_cp_13_nl0_ce0copy13_12 :- speak_cp_13_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: speak_cp_13_nl0_ce0copy13_12 :- speak_cp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: speak_cp_13_nl0_ce0copy13_12 :- speak_cp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999 :- degree_hp_13_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999 :- degree_hp_13_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999 :- degree_hp_13_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.144  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999 :- degree_hp_13_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999 :- degree_hp_13_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999 :- degree_hp_13_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : desire_su_13_nl0_ce0 :- weight_su_13_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: desire_su_13_nl0_ce0 :- weight_su_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: desire_su_13_nl0_ce0 :- weight_su_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : train_vp_13_nl0_ce0 :- fiction_vp_13_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: train_vp_13_nl0_ce0 :- fiction_vp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: train_vp_13_nl0_ce0 :- fiction_vp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : beat_vp_13_nl0_ce1(B) :- fiction_vp_13_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: beat_vp_13_nl0_ce1(B) :- fiction_vp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: beat_vp_13_nl0_ce1(B) :- fiction_vp_13_nl0_ce0(A,B).
+2023-03-13 23:32:10.145  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hammer_cp_14_nl0_ce0copy14_13 :- hammer_cp_14_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hammer_cp_14_nl0_ce0copy14_13 :- hammer_cp_14_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hammer_cp_14_nl0_ce0copy14_13 :- hammer_cp_14_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : ink_su_14_nl0_ce0 :- stop_su_14_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: ink_su_14_nl0_ce0 :- stop_su_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: ink_su_14_nl0_ce0 :- stop_su_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : insurance_vp_14_nl0_ce0 :- basin_vp_14_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: insurance_vp_14_nl0_ce0 :- basin_vp_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.146  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: insurance_vp_14_nl0_ce0 :- basin_vp_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : rhythm_vp_14_nl0_ce1 :- basin_vp_14_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: rhythm_vp_14_nl0_ce1 :- basin_vp_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: rhythm_vp_14_nl0_ce1 :- basin_vp_14_nl0_ce0(A,B).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : fiction_cp_15_nl0_ce0copy15_14 :- fiction_cp_15_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: fiction_cp_15_nl0_ce0copy15_14 :- fiction_cp_15_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: fiction_cp_15_nl0_ce0copy15_14 :- fiction_cp_15_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : digestion_su_15_nl0_ce0 :- thin_su_15_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: digestion_su_15_nl0_ce0 :- thin_su_15_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: digestion_su_15_nl0_ce0 :- thin_su_15_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.147  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : office_vp_15_nl0_ce0 :- rough_vp_15_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: office_vp_15_nl0_ce0 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: office_vp_15_nl0_ce0 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : talk_vp_15_nl0_ce1 :- rough_vp_15_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: talk_vp_15_nl0_ce1 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: talk_vp_15_nl0_ce1 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regard_cp_16_nl0_ce0copy16_15 :- regard_cp_16_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regard_cp_16_nl0_ce0copy16_15 :- regard_cp_16_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regard_cp_16_nl0_ce0copy16_15 :- regard_cp_16_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.148  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999 :- whip_hp_16_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_su_16_nl0_ce0 :- beautiful_su_16_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_su_16_nl0_ce0 :- beautiful_su_16_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_su_16_nl0_ce0 :- beautiful_su_16_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : key_vp_16_nl0_ce0 :- side_vp_16_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: key_vp_16_nl0_ce0 :- side_vp_16_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: key_vp_16_nl0_ce0 :- side_vp_16_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cry_vp_16_nl0_ce1 :- side_vp_16_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cry_vp_16_nl0_ce1 :- side_vp_16_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cry_vp_16_nl0_ce1 :- side_vp_16_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.149  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regular_hp_3_nl0_ce0copy17_16 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regular_hp_3_nl0_ce0copy17_16 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regular_hp_3_nl0_ce0copy17_16 :- regular_hp_3_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999 :- check_hp_17_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999 :- check_hp_17_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : acid_su_17_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.150  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: acid_su_17_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: acid_su_17_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : bell_vp_17_nl0_ce0(D) :- poor_vp_17_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: bell_vp_17_nl0_ce0(D) :- poor_vp_17_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: bell_vp_17_nl0_ce0(D) :- poor_vp_17_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : trousers_vp_17_nl0_ce1 :- poor_vp_17_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: trousers_vp_17_nl0_ce1 :- poor_vp_17_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: trousers_vp_17_nl0_ce1 :- poor_vp_17_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : probable_vp_6_nl0_ce0copy18_17 :- probable_vp_6_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: probable_vp_6_nl0_ce0copy18_17 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: probable_vp_6_nl0_ce0copy18_17 :- probable_vp_6_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999 :- try_hp_18_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999 :- try_hp_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999 :- try_hp_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999 :- try_hp_18_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999 :- try_hp_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999 :- try_hp_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sleep_su_18_nl0_ce0 :- orange_su_18_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sleep_su_18_nl0_ce0 :- orange_su_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sleep_su_18_nl0_ce0 :- orange_su_18_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.151  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hard_vp_18_nl0_ce0 :- laugh_vp_18_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hard_vp_18_nl0_ce0 :- laugh_vp_18_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hard_vp_18_nl0_ce0 :- laugh_vp_18_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : set_vp_18_nl0_ce1 :- laugh_vp_18_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: set_vp_18_nl0_ce1 :- laugh_vp_18_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: set_vp_18_nl0_ce1 :- laugh_vp_18_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : remain_cp_19_nl0_ce0copy19_18 :- remain_cp_19_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: remain_cp_19_nl0_ce0copy19_18 :- remain_cp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: remain_cp_19_nl0_ce0copy19_18 :- remain_cp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999 :- bulb_hp_19_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_su_16_nl0_ce0 :- male_su_19_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_su_16_nl0_ce0 :- male_su_19_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_su_16_nl0_ce0 :- male_su_19_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : promise_vp_19_nl0_ce0 :- hurt_vp_19_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: promise_vp_19_nl0_ce0 :- hurt_vp_19_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: promise_vp_19_nl0_ce0 :- hurt_vp_19_nl0_ce0(A,B).
+2023-03-13 23:32:10.152  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : pot_vp_19_nl0_ce1 :- hurt_vp_19_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: pot_vp_19_nl0_ce1 :- hurt_vp_19_nl0_ce0(A,B).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: pot_vp_19_nl0_ce1 :- hurt_vp_19_nl0_ce0(A,B).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : agency_cp_6_nl0_ce0copy20_19 :- agency_cp_6_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: agency_cp_6_nl0_ce0copy20_19 :- agency_cp_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: agency_cp_6_nl0_ce0copy20_19 :- agency_cp_6_nl0_ce0(A,B).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999 :- rough_vp_15_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999 :- rough_vp_15_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999 :- rough_vp_15_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : remain_cp_19_nl0_ce0copy19_18 :- add_su_20_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.153  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: remain_cp_19_nl0_ce0copy19_18 :- add_su_20_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: remain_cp_19_nl0_ce0copy19_18 :- add_su_20_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : eye_vp_20_nl0_ce0 :- learn_vp_20_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: eye_vp_20_nl0_ce0 :- learn_vp_20_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: eye_vp_20_nl0_ce0 :- learn_vp_20_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cork_vp_20_nl0_ce1 :- learn_vp_20_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cork_vp_20_nl0_ce1 :- learn_vp_20_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cork_vp_20_nl0_ce1 :- learn_vp_20_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : lead_cp_21_nl0_ce0copy21_20 :- lead_cp_21_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: lead_cp_21_nl0_ce0copy21_20 :- lead_cp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: lead_cp_21_nl0_ce0copy21_20 :- lead_cp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999 :- advertisement_hp_21_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999 :- advertisement_hp_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999 :- advertisement_hp_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.154  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- advertisement_hp_21_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- advertisement_hp_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- advertisement_hp_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- sudden_su_21_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- sudden_su_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999 :- sudden_su_21_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- coat_vp_21_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- coat_vp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- coat_vp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : selection_vp_8_nl0_ce1 :- coat_vp_21_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: selection_vp_8_nl0_ce1 :- coat_vp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: selection_vp_8_nl0_ce1 :- coat_vp_21_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : receive_cp_22_nl0_ce0copy22_21 :- receive_cp_22_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: receive_cp_22_nl0_ce0copy22_21 :- receive_cp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: receive_cp_22_nl0_ce0copy22_21 :- receive_cp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999 :- steel_hp_22_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.155  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999 :- steel_hp_22_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999 :- steel_hp_22_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999 :- steel_hp_22_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999 :- steel_hp_22_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999 :- steel_hp_22_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : eye_su_22_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: eye_su_22_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: eye_su_22_nl0_ce0 :- rhythm_su_17_nl0_ce0(A,B).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : ticket_vp_22_nl0_ce0 :- industry_vp_22_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: ticket_vp_22_nl0_ce0 :- industry_vp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: ticket_vp_22_nl0_ce0 :- industry_vp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : warn_vp_22_nl0_ce1 :- industry_vp_22_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: warn_vp_22_nl0_ce1 :- industry_vp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: warn_vp_22_nl0_ce1 :- industry_vp_22_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : jewel_cp_23_nl0_ce0copy23_22 :- jewel_cp_23_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.156  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: jewel_cp_23_nl0_ce0copy23_22 :- jewel_cp_23_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: jewel_cp_23_nl0_ce0copy23_22 :- jewel_cp_23_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999 :- window_cp_9_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999 :- window_cp_9_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999 :- window_cp_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- will_su_23_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- will_su_23_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999 :- will_su_23_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_su_16_nl0_ce0 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J). (recursive?) : false
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_su_16_nl0_ce0 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_su_16_nl0_ce0 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J).
+2023-03-13 23:32:10.157  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999 :- committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : beat_vp_13_nl0_ce1(A) :- toe_cp_24_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: beat_vp_13_nl0_ce1(A) :- toe_cp_24_nl0_ce0(A,B).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: beat_vp_13_nl0_ce1(A) :- toe_cp_24_nl0_ce0(A,B).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999 :- glove_hp_24_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999 :- glove_hp_24_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999 :- glove_hp_24_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- glove_hp_24_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- glove_hp_24_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- glove_hp_24_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sun_su_24_nl0_ce0 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sun_su_24_nl0_ce0 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sun_su_24_nl0_ce0 :- hollow_hp_10_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : clean_vp_24_nl0_ce0 :- kind_cp_4_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: clean_vp_24_nl0_ce0 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: clean_vp_24_nl0_ce0 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.158  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : smell_vp_24_nl0_ce1 :- kind_cp_4_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: smell_vp_24_nl0_ce1 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: smell_vp_24_nl0_ce1 :- kind_cp_4_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- involve_cp_25_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- involve_cp_25_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999 :- involve_cp_25_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999 :- express_cp_10_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999 :- express_cp_10_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999 :- express_cp_10_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- round_su_25_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- round_su_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999 :- round_su_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : push_vp_25_nl0_ce0 :- laugh_vp_25_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: push_vp_25_nl0_ce0 :- laugh_vp_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: push_vp_25_nl0_ce0 :- laugh_vp_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : fixed_vp_25_nl0_ce1 :- laugh_vp_25_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: fixed_vp_25_nl0_ce1 :- laugh_vp_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: fixed_vp_25_nl0_ce1 :- laugh_vp_25_nl0_ce0(A,B).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : baby_cp_26_nl0_ce0copy26_23 :- baby_cp_26_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: baby_cp_26_nl0_ce0copy26_23 :- baby_cp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: baby_cp_26_nl0_ce0copy26_23 :- baby_cp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999 :- require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : news_su_26_nl0_ce0 :- grip_su_26_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: news_su_26_nl0_ce0 :- grip_su_26_nl0_ce0(A,B).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: news_su_26_nl0_ce0 :- grip_su_26_nl0_ce0(A,B).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cover_vp_26_nl0_ce0 :- roof_vp_26_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cover_vp_26_nl0_ce0 :- roof_vp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cover_vp_26_nl0_ce0 :- roof_vp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cry_vp_26_nl0_ce1 :- roof_vp_26_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.160  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cry_vp_26_nl0_ce1 :- roof_vp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cry_vp_26_nl0_ce1 :- roof_vp_26_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- stocking_cp_27_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- stocking_cp_27_nl0_ce0(A,B).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999 :- stocking_cp_27_nl0_ce0(A,B).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999 :- begin_hp_27_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999 :- begin_hp_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999 :- begin_hp_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- begin_hp_27_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- begin_hp_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- begin_hp_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : act_su_27_nl0_ce0 :- expert_su_27_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: act_su_27_nl0_ce0 :- expert_su_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: act_su_27_nl0_ce0 :- expert_su_27_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : avoid_vp_27_nl0_ce0 :- bath_su_8_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: avoid_vp_27_nl0_ce0 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: avoid_vp_27_nl0_ce0 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : card_vp_27_nl0_ce1 :- bath_su_8_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: card_vp_27_nl0_ce1 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: card_vp_27_nl0_ce1 :- bath_su_8_nl0_ce0(A,B).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : win_su_9_nl0_ce0copy28_24 :- win_su_9_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: win_su_9_nl0_ce0copy28_24 :- win_su_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: win_su_9_nl0_ce0copy28_24 :- win_su_9_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999 :- walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : fat_su_28_nl0_ce0 :- touch_cp_12_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: fat_su_28_nl0_ce0 :- touch_cp_12_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: fat_su_28_nl0_ce0 :- touch_cp_12_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : like_vp_28_nl0_ce0 :- meal_vp_28_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.162  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: like_vp_28_nl0_ce0 :- meal_vp_28_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: like_vp_28_nl0_ce0 :- meal_vp_28_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : oven_vp_28_nl0_ce1 :- meal_vp_28_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: oven_vp_28_nl0_ce1 :- meal_vp_28_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: oven_vp_28_nl0_ce1 :- meal_vp_28_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- sky_cp_29_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- sky_cp_29_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999 :- sky_cp_29_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999 :- amount_hp_6_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : tax_su_29_nl0_ce0 :- lock_su_29_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: tax_su_29_nl0_ce0 :- lock_su_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: tax_su_29_nl0_ce0 :- lock_su_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.163  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : lie_vp_29_nl0_ce0 :- belong_vp_29_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: lie_vp_29_nl0_ce0 :- belong_vp_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: lie_vp_29_nl0_ce0 :- belong_vp_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : oven_vp_29_nl0_ce1 :- belong_vp_29_nl0_ce0(A,B,C). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: oven_vp_29_nl0_ce1 :- belong_vp_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: oven_vp_29_nl0_ce1 :- belong_vp_29_nl0_ce0(A,B,C).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : amount_cp_30_nl0_ce0copy30_25 :- amount_cp_30_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: amount_cp_30_nl0_ce0copy30_25 :- amount_cp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: amount_cp_30_nl0_ce0copy30_25 :- amount_cp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999 :- slow_hp_30_nl0_ce0(A,B,C,D).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : regard_cp_16_nl0_ce0copy16_15 :- study_su_30_nl0_ce0(A). (recursive?) : false
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: regard_cp_16_nl0_ce0copy16_15 :- study_su_30_nl0_ce0(A).
+2023-03-13 23:32:10.164  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: regard_cp_16_nl0_ce0copy16_15 :- study_su_30_nl0_ce0(A).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sort_vp_30_nl0_ce0 :- copy_vp_30_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sort_vp_30_nl0_ce0 :- copy_vp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sort_vp_30_nl0_ce0 :- copy_vp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hope_vp_30_nl0_ce1 :- copy_vp_30_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hope_vp_30_nl0_ce1 :- copy_vp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hope_vp_30_nl0_ce1 :- copy_vp_30_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : jewel_cp_23_nl0_ce0copy31_26 :- jewel_cp_23_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: jewel_cp_23_nl0_ce0copy31_26 :- jewel_cp_23_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: jewel_cp_23_nl0_ce0copy31_26 :- jewel_cp_23_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.165  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999 :- advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : matter_su_31_nl0_ce0 :- seat_su_31_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: matter_su_31_nl0_ce0 :- seat_su_31_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: matter_su_31_nl0_ce0 :- seat_su_31_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : design_vp_31_nl0_ce0 :- dress_vp_31_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: design_vp_31_nl0_ce0 :- dress_vp_31_nl0_ce0(A,B).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: design_vp_31_nl0_ce0 :- dress_vp_31_nl0_ce0(A,B).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : fit_vp_31_nl0_ce1 :- dress_vp_31_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: fit_vp_31_nl0_ce1 :- dress_vp_31_nl0_ce0(A,B).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: fit_vp_31_nl0_ce1 :- dress_vp_31_nl0_ce0(A,B).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_hp_17_nl0_ce0copy32_27 :- check_hp_17_nl0_ce0(A,B,C,D,E). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_hp_17_nl0_ce0copy32_27 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_hp_17_nl0_ce0copy32_27 :- check_hp_17_nl0_ce0(A,B,C,D,E).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I). (recursive?) : false
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I).
+2023-03-13 23:32:10.166  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999 :- moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : copper_su_32_nl0_ce0 :- hide_su_32_nl0_ce0(A,B). (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: copper_su_32_nl0_ce0 :- hide_su_32_nl0_ce0(A,B).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: copper_su_32_nl0_ce0 :- hide_su_32_nl0_ce0(A,B).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : wave_vp_32_nl0_ce0 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: wave_vp_32_nl0_ce0 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: wave_vp_32_nl0_ce0 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : buy_vp_32_nl0_ce1 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F). (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: buy_vp_32_nl0_ce1 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: buy_vp_32_nl0_ce1 :- impulse_hp_14_nl0_ce0(A,B,C,D,E,F).
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : discover_vp_1_nl0_ce0 :- different_vp_1_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: discover_vp_1_nl0_ce0 :- different_vp_1_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: discover_vp_1_nl0_ce0 :- different_vp_1_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : involve_vp_2_nl0_ce0 :- use_vp_2_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: involve_vp_2_nl0_ce0 :- use_vp_2_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: involve_vp_2_nl0_ce0 :- use_vp_2_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : slow_vp_3_nl0_ce0 :- word_vp_3_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: slow_vp_3_nl0_ce0 :- word_vp_3_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: slow_vp_3_nl0_ce0 :- word_vp_3_nl0_ce1.
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : language_vp_4_nl0_ce0 :- worry_vp_4_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.167  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: language_vp_4_nl0_ce0 :- worry_vp_4_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: language_vp_4_nl0_ce0 :- worry_vp_4_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : state_vp_5_nl0_ce0 :- egg_vp_5_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: state_vp_5_nl0_ce0 :- egg_vp_5_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: state_vp_5_nl0_ce0 :- egg_vp_5_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : stiff_vp_6_nl0_ce0 :- feeling_vp_6_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stiff_vp_6_nl0_ce0 :- feeling_vp_6_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stiff_vp_6_nl0_ce0 :- feeling_vp_6_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : agencies_vp_7_nl0_ce0 :- flat_vp_7_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: agencies_vp_7_nl0_ce0 :- flat_vp_7_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: agencies_vp_7_nl0_ce0 :- flat_vp_7_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : give_vp_8_nl0_ce0(MATCH_VP_8_NL0_AE0KE00) :- selection_vp_8_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: give_vp_8_nl0_ce0(MATCH_VP_8_NL0_AE0KE00) :- selection_vp_8_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: give_vp_8_nl0_ce0(MATCH_VP_8_NL0_AE0KE00) :- selection_vp_8_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : tail_vp_9_nl0_ce0 :- clock_vp_9_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: tail_vp_9_nl0_ce0 :- clock_vp_9_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: tail_vp_9_nl0_ce0 :- clock_vp_9_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : disgust_vp_10_nl0_ce0 :- shut_vp_10_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: disgust_vp_10_nl0_ce0 :- shut_vp_10_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: disgust_vp_10_nl0_ce0 :- shut_vp_10_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : exchange_vp_11_nl0_ce0 :- discover_vp_11_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: exchange_vp_11_nl0_ce0 :- discover_vp_11_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: exchange_vp_11_nl0_ce0 :- discover_vp_11_nl0_ce1.
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : tall_vp_12_nl0_ce0 :- base_vp_12_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.168  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: tall_vp_12_nl0_ce0 :- base_vp_12_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: tall_vp_12_nl0_ce0 :- base_vp_12_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : train_vp_13_nl0_ce0 :- beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10). (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: train_vp_13_nl0_ce0 :- beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10).
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: train_vp_13_nl0_ce0 :- beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10).
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : insurance_vp_14_nl0_ce0 :- rhythm_vp_14_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: insurance_vp_14_nl0_ce0 :- rhythm_vp_14_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: insurance_vp_14_nl0_ce0 :- rhythm_vp_14_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : office_vp_15_nl0_ce0 :- talk_vp_15_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: office_vp_15_nl0_ce0 :- talk_vp_15_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: office_vp_15_nl0_ce0 :- talk_vp_15_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : key_vp_16_nl0_ce0 :- cry_vp_16_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: key_vp_16_nl0_ce0 :- cry_vp_16_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: key_vp_16_nl0_ce0 :- cry_vp_16_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : bell_vp_17_nl0_ce0(ERROR_VP_17_NL0_AE0JOINATTR) :- trousers_vp_17_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: bell_vp_17_nl0_ce0(ERROR_VP_17_NL0_AE0JOINATTR) :- trousers_vp_17_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: bell_vp_17_nl0_ce0(ERROR_VP_17_NL0_AE0JOINATTR) :- trousers_vp_17_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : hard_vp_18_nl0_ce0 :- set_vp_18_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: hard_vp_18_nl0_ce0 :- set_vp_18_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: hard_vp_18_nl0_ce0 :- set_vp_18_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : promise_vp_19_nl0_ce0 :- pot_vp_19_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: promise_vp_19_nl0_ce0 :- pot_vp_19_nl0_ce1.
+2023-03-13 23:32:10.169  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: promise_vp_19_nl0_ce0 :- pot_vp_19_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : eye_vp_20_nl0_ce0 :- cork_vp_20_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: eye_vp_20_nl0_ce0 :- cork_vp_20_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: eye_vp_20_nl0_ce0 :- cork_vp_20_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- selection_vp_8_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- selection_vp_8_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999 :- selection_vp_8_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : ticket_vp_22_nl0_ce0 :- warn_vp_22_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: ticket_vp_22_nl0_ce0 :- warn_vp_22_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: ticket_vp_22_nl0_ce0 :- warn_vp_22_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_su_16_nl0_ce0 :- whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_su_16_nl0_ce0 :- whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_su_16_nl0_ce0 :- whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : clean_vp_24_nl0_ce0 :- smell_vp_24_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: clean_vp_24_nl0_ce0 :- smell_vp_24_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: clean_vp_24_nl0_ce0 :- smell_vp_24_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : push_vp_25_nl0_ce0 :- fixed_vp_25_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: push_vp_25_nl0_ce0 :- fixed_vp_25_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: push_vp_25_nl0_ce0 :- fixed_vp_25_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cover_vp_26_nl0_ce0 :- cry_vp_26_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cover_vp_26_nl0_ce0 :- cry_vp_26_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cover_vp_26_nl0_ce0 :- cry_vp_26_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : avoid_vp_27_nl0_ce0 :- card_vp_27_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: avoid_vp_27_nl0_ce0 :- card_vp_27_nl0_ce1.
+2023-03-13 23:32:10.170  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: avoid_vp_27_nl0_ce0 :- card_vp_27_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : like_vp_28_nl0_ce0 :- oven_vp_28_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: like_vp_28_nl0_ce0 :- oven_vp_28_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: like_vp_28_nl0_ce0 :- oven_vp_28_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : lie_vp_29_nl0_ce0 :- oven_vp_29_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: lie_vp_29_nl0_ce0 :- oven_vp_29_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: lie_vp_29_nl0_ce0 :- oven_vp_29_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : sort_vp_30_nl0_ce0 :- hope_vp_30_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: sort_vp_30_nl0_ce0 :- hope_vp_30_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: sort_vp_30_nl0_ce0 :- hope_vp_30_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : design_vp_31_nl0_ce0 :- fit_vp_31_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: design_vp_31_nl0_ce0 :- fit_vp_31_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: design_vp_31_nl0_ce0 :- fit_vp_31_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : wave_vp_32_nl0_ce0 :- buy_vp_32_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: wave_vp_32_nl0_ce0 :- buy_vp_32_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: wave_vp_32_nl0_ce0 :- buy_vp_32_nl0_ce1.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : jewel_cp_23_nl0_ce0copy23_22 :- hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: jewel_cp_23_nl0_ce0copy23_22 :- hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: jewel_cp_23_nl0_ce0copy23_22 :- hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : cry_vp_16_nl0_ce1 :- window_cp_9_nl0_ce0copy9_8. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: cry_vp_16_nl0_ce1 :- window_cp_9_nl0_ce0copy9_8.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: cry_vp_16_nl0_ce1 :- window_cp_9_nl0_ce0copy9_8.
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : involve_vp_2_nl0_ce0 :- chalk_cp_5_nl0_ce0copy5_4. (recursive?) : false
+2023-03-13 23:32:10.171  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: involve_vp_2_nl0_ce0 :- chalk_cp_5_nl0_ce0copy5_4.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: involve_vp_2_nl0_ce0 :- chalk_cp_5_nl0_ce0copy5_4.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : check_hp_17_nl0_ce0copy32_27 :- smell_vp_24_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: check_hp_17_nl0_ce0copy32_27 :- smell_vp_24_nl0_ce1.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: check_hp_17_nl0_ce0copy32_27 :- smell_vp_24_nl0_ce1.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : like_vp_28_nl0_ce0 :- jewel_cp_23_nl0_ce0copy23_22. (recursive?) : false
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: like_vp_28_nl0_ce0 :- jewel_cp_23_nl0_ce0copy23_22.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: like_vp_28_nl0_ce0 :- jewel_cp_23_nl0_ce0copy23_22.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : like_vp_28_nl0_ce0 :- kind_cp_4_nl0_ce0copy4_3. (recursive?) : false
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: like_vp_28_nl0_ce0 :- kind_cp_4_nl0_ce0copy4_3.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: like_vp_28_nl0_ce0 :- kind_cp_4_nl0_ce0copy4_3.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10) :- amount_cp_30_nl0_ce0copy30_25. (recursive?) : false
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10) :- amount_cp_30_nl0_ce0copy30_25.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10) :- amount_cp_30_nl0_ce0copy30_25.
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q3T0 :- require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.172  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q3T0 :- require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q3T0 :- require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_1 :- q3T0, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_1 :- q3T0, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_1 :- q3T0, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q3 :- vatom_1. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q3 :- vatom_1.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q3 :- vatom_1.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q6T0 :- past_su_1_nl0_ce0, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q6T0 :- past_su_1_nl0_ce0, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q6T0 :- past_su_1_nl0_ce0, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q6T1 :- q6T0, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: q6T1 :- q6T0, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: q6T1 :- q6T0, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_2 :- q6T1, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_2 :- q6T1, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_2 :- q6T1, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q6 :- vatom_2. (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q6 :- vatom_2.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q6 :- vatom_2.
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- give_vp_8_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), bell_vp_17_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0). (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- give_vp_8_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), bell_vp_17_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- give_vp_8_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), bell_vp_17_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), beat_vp_13_nl0_ce1(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0). (recursive?) : false
+2023-03-13 23:32:10.174  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), beat_vp_13_nl0_ce1(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), beat_vp_13_nl0_ce1(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), train_cp_8_nl0_ce0copy8_7(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0,TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1). (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), train_cp_8_nl0_ce0copy8_7(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0,TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), train_cp_8_nl0_ce0copy8_7(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0,TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q7(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1). (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q7(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q7(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_6 :- past_su_1_nl0_ce0, pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_6 :- past_su_1_nl0_ce0, pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_6 :- past_su_1_nl0_ce0, pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_7 :- vatom_6, pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_7 :- vatom_6, pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_7 :- vatom_6, pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_8 :- vatom_7, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_8 :- vatom_7, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_8 :- vatom_7, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q8 :- vatom_8. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q8 :- vatom_8.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q8 :- vatom_8.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_9 :- rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999, talk_vp_15_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_9 :- rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999, talk_vp_15_nl0_ce1.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_9 :- rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999, talk_vp_15_nl0_ce1.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_10 :- vatom_9, rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_10 :- vatom_9, rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_10 :- vatom_9, rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999.
+2023-03-13 23:32:10.175  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_11 :- vatom_10, office_vp_15_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_11 :- vatom_10, office_vp_15_nl0_ce0.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_11 :- vatom_10, office_vp_15_nl0_ce0.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q9 :- vatom_11. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q9 :- vatom_11.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q9 :- vatom_11.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_12 :- hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_12 :- hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_12 :- hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_13 :- vatom_12, express_cp_10_nl0_ce0copy10_9. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_13 :- vatom_12, express_cp_10_nl0_ce0copy10_9.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_13 :- vatom_12, express_cp_10_nl0_ce0copy10_9.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_14 :- vatom_13, advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_14 :- vatom_13, advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_14 :- vatom_13, advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q10 :- vatom_14. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q10 :- vatom_14.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q10 :- vatom_14.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_15 :- impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999, begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_15 :- impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999, begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_15 :- impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999, begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_16 :- vatom_15, buy_vp_32_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_16 :- vatom_15, buy_vp_32_nl0_ce1.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_16 :- vatom_15, buy_vp_32_nl0_ce1.
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_17 :- vatom_16, wave_vp_32_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.176  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_17 :- vatom_16, wave_vp_32_nl0_ce0.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_17 :- vatom_16, wave_vp_32_nl0_ce0.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_18 :- vatom_17, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_18 :- vatom_17, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_18 :- vatom_17, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_19 :- vatom_18, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_19 :- vatom_18, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_19 :- vatom_18, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q11 :- vatom_19. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q11 :- vatom_19.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q11 :- vatom_19.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_20 :- root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999, bell_vp_17_nl0_ce0(ROOT_HP_7_NL0_CE0__HP7FR0_FROM_0_TO_4999_PAIN_HP_7_NL0_AE0). (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_20 :- root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999, bell_vp_17_nl0_ce0(ROOT_HP_7_NL0_CE0__HP7FR0_FROM_0_TO_4999_PAIN_HP_7_NL0_AE0).
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_20 :- root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999, bell_vp_17_nl0_ce0(ROOT_HP_7_NL0_CE0__HP7FR0_FROM_0_TO_4999_PAIN_HP_7_NL0_AE0).
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_21 :- vatom_20, eye_vp_20_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_21 :- vatom_20, eye_vp_20_nl0_ce0.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_21 :- vatom_20, eye_vp_20_nl0_ce0.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_22 :- vatom_21, shut_vp_10_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_22 :- vatom_21, shut_vp_10_nl0_ce1.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_22 :- vatom_21, shut_vp_10_nl0_ce1.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_23 :- vatom_22, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_23 :- vatom_22, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_23 :- vatom_22, require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_24 :- vatom_23, jewel_cp_23_nl0_ce0copy31_26. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_24 :- vatom_23, jewel_cp_23_nl0_ce0copy31_26.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_24 :- vatom_23, jewel_cp_23_nl0_ce0copy31_26.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q12 :- vatom_24. (recursive?) : false
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q12 :- vatom_24.
+2023-03-13 23:32:10.177  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q12 :- vatom_24.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_25 :- amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_25 :- amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_25 :- amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_26 :- vatom_25, amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_26 :- vatom_25, amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_26 :- vatom_25, amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_27 :- vatom_26, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_27 :- vatom_26, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_27 :- vatom_26, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_28 :- vatom_27, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_28 :- vatom_27, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_28 :- vatom_27, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_29 :- vatom_28, acid_su_17_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_29 :- vatom_28, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_29 :- vatom_28, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q13 :- vatom_29. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q13 :- vatom_29.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q13 :- vatom_29.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_30 :- whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999, regard_cp_16_nl0_ce0copy16_15. (recursive?) : false
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_30 :- whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999, regard_cp_16_nl0_ce0copy16_15.
+2023-03-13 23:32:10.178  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_30 :- whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999, regard_cp_16_nl0_ce0copy16_15.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_31 :- vatom_30, whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_31 :- vatom_30, whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_31 :- vatom_30, whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_32 :- vatom_31, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_32 :- vatom_31, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_32 :- vatom_31, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_33 :- vatom_32, eye_su_22_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_33 :- vatom_32, eye_su_22_nl0_ce0.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_33 :- vatom_32, eye_su_22_nl0_ce0.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_34 :- vatom_33, window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_34 :- vatom_33, window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_34 :- vatom_33, window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q14 :- vatom_34. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q14 :- vatom_34.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q14 :- vatom_34.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_35 :- bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999, bell_vp_17_nl0_ce0(BULB_HP_19_NL0_CE0__HP19FR1_FROM_5000_TO_9999_THREAD_HP_19_NL0_AE0). (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_35 :- bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999, bell_vp_17_nl0_ce0(BULB_HP_19_NL0_CE0__HP19FR1_FROM_5000_TO_9999_THREAD_HP_19_NL0_AE0).
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_35 :- bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999, bell_vp_17_nl0_ce0(BULB_HP_19_NL0_CE0__HP19FR1_FROM_5000_TO_9999_THREAD_HP_19_NL0_AE0).
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_36 :- vatom_35, advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_36 :- vatom_35, advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_36 :- vatom_35, advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999.
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_37 :- vatom_36, oven_vp_29_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.179  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_37 :- vatom_36, oven_vp_29_nl0_ce1.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_37 :- vatom_36, oven_vp_29_nl0_ce1.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_38 :- vatom_37, agencies_vp_7_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_38 :- vatom_37, agencies_vp_7_nl0_ce0.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_38 :- vatom_37, agencies_vp_7_nl0_ce0.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_39 :- vatom_38, hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_39 :- vatom_38, hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_39 :- vatom_38, hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q15 :- vatom_39. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q15 :- vatom_39.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q15 :- vatom_39.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_40 :- lead_cp_21_nl0_ce0copy21_20, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_40 :- lead_cp_21_nl0_ce0copy21_20, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_40 :- lead_cp_21_nl0_ce0copy21_20, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_41 :- vatom_40, start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_41 :- vatom_40, start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_41 :- vatom_40, start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_42 :- vatom_41, hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_42 :- vatom_41, hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_42 :- vatom_41, hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_43 :- vatom_42, require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_43 :- vatom_42, require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_43 :- vatom_42, require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_44 :- vatom_43, start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_44 :- vatom_43, start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_44 :- vatom_43, start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999.
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_45 :- vatom_44, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.180  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_45 :- vatom_44, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_45 :- vatom_44, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_46 :- vatom_45, bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_46 :- vatom_45, bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_46 :- vatom_45, bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q16 :- vatom_46. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q16 :- vatom_46.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q16 :- vatom_46.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_47 :- buy_vp_32_nl0_ce1, impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_47 :- buy_vp_32_nl0_ce1, impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_47 :- buy_vp_32_nl0_ce1, impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_48 :- vatom_47, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_48 :- vatom_47, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_48 :- vatom_47, impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_49 :- vatom_48, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_49 :- vatom_48, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_49 :- vatom_48, try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_50 :- vatom_49, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_50 :- vatom_49, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_50 :- vatom_49, steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_51 :- vatom_50, stomach_su_8_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_51 :- vatom_50, stomach_su_8_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_51 :- vatom_50, stomach_su_8_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_52 :- vatom_51, slow_vp_3_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_52 :- vatom_51, slow_vp_3_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_52 :- vatom_51, slow_vp_3_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_53 :- vatom_52, acid_su_17_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_53 :- vatom_52, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_53 :- vatom_52, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.181  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q17 :- vatom_53. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q17 :- vatom_53.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q17 :- vatom_53.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_54 :- eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999, sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_54 :- eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999, sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_54 :- eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999, sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_55 :- vatom_54, sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_55 :- vatom_54, sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_55 :- vatom_54, sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_56 :- vatom_55, eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_56 :- vatom_55, eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_56 :- vatom_55, eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_57 :- vatom_56, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_57 :- vatom_56, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_57 :- vatom_56, amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_58 :- vatom_57, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_58 :- vatom_57, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_58 :- vatom_57, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_59 :- vatom_58, hope_vp_30_nl0_ce1. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_59 :- vatom_58, hope_vp_30_nl0_ce1.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_59 :- vatom_58, hope_vp_30_nl0_ce1.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_60 :- vatom_59, check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_60 :- vatom_59, check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_60 :- vatom_59, check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q18 :- vatom_60. (recursive?) : false
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q18 :- vatom_60.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q18 :- vatom_60.
+2023-03-13 23:32:10.182  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_61 :- amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999, amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_61 :- amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999, amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_61 :- amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999, amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_62 :- vatom_61, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_62 :- vatom_61, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_62 :- vatom_61, amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_63 :- vatom_62, agencies_vp_7_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_63 :- vatom_62, agencies_vp_7_nl0_ce0.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_63 :- vatom_62, agencies_vp_7_nl0_ce0.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_64 :- vatom_63, bell_vp_17_nl0_ce0(AMOUNT_HP_6_NL0_CE0__HP29FR0_FROM_0_TO_4999_DEATH_HP_6_NL0_AE0). (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_64 :- vatom_63, bell_vp_17_nl0_ce0(AMOUNT_HP_6_NL0_CE0__HP29FR0_FROM_0_TO_4999_DEATH_HP_6_NL0_AE0).
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_64 :- vatom_63, bell_vp_17_nl0_ce0(AMOUNT_HP_6_NL0_CE0__HP29FR0_FROM_0_TO_4999_DEATH_HP_6_NL0_AE0).
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_65 :- vatom_64, cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_65 :- vatom_64, cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_65 :- vatom_64, cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_66 :- vatom_65, acid_su_17_nl0_ce0. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_66 :- vatom_65, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_66 :- vatom_65, acid_su_17_nl0_ce0.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_67 :- vatom_66, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_67 :- vatom_66, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_67 :- vatom_66, moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q19 :- vatom_67. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q19 :- vatom_67.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q19 :- vatom_67.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_68 :- window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999, window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_68 :- window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999, window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_68 :- window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999, window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_69 :- vatom_68, advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_69 :- vatom_68, advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999.
+2023-03-13 23:32:10.183  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_69 :- vatom_68, advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_70 :- vatom_69, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_70 :- vatom_69, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_70 :- vatom_69, hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_71 :- vatom_70, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_71 :- vatom_70, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_71 :- vatom_70, require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_72 :- vatom_71, violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_72 :- vatom_71, violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_72 :- vatom_71, violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_73 :- vatom_72, window_cp_9_nl0_ce0copy9_8. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_73 :- vatom_72, window_cp_9_nl0_ce0copy9_8.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_73 :- vatom_72, window_cp_9_nl0_ce0copy9_8.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_74 :- vatom_73, violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_74 :- vatom_73, violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_74 :- vatom_73, violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : q20 :- vatom_74. (recursive?) : false
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: q20 :- vatom_74.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: q20 :- vatom_74.
+2023-03-13 23:32:10.184  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN connecting the plan
+2023-03-13 23:32:11.101  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END connecting the plan
+2023-03-13 23:32:11.111  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.vada.vadaengine.planner.Planner  : END planning
+2023-03-13 23:32:11.111  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : Access plan:
+
+2023-03-13 23:32:11.119  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : Output plan (q7) {@bind("q7","","","")} <- 
+       Linear plan (q7(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).) <- 
+              Nested Loop Join plan (vatom_5(TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1) :- vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), train_cp_8_nl0_ce0copy8_7(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0,TRAIN_CP_8_NL0_CE0COPY8_7_DEPENDENT_CP_8_NL0_AE1).) <- 
+                            operand (0):
+                                          Nested Loop Join plan (vatom_4(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), beat_vp_13_nl0_ce1(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).) <- 
+                                                                                    operand (0):
+                                                                                                                              Nested Loop Join plan (vatom_3(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0) :- give_vp_8_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0), bell_vp_17_nl0_ce0(GIVE_VP_8_NL0_CE0_MATCH_VP_8_NL0_AE0KE0).) <- 
+                                                                                                                                                                                                                                                            operand (0):
+...
+...
+                                                                                                                                                                                                                                                            operand (1):
+...
+...
+
+                                                                                    operand (1):
+                                                                                                                              Linear plan (beat_vp_13_nl0_ce1(SOUP_VP_13_NL0_AE10) :- amount_cp_30_nl0_ce0copy30_25.) <- 
+...
+                                                                                                                              Linear plan (beat_vp_13_nl0_ce1(B) :- fiction_vp_13_nl0_ce0(A,B).) <- 
+...
+                                                                                                                              Linear plan (beat_vp_13_nl0_ce1(A) :- toe_cp_24_nl0_ce0(A,B).) <- 
+...
+
+                            operand (1):
+                                          Linear plan (train_cp_8_nl0_ce0copy8_7(A,B) :- train_cp_8_nl0_ce0(A,B).) <- 
+                                                                                    Input plan (train_cp_8_nl0_ce0) {[@bind("train_cp_8_nl0_ce0","csv","/home/datalog-benchmarking/datalog-benchmarking/datasets/stb-128/vadalog/data","train_cp_8_nl0_ce0.data")]}
+
+2023-03-13 23:32:11.159  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : END evaluating program from repo
+2023-03-13 23:32:11.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching.
+2023-03-13 23:32:11.161  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching facts
+2023-03-13 23:32:31.012  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : END fetching
+2023-03-13 23:32:31.012  INFO 100031 --- [nio-8080-exec-5] u.a.o.c.v.v.c.VadaEngineController       : Number of generated facts: 79996
+2023-03-13 23:32:31.013  INFO 100031 --- [nio-8080-exec-5] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 23:32:31.014  INFO 100031 --- [nio-8080-exec-5] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 23:32:31.135  INFO 100031 --- [ionShutdownHook] o.neo4j.driver.internal.InternalDriver   : Closing driver instance 1416415959
+2023-03-13 23:32:31.348  INFO 100031 --- [ionShutdownHook] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:hsqldb:mem:c9799a43-5ea3-4255-94bc-dec454be3188'

@@ -1,0 +1,167 @@
+#!/usr/bin/env python3
+import datetime
+import logging
+import shutil
+from pathlib import Path
+from typing import List, Optional
+
+import click
+
+from benchmark.datasets import DatasetID, dataset_registry
+from benchmark.datasets.core import Dataset, ALL_DATASET_IDS
+from benchmark.datasets.translate import get_normalized_integer_alt
+from benchmark.experiments.core import Status, save_data
+from benchmark.tools import ToolID
+from benchmark.tools.core import ALL_TOOL_IDS
+from benchmark.tools.engine import run_engine
+from benchmark.utils.base import TSV_FILENAME, configure_logging
+
+
+class TimeoutException(Exception):
+    pass
+
+
+def _run_experiment(
+        dataset_id_str: str,
+        tool_id_str: str,
+        output_dir: Path,
+        timeout: float,
+        stop_on_timeout: Optional[bool],
+        nb_runs: int
+):
+    dataset: Dataset = dataset_registry.make(DatasetID(dataset_id_str))
+    stop_on_timeout = dataset.is_partitioned if stop_on_timeout is None else stop_on_timeout
+    dataset_output_dir = output_dir / dataset_id_str
+    data = []
+    tool_id = ToolID(tool_id_str)
+    tool_dir = dataset_output_dir / str(tool_id.value)
+    stopped: bool = False
+    for program_path in sorted(dataset.get_program_paths(tool_id)):
+        for dataset_instance_path in sorted(dataset.get_dataset_paths(tool_id)):
+            stopped = False
+            for run_id in range(nb_runs):
+                run_id_str = f"run-{get_normalized_integer_alt(run_id, nb_runs)}"
+                partition_name = dataset_instance_path.stem
+                program_name = program_path.stem
+                working_dir = tool_dir / partition_name / program_name / run_id_str
+                logging.info("=" * 100)
+                logging.info(f"Time: {datetime.datetime.now()}")
+                logging.info(f"Processing dataset {dataset_id_str}")
+                logging.info(f"Using program: {program_path}")
+                logging.info(f"Run id: {run_id}")
+                logging.info(f"Working dir: {working_dir}")
+                result = None
+                try:
+                    result = run_engine(
+                        dataset.dataset_id.value,
+                        program_path,
+                        list(dataset_instance_path.iterdir()),
+                        timeout,
+                        str(tool_id.value),
+                        tool_config={},
+                        run_config=dataset.get_run_config(tool_id, dataset_instance_path),
+                        working_dir=Path(working_dir),
+                        force=True
+                    )
+                    result.name = dataset_id_str
+                    result.run_id = run_id
+                    result.partition = partition_name
+                    result.program = program_name
+                    logging.info("Result: \n" + result.to_rows())
+                    if result.status == Status.INTERRUPTED:
+                        raise KeyboardInterrupt
+                    if stop_on_timeout and result.status in {Status.ERROR, Status.TIMEOUT}:
+                        stopped = True
+                        logging.info(f"Stop on timeout, status={result.status}")
+                        break
+                finally:
+                    if result is not None:
+                        data.append(result)
+                    if len(data) > 0:
+                        save_data(data, tool_dir / TSV_FILENAME)
+            if stopped:
+                logging.info("Skipping bigger partitions since stop_on_timeout=True")
+                break
+        if stopped and stop_on_timeout and dataset.is_program_partitioned:
+            logging.info("Skipping bigger programs/query since stop_on_timeout=True and is_program_partitioned=True")
+            break
+
+
+def run_experiments(
+    dataset_ids: List[str],
+    tool_ids: List[str],
+    output_dir: Path,
+    timeout: float,
+    stop_on_timeout: Optional[bool],
+    nb_runs: int
+):
+    output_dir = Path(output_dir)
+    shutil.rmtree(output_dir, ignore_errors=True)
+    output_dir.mkdir(parents=True, exist_ok=False)
+    configure_logging(str(output_dir / "output.log"))
+    logging.info(f"Using timeout {timeout}, writing to {output_dir}")
+    logging.info(f"Stop on timeout: {stop_on_timeout}")
+    logging.info(f"Datasets: {dataset_ids}")
+    logging.info(f"Tools: {tool_ids}")
+    logging.info(f"Number of runs: {nb_runs}")
+
+    # we loop through dataset ids and tool ids;
+    #  then on dataset partitions and available queries in the same scenario
+    for dataset_id in dataset_ids:
+        for tool_id_str in tool_ids:
+            try:
+                _run_experiment(
+                    dataset_id,
+                    tool_id_str,
+                    output_dir,
+                    timeout,
+                    stop_on_timeout,
+                    nb_runs
+                )
+            except TimeoutException:
+                continue
+            except KeyboardInterrupt:
+                logging.info("Keyboard interrupt received; stopping running the experiment...")
+                return
+
+
+@click.command()
+@click.option(
+    "--dataset",
+    type=click.Choice(ALL_DATASET_IDS),
+    required=True,
+    multiple=True
+)
+@click.option(
+    "--tool",
+    "-t",
+    type=click.Choice(ALL_TOOL_IDS),
+    required=True,
+    multiple=True
+)
+@click.option(
+    "--output-dir", type=click.Path(exists=False), default="results"
+)
+@click.option("--timeout", type=float, default=60.0)
+@click.option("--stop-on-timeout", type=bool, is_flag=True, default=None)
+@click.option("--nb-runs", type=int, default=1)
+def main(
+    dataset: List[str],
+    tool: List[str],
+    output_dir: str,
+    timeout: float,
+    stop_on_timeout: Optional[bool],
+    nb_runs: int
+):
+    run_experiments(
+        dataset,
+        tool,
+        Path(output_dir),
+        timeout,
+        stop_on_timeout,
+        nb_runs
+    )
+
+
+if __name__ == "__main__":
+    main()

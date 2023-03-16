@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+from pathlib import Path
+
+import click
+
+from benchmark import ROOT_DIR
+from benchmark.datasets import DatasetID, dataset_registry
+from benchmark.datasets.paths import get_dataset_original_path, get_program_original_path
+
+
+def make_dataset(dataset_id: DatasetID, output_dir: Path, force: bool):
+    input_dataset_dir = get_dataset_original_path(dataset_id)
+    input_program_dir = get_program_original_path(dataset_id)
+    dataset = dataset_registry.make(dataset_id)
+    print(f"Processing dataset {dataset_id.value}")
+    dataset.process_dataset(input_dataset_dir, output_dir, force=force)
+    print(f"Processing program {dataset_id.value}")
+    dataset.process_program(input_program_dir, output_dir, force=force)
+
+
+@click.command("generate-datasets")
+@click.option("--output-dir", required=True, type=click.Path(dir_okay=True, file_okay=False, writable=True), default=ROOT_DIR / "datasets")
+@click.option("--force", default=True, help="Force output directory removal.")
+def main(output_dir, force):
+    output_dir = Path(output_dir)
+    for dataset_id in DatasetID:
+        make_dataset(dataset_id, output_dir, force)
+
+
+if __name__ == '__main__':
+    main()

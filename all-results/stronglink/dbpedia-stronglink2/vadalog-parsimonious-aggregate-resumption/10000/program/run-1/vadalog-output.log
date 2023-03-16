@@ -1,0 +1,124 @@
+  _   _             _         _                 
+ ( ) ( )           ( )       (_ )               
+ | | | |   _ _    _| |   _ _  | |    _      __  
+ | | | | /'_` ) /'_` | /'_` ) | |  /'_`\  /'_ `\
+ | \_/ |( (_| |( (_| |( (_| | | | ( (_) )( (_) |
+ `\___/'`\__,_)`\__,_)`\__,_)(___)`\___/'`\__  |
+                                         ( )_) |
+                                          \___/'
+
+Vadalog 1.14.0 -- (c) University of Oxford -- Banca d'Italia Fork
+2023-03-13 14:26:59.895  INFO 12851 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking-2 with PID 12851 (/home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking-2 in /home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+2023-03-13 14:26:59.898  INFO 12851 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : No active profile set, falling back to default profiles: default
+2023-03-13 14:27:02.576  INFO 12851 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-13 14:27:02.594  INFO 12851 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-13 14:27:02.594  INFO 12851 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-03-13 14:27:02.676  INFO 12851 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-13 14:27:02.676  INFO 12851 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2023-03-13 14:27:03.256  INFO 12851 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:hsqldb:mem:d23b8565-9779-4f94-8c33-cce7027d5d88', username='sa'
+2023-03-13 14:27:04.132  INFO 12851 --- [           main] org.neo4j.driver.internal.DriverFactory  : Direct driver instance 1807176280 created for server address localhost:7687
+2023-03-13 14:27:04.257  INFO 12851 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 14:27:04.274  INFO 12851 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Started VadaEngine in 5.333 seconds (JVM running for 6.588)
+2023-03-13 14:27:04.771  INFO 12851 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 14:27:04.772  INFO 12851 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-13 14:27:04.773  INFO 12851 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-13 14:27:05.175  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN evaluating program from repo
+2023-03-13 14:27:05.200  INFO 12851 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Created EqualityGraphFactory and EqualityGraph.
+2023-03-13 14:27:05.200  INFO 12851 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:27:05.200  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN parsing the program
+2023-03-13 14:27:05.200  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Analysing program for module inclusions...
+2023-03-13 14:27:05.371  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END parsing the program
+2023-03-13 14:27:05.372  INFO 12851 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:27:05.373  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : BEGIN optimizing the evaluation of the program
+2023-03-13 14:27:05.373  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Fragment detection
+2023-03-13 14:27:05.383  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-head rewriting
+2023-03-13 14:27:05.384  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Non-monotonic aggregate rewriting
+2023-03-13 14:27:05.402  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 14:27:05.406  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is not nearly-linear but warded
+2023-03-13 14:27:05.406  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's linearize the heads
+2023-03-13 14:27:05.410  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Let's choose the Termination Strategy
+2023-03-13 14:27:05.410  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : BEGIN checking program for nearly-linearity
+2023-03-13 14:27:05.413  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Rule vatom_1(P,Y) :- psc(X,P), controls(X,Y). is not linear and contains the following harmful variables: [P]
+2023-03-13 14:27:05.413  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : Nearly linearity test failed.
+2023-03-13 14:27:05.413  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.n.ModelNearlyLinearDecorator : END checking program for nearly-linearity.
+2023-03-13 14:27:05.419  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : The program is protected
+2023-03-13 14:27:05.419  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Choosing termination strategy
+2023-03-13 14:27:05.420  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : There are dangerous variables, so let's use the warded termination
+2023-03-13 14:27:05.420  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Multi-join optimization
+2023-03-13 14:27:05.421  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Right recursion inversion
+2023-03-13 14:27:05.424  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Push selections down and push projections down
+2023-03-13 14:27:05.440  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : Maximum number of resumptions: 2
+2023-03-13 14:27:05.440  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.o.ProgramEvaluationOptimizer : END optimizing the evaluation of the program
+2023-03-13 14:27:05.454  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN planning
+2023-03-13 14:27:05.454  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : START processing annotations
+2023-03-13 14:27:05.459  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing annotations
+2023-03-13 14:27:05.577  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing facts.
+2023-03-13 14:27:05.577  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing facts.
+2023-03-13 14:27:05.582  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : owns(P,X) :- company(X). (recursive?) : true
+2023-03-13 14:27:05.582  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: owns(P,X) :- company(X).
+2023-03-13 14:27:05.584  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: owns(P,X) :- company(X).
+2023-03-13 14:27:05.584  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stock(X) :- owns(P,X). (recursive?) : true
+2023-03-13 14:27:05.586  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: stock(X) :- owns(P,X).
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: stock(X) :- owns(P,X).
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : psc(X,P) :- owns(P,X). (recursive?) : true
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: psc(X,P) :- owns(P,X).
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: psc(X,P) :- owns(P,X).
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : vatom_1(P,Y) :- psc(X,P), controls(X,Y). (recursive?) : true
+2023-03-13 14:27:05.591  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: vatom_1(P,Y) :- psc(X,P), controls(X,Y).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: vatom_1(P,Y) :- psc(X,P), controls(X,Y).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : owns(P,Y) :- vatom_1(P,Y). (recursive?) : true
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: owns(P,Y) :- vatom_1(P,Y).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: owns(P,Y) :- vatom_1(P,Y).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : company(X) :- stock(X). (recursive?) : true
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing linear rule: company(X) :- stock(X).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing linear rule: company(X) :- stock(X).
+2023-03-13 14:27:05.593  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : stronglink(X,Y) ?- psc(X,P), psc(Y,P). (recursive?) : false
+2023-03-13 14:27:05.594  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN processing Datalog rule: stronglink(X,Y) ?- psc(X,P), psc(Y,P).
+2023-03-13 14:27:05.594  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END processing Datalog rule: stronglink(X,Y) ?- psc(X,P), psc(Y,P).
+2023-03-13 14:27:05.594  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : BEGIN connecting the plan
+2023-03-13 14:27:05.601  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END connecting the plan
+2023-03-13 14:27:05.602  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.vada.vadaengine.planner.Planner  : END planning
+2023-03-13 14:27:05.602  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Access plan:
+
+2023-03-13 14:27:05.607  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Output plan (stronglink) {@bind("stronglink","","","")} <- 
+       Nested Loop Join plan (stronglink(X,Y) ?- psc(X,P), psc(Y,P).) <- 
+              operand (0):
+                     Linear plan (psc(X,P) :- owns(P,X).) <- 
+                                          Linear plan (owns(P,X) :- company(X).) <- 
+                                                                                    Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/10000","company.data")]}
+                                                                                    Linear plan (company(X) :- stock(X).) <- 
+                                                                                                                                                                        Linear plan (stock(X) :- owns(P,X).) <- 
+...
+...
+                                          Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+                                                                                    Nested Loop Join plan (vatom_1(P,Y) :- psc(X,P), controls(X,Y).) <- 
+                                                                                                                                                                        operand (0):
+...
+                                                                                                                                                                        operand (1):
+...
+
+              operand (1):
+                     Linear plan (psc(X,P) :- owns(P,X).) <- 
+                                          Linear plan (owns(P,X) :- company(X).) <- 
+                                                                                    Input plan (company) {[@bind("company","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/10000","company.data")]}
+                                                                                    Linear plan (company(X) :- stock(X).) <- 
+                                                                                                                                                                        Linear plan (stock(X) :- owns(P,X).) <- 
+...
+...
+                                          Linear plan (owns(P,Y) :- vatom_1(P,Y).) <- 
+                                                                                    Nested Loop Join plan (vatom_1(P,Y) :- psc(X,P), controls(X,Y).) <- 
+                                                                                                                                                                        operand (0):
+...
+                                                                                                                                                                        operand (1):
+...
+
+
+2023-03-13 14:27:05.642  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END evaluating program from repo
+2023-03-13 14:27:05.643  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching.
+2023-03-13 14:27:05.643  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : BEGIN fetching facts
+2023-03-13 14:27:08.467  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : END fetching
+2023-03-13 14:27:08.468  INFO 12851 --- [nio-8080-exec-3] u.a.o.c.v.v.c.VadaEngineController       : Number of generated facts: 263557
+2023-03-13 14:27:08.469  INFO 12851 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:27:08.485  INFO 12851 --- [nio-8080-exec-3] a.o.c.v.v.q.e.e.EqualityStructureFactory : Setting EqualityGraph.
+2023-03-13 14:27:08.763  INFO 12851 --- [ionShutdownHook] o.neo4j.driver.internal.InternalDriver   : Closing driver instance 1807176280
+2023-03-13 14:27:08.975  INFO 12851 --- [ionShutdownHook] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:hsqldb:mem:d23b8565-9779-4f94-8c33-cce7027d5d88'

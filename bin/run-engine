@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+import json
+from operator import attrgetter
+from pathlib import Path
+from typing import List
+
+import click
+from click import FloatRange
+
+from benchmark.tools.core import ToolID
+from benchmark.tools.engine import run_engine
+
+DEFAULT_TIMEOUT: float = 60.0
+
+
+@click.command()
+@click.option("--name", type=str, default=None)
+@click.option(
+    "-p", "--program",
+    required=True,
+    type=click.Path(exists=True, dir_okay=False, readable=True),
+)
+@click.option(
+    "-d", "--dataset",
+    required=False,
+    type=click.Path(exists=True, dir_okay=False, readable=True),
+    multiple=True
+)
+@click.option("--timeout", type=FloatRange(min=0.0), default=DEFAULT_TIMEOUT)
+@click.option(
+    "-t", "--tool-id",
+    required=True,
+    type=click.Choice(list(map(attrgetter("value"), ToolID)), case_sensitive=False),
+)
+@click.option("--tool-config", default="{}", type=str, help="custom configuration for the tool")
+@click.option("--run-config", default="{}", type=str, help="custom configuration for the run")
+@click.option("--working-dir", default=None, type=str, help="working directory where to save results. "
+                                                            "If the directory already exists, "
+                                                            "a prompt will ask confirmation for removal.")
+@click.option("--force", is_flag=True, help="Force removal of working directory if already exists.")
+def main(
+    name,
+    program,
+    dataset: List[str],
+    timeout,
+    tool_id,
+    tool_config,
+    run_config,
+    working_dir,
+    force
+):
+    """Run a Datalog engine with a program and a dataset."""
+    program = Path(program)
+    datasets = list(map(Path, dataset))
+    json_tool_config = json.loads(tool_config)
+    json_run_config = json.loads(run_config)
+    result = run_engine(
+        name,
+        program,
+        datasets,
+        timeout,
+        tool_id,
+        json_tool_config,
+        json_run_config,
+        working_dir,
+        force
+    )
+    print(result.to_rows())
+
+
+if __name__ == "__main__":
+    main()

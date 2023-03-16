@@ -1,0 +1,16 @@
+
+
+owns(P,S,X) :- company(X).
+stock(X,S) :- owns(P,S,X).
+psc(X,P) :- owns(P,S,X).
+owns(P,S,Y) :- psc(X,P), controls(X,Y).
+company(X) :- stock(X,S).
+
+stronglink(X,Y) :- psc(X,P), psc(Y,P).
+
+@output("stronglink").
+
+@input("company").
+@input("controls").
+@bind("company", "csv", "/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/25000", "company.data").
+@bind("controls", "csv", "/home/datalog-benchmarking-2/datalog-benchmarking/datasets/dbpedia-stronglink2/vadalog/data/25000", "controls.data").

@@ -1,0 +1,5 @@
+#exists{Y}father(Y,X) :- person(X).
+person(X) :- father(X,Y).
+
+%%%%QUERY
+#exists{X,Y}father(X,Z),father(Y,X)?

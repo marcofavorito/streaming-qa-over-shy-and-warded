@@ -1,0 +1,8 @@
+#exists{P,S}owns(P,S,X) :- company(X).
+stock(X,S) :- owns(P,S,X).
+psc(X,P) :- owns(P,S,X).
+#exists{S}owns(P,S,Y) :- psc(X,P), controls(X,Y).
+company(X) :- stock(X,S).
+stronglink(X,Y) :- psc(X,P), psc(Y,P).
+
+stronglink(X0,X1)?

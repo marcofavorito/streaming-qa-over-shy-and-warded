@@ -1,0 +1,798 @@
+#exists{D}touch_ad_1_nl0_ce0(A,B,C,D)  :- test_ad_1_nl0_ce0(A,B,C)  .
+different_vi_1_nl0_ce0(A,B,C) :- society_vi_1_nl0_ce0(A,B,C,D,E)  .
+society_vi_1_nl0_ce1(A,D,E)   :- society_vi_1_nl0_ce0(A,B,C,D,E)  .
+#exists{G}blue_vh_1_nl0_ce0(A,B,C,G) :- warn_vh_1_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}describe_vh_1_nl0_ce1(D,E,F,H,G)   :- warn_vh_1_nl0_ce0(A,B,C,D,E,F)  .
+rest_vnm_1_nl0_ce0(A,B,C) :- report_vnm_1_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}place_vnm_1_nl0_ce1(D,E,F,G) :- report_vnm_1_nl0_ce0(A,B,C,D,E)  .
+#exists{G}expansion_vnm_1_nl0_ce2(C,G)   :- report_vnm_1_nl0_ce0(A,B,C,D,E)  .
+#exists{F}future_ad_2_nl0_ce0(A,B,C,D,E,F)  :- pipe_ad_2_nl0_ce0(A,B,C,D,E)  .
+approval_vi_2_nl0_ce0(A,B,C) :- mixed_vi_2_nl0_ce0(A,B,C,D,E)  .
+blow_vi_2_nl0_ce1(A,D,E)   :- mixed_vi_2_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  involve_vh_2_nl0_ce0(A,B,C,G) :- division_vh_2_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}use_vh_2_nl0_ce1(D,E,F,H,G)   :- division_vh_2_nl0_ce0(A,B,C,D,E,F)  .
+  parallel_vnm_2_nl0_ce0(A,B) :- paint_vnm_2_nl0_ce0(A,B,C)  .
+#exists{D,E}collection_vnm_2_nl0_ce1(C,D,E) :- paint_vnm_2_nl0_ce0(A,B,C)  .
+#exists{E}handle_vnm_2_nl0_ce2(B,E)   :- paint_vnm_2_nl0_ce0(A,B,C)  .
+#exists{E}  decision_ad_3_nl0_ce0(A,B,C,D,E)  :- library_ad_3_nl0_ce0(A,B,C,D)  .
+  kind_vi_3_nl0_ce0(A,B,C) :- garden_vi_3_nl0_ce0(A,B,C,D,E)  .
+prove_vi_3_nl0_ce1(A,D,E)   :- garden_vi_3_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  door_vh_3_nl0_ce0(A,B,F) :- ring_vh_3_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}charge_vh_3_nl0_ce1(C,D,E,G,F)   :- ring_vh_3_nl0_ce0(A,B,C,D,E)  .
+  farm_vnm_3_nl0_ce0(A,B,C) :- certain_vnm_3_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}political_vnm_3_nl0_ce1(D,E,F,G) :- certain_vnm_3_nl0_ce0(A,B,C,D,E)  .
+#exists{G}language_vnm_3_nl0_ce2(C,G)   :- certain_vnm_3_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  science_ad_4_nl0_ce0(A,B,C,D,E)  :- worry_ad_4_nl0_ce0(A,B,C,D)  .
+  involve_vi_4_nl0_ce0(A,B) :- last_vi_4_nl0_ce0(A,B,C,D)  .
+mention_vi_4_nl0_ce1(A,C,D)   :- last_vi_4_nl0_ce0(A,B,C,D)  .
+#exists{F}  complete_vh_4_nl0_ce0(A,B,F) :- pencil_vh_4_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}count_vh_4_nl0_ce1(C,D,E,G,F)   :- pencil_vh_4_nl0_ce0(A,B,C,D,E)  .
+  gold_vnm_4_nl0_ce0(A,B) :- amount_vnm_4_nl0_ce0(A,B,C)  .
+#exists{D,E}pain_vnm_4_nl0_ce1(C,D,E) :- amount_vnm_4_nl0_ce0(A,B,C)  .
+#exists{E}accept_vnm_4_nl0_ce2(B,E)   :- amount_vnm_4_nl0_ce0(A,B,C)  .
+#exists{F}  thick_ad_5_nl0_ce0(A,B,C,D,E,F)  :- make_ad_5_nl0_ce0(A,B,C,D,E)  .
+  pain_vi_5_nl0_ce0(A,B,C) :- stiff_vi_5_nl0_ce0(A,B,C,D,E)  .
+straight_vi_5_nl0_ce1(A,D,E)   :- stiff_vi_5_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  record_vh_5_nl0_ce0(A,B,C,G) :- complain_vh_5_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}probable_vh_5_nl0_ce1(D,E,F,H,G)   :- complain_vh_5_nl0_ce0(A,B,C,D,E,F)  .
+  boot_vnm_5_nl0_ce0(A,B,C,D) :- poor_vnm_5_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}dependent_vnm_5_nl0_ce1(E,F,G,H) :- poor_vnm_5_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}sea_vnm_5_nl0_ce2(D,H)   :- poor_vnm_5_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  stomach_ad_6_nl0_ce0(A,B,C,D,E)  :- delicate_ad_6_nl0_ce0(A,B,C,D)  .
+  oven_vi_6_nl0_ce0(A,B) :- place_vi_6_nl0_ce0(A,B,C,D)  .
+give_vi_6_nl0_ce1(A,C,D)   :- place_vi_6_nl0_ce0(A,B,C,D)  .
+#exists{D}  animal_vh_6_nl0_ce0(A,D) :- selection_vh_6_nl0_ce0(A,B,C)  .
+#exists{D,E}hate_vh_6_nl0_ce1(B,C,E,D)   :- selection_vh_6_nl0_ce0(A,B,C)  .
+  argue_vnm_6_nl0_ce0(A,B) :- ready_vnm_6_nl0_ce0(A,B,C)  .
+#exists{D,E}late_vnm_6_nl0_ce1(C,D,E) :- ready_vnm_6_nl0_ce0(A,B,C)  .
+#exists{E}summer_vnm_6_nl0_ce2(B,E)   :- ready_vnm_6_nl0_ce0(A,B,C)  .
+#exists{F}  clock_ad_7_nl0_ce0(A,B,C,D,E,F)  :- will_ad_7_nl0_ce0(A,B,C,D,E)  .
+  fly_vi_7_nl0_ce0(A,B,C) :- wall_vi_7_nl0_ce0(A,B,C,D,E)  .
+late_vi_7_nl0_ce1(A,D,E)   :- wall_vi_7_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  stone_vh_7_nl0_ce0(A,D) :- important_vh_7_nl0_ce0(A,B,C)  .
+#exists{D,E}fertile_vh_7_nl0_ce1(B,C,E,D)   :- important_vh_7_nl0_ce0(A,B,C)  .
+  awake_vnm_7_nl0_ce0(A,B,C) :- respect_vnm_7_nl0_ce0(A,B,C,D)  .
+#exists{E,F}church_vnm_7_nl0_ce1(D,E,F) :- respect_vnm_7_nl0_ce0(A,B,C,D)  .
+#exists{F}hammer_vnm_7_nl0_ce2(C,F)   :- respect_vnm_7_nl0_ce0(A,B,C,D)  .
+#exists{E}  eat_ad_8_nl0_ce0(A,B,C,D,E)  :- disgust_ad_8_nl0_ce0(A,B,C,D)  .
+  complain_vi_8_nl0_ce0(A,B,C) :- harbor_vi_8_nl0_ce0(A,B,C,D,E)  .
+snake_vi_8_nl0_ce1(A,D,E)   :- harbor_vi_8_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  touch_vh_8_nl0_ce0(A,B,E) :- bucket_vh_8_nl0_ce0(A,B,C,D)  .
+#exists{E,F}settle_vh_8_nl0_ce1(C,D,F,E)   :- bucket_vh_8_nl0_ce0(A,B,C,D)  .
+  trick_vnm_8_nl0_ce0(A,B,C) :- act_vnm_8_nl0_ce0(A,B,C,D)  .
+#exists{E,F}green_vnm_8_nl0_ce1(D,E,F) :- act_vnm_8_nl0_ce0(A,B,C,D)  .
+#exists{F}jump_vnm_8_nl0_ce2(C,F)   :- act_vnm_8_nl0_ce0(A,B,C,D)  .
+#exists{F}  needle_ad_9_nl0_ce0(A,B,C,D,E,F)  :- enable_ad_9_nl0_ce0(A,B,C,D,E)  .
+  degree_vi_9_nl0_ce0(A,B,C) :- opinion_vi_9_nl0_ce0(A,B,C,D,E)  .
+forgive_vi_9_nl0_ce1(A,D,E)   :- opinion_vi_9_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  account_vh_9_nl0_ce0(A,B,F) :- government_vh_9_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}fiction_vh_9_nl0_ce1(C,D,E,G,F)   :- government_vh_9_nl0_ce0(A,B,C,D,E)  .
+  ring_vnm_9_nl0_ce0(A,B,C) :- time_vnm_9_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}voice_vnm_9_nl0_ce1(D,E,F,G) :- time_vnm_9_nl0_ce0(A,B,C,D,E)  .
+#exists{G}room_vnm_9_nl0_ce2(C,G)   :- time_vnm_9_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  fork_ad_10_nl0_ce0(A,B,C,D)  :- impulse_ad_10_nl0_ce0(A,B,C)  .
+  come_vi_10_nl0_ce0(A,B,C) :- line_vi_10_nl0_ce0(A,B,C,D,E)  .
+long_vi_10_nl0_ce1(A,D,E)   :- line_vi_10_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  reply_vh_10_nl0_ce0(A,B,F) :- drink_vh_10_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}require_vh_10_nl0_ce1(C,D,E,G,F)   :- drink_vh_10_nl0_ce0(A,B,C,D,E)  .
+  church_vnm_10_nl0_ce0(A,B,C,D) :- keep_vnm_10_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{H,I}point_vnm_10_nl0_ce1(E,F,G,H,I) :- keep_vnm_10_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{I}digestion_vnm_10_nl0_ce2(D,I)   :- keep_vnm_10_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{E}  record_ad_11_nl0_ce0(A,B,C,D,E)  :- control_ad_11_nl0_ce0(A,B,C,D)  .
+  business_vi_11_nl0_ce0(A,B) :- branch_vi_11_nl0_ce0(A,B,C,D)  .
+yellow_vi_11_nl0_ce1(A,C,D)   :- branch_vi_11_nl0_ce0(A,B,C,D)  .
+#exists{F}  beautiful_vh_11_nl0_ce0(A,B,F) :- whip_vh_11_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}watch_vh_11_nl0_ce1(C,D,E,G,F)   :- whip_vh_11_nl0_ce0(A,B,C,D,E)  .
+  compare_vnm_11_nl0_ce0(A,B,C) :- present_vnm_11_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}first_vnm_11_nl0_ce1(D,E,F,G) :- present_vnm_11_nl0_ce0(A,B,C,D,E)  .
+#exists{G}play_vnm_11_nl0_ce2(C,G)   :- present_vnm_11_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  poor_ad_12_nl0_ce0(A,B,C,D,E,F)  :- stamp_ad_12_nl0_ce0(A,B,C,D,E)  .
+  provide_vi_12_nl0_ce0(A,B,C) :- bright_vi_12_nl0_ce0(A,B,C,D,E)  .
+secret_vi_12_nl0_ce1(A,D,E)   :- bright_vi_12_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  try_vh_12_nl0_ce0(A,B,C,G) :- poor_vh_12_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}complex_vh_12_nl0_ce1(D,E,F,H,G)   :- poor_vh_12_nl0_ce0(A,B,C,D,E,F)  .
+  sleep_vnm_12_nl0_ce0(A,B,C) :- hat_vnm_12_nl0_ce0(A,B,C,D)  .
+#exists{E,F}measure_vnm_12_nl0_ce1(D,E,F) :- hat_vnm_12_nl0_ce0(A,B,C,D)  .
+#exists{F}engine_vnm_12_nl0_ce2(C,F)   :- hat_vnm_12_nl0_ce0(A,B,C,D)  .
+#exists{E}  set_ad_13_nl0_ce0(A,B,C,D,E)  :- laugh_ad_13_nl0_ce0(A,B,C,D)  .
+  thread_vi_13_nl0_ce0(A,B,C) :- ice_vi_13_nl0_ce0(A,B,C,D,E)  .
+look_vi_13_nl0_ce1(A,D,E)   :- ice_vi_13_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  wet_vh_13_nl0_ce0(A,B,E) :- prove_vh_13_nl0_ce0(A,B,C,D)  .
+#exists{E,F}back_vh_13_nl0_ce1(C,D,F,E)   :- prove_vh_13_nl0_ce0(A,B,C,D)  .
+  conscious_vnm_13_nl0_ce0(A,B,C) :- chin_vnm_13_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}wait_vnm_13_nl0_ce1(D,E,F,G) :- chin_vnm_13_nl0_ce0(A,B,C,D,E)  .
+#exists{G}loose_vnm_13_nl0_ce2(C,G)   :- chin_vnm_13_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  tin_ad_14_nl0_ce0(A,B,C,D)  :- bath_ad_14_nl0_ce0(A,B,C)  .
+  advertisement_vi_14_nl0_ce0(A,B,C) :- insurance_vi_14_nl0_ce0(A,B,C,D,E,F)  .
+smoke_vi_14_nl0_ce1(A,D,E,F)   :- insurance_vi_14_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  coat_vh_14_nl0_ce0(A,B,E) :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+#exists{E,F}father_vh_14_nl0_ce1(C,D,F,E)   :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+  skin_vnm_14_nl0_ce0(A,B,C) :- sticky_vnm_14_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}believe_vnm_14_nl0_ce1(D,E,F,G) :- sticky_vnm_14_nl0_ce0(A,B,C,D,E)  .
+#exists{G}adjustment_vnm_14_nl0_ce2(C,G)   :- sticky_vnm_14_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  run_ad_15_nl0_ce0(A,B,C,D)  :- sky_ad_15_nl0_ce0(A,B,C)  .
+  jewel_vi_15_nl0_ce0(A,B) :- birth_vi_15_nl0_ce0(A,B,C)  .
+change_vi_15_nl0_ce1(A,C)   :- birth_vi_15_nl0_ce0(A,B,C)  .
+#exists{F}  contain_vh_15_nl0_ce0(A,B,F) :- pen_vh_15_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}know_vh_15_nl0_ce1(C,D,E,G,F)   :- pen_vh_15_nl0_ce0(A,B,C,D,E)  .
+  present_vnm_15_nl0_ce0(A,B,C) :- committee_vnm_15_nl0_ce0(A,B,C,D)  .
+#exists{E,F}sister_vnm_15_nl0_ce1(D,E,F) :- committee_vnm_15_nl0_ce0(A,B,C,D)  .
+#exists{F}butter_vnm_15_nl0_ce2(C,F)   :- committee_vnm_15_nl0_ce0(A,B,C,D)  .
+#exists{E}  deep_ad_16_nl0_ce0(A,B,C,D,E)  :- thank_ad_16_nl0_ce0(A,B,C,D)  .
+  involve_vi_16_nl0_ce0(A,B,C) :- hanging_vi_16_nl0_ce0(A,B,C,D,E)  .
+bee_vi_16_nl0_ce1(A,D,E)   :- hanging_vi_16_nl0_ce0(A,B,C,D,E)  .
+#exists{H}  afford_vh_16_nl0_ce0(A,B,C,H) :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{H,I}reflect_vh_16_nl0_ce1(D,E,F,G,I,H)   :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+  tin_vnm_16_nl0_ce0(A,B,C) :- loud_vnm_16_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}reading_vnm_16_nl0_ce1(D,E,F,G) :- loud_vnm_16_nl0_ce0(A,B,C,D,E)  .
+#exists{G}second_vnm_16_nl0_ce2(C,G)   :- loud_vnm_16_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  group_ad_17_nl0_ce0(A,B,C,D,E,F)  :- news_ad_17_nl0_ce0(A,B,C,D,E)  .
+  hide_vi_17_nl0_ce0(A,B) :- cover_vi_17_nl0_ce0(A,B,C,D)  .
+shoe_vi_17_nl0_ce1(A,C,D)   :- cover_vi_17_nl0_ce0(A,B,C,D)  .
+#exists{E}  cross_vh_17_nl0_ce0(A,B,E) :- ornament_vh_17_nl0_ce0(A,B,C,D)  .
+#exists{E,F}act_vh_17_nl0_ce1(C,D,F,E)   :- ornament_vh_17_nl0_ce0(A,B,C,D)  .
+  size_vnm_17_nl0_ce0(A,B,C) :- chief_vnm_17_nl0_ce0(A,B,C,D)  .
+#exists{E,F}raise_vnm_17_nl0_ce1(D,E,F) :- chief_vnm_17_nl0_ce0(A,B,C,D)  .
+#exists{F}baby_vnm_17_nl0_ce2(C,F)   :- chief_vnm_17_nl0_ce0(A,B,C,D)  .
+#exists{E}  reason_ad_18_nl0_ce0(A,B,C,D,E)  :- publish_ad_18_nl0_ce0(A,B,C,D)  .
+  point_vi_18_nl0_ce0(A,B) :- work_vi_18_nl0_ce0(A,B,C,D)  .
+band_vi_18_nl0_ce1(A,C,D)   :- work_vi_18_nl0_ce0(A,B,C,D)  .
+#exists{H}  level_vh_18_nl0_ce0(A,B,C,H) :- avoid_vh_18_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{H,I}present_vh_18_nl0_ce1(D,E,F,G,I,H)   :- avoid_vh_18_nl0_ce0(A,B,C,D,E,F,G)  .
+  oven_vnm_18_nl0_ce0(A,B) :- belong_vnm_18_nl0_ce0(A,B,C)  .
+#exists{D,E}amount_vnm_18_nl0_ce1(C,D,E) :- belong_vnm_18_nl0_ce0(A,B,C)  .
+#exists{E}avoid_vnm_18_nl0_ce2(B,E)   :- belong_vnm_18_nl0_ce0(A,B,C)  .
+#exists{D}  mass_ad_19_nl0_ce0(A,B,C,D)  :- quiet_ad_19_nl0_ce0(A,B,C)  .
+  chalk_vi_19_nl0_ce0(A,B,C) :- power_vi_19_nl0_ce0(A,B,C,D,E,F)  .
+smile_vi_19_nl0_ce1(A,D,E,F)   :- power_vi_19_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  arrange_vh_19_nl0_ce0(A,B,E) :- collect_vh_19_nl0_ce0(A,B,C,D)  .
+#exists{E,F}brush_vh_19_nl0_ce1(C,D,F,E)   :- collect_vh_19_nl0_ce0(A,B,C,D)  .
+  attack_vnm_19_nl0_ce0(A,B,C) :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{E,F}stitch_vnm_19_nl0_ce1(D,E,F) :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{F}matter_vnm_19_nl0_ce2(C,F)   :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{F}  design_ad_20_nl0_ce0(A,B,C,D,E,F)  :- chemical_ad_20_nl0_ce0(A,B,C,D,E)  .
+  violent_vi_20_nl0_ce0(A,B,C) :- moon_vi_20_nl0_ce0(A,B,C,D,E)  .
+hide_vi_20_nl0_ce1(A,D,E)   :- moon_vi_20_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  agencies_vh_20_nl0_ce0(A,B,F) :- hide_vh_20_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}wave_vh_20_nl0_ce1(C,D,E,G,F)   :- hide_vh_20_nl0_ce0(A,B,C,D,E)  .
+  family_vnm_20_nl0_ce0(A,B,C) :- buy_vnm_20_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}remain_vnm_20_nl0_ce1(D,E,F,G) :- buy_vnm_20_nl0_ce0(A,B,C,D,E)  .
+#exists{G}examine_vnm_20_nl0_ce2(C,G)   :- buy_vnm_20_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  sea_ad_21_nl0_ce0(A,B,C,D,E,F)  :- possible_ad_21_nl0_ce0(A,B,C,D,E)  .
+  screw_vi_21_nl0_ce0(A) :- feather_vi_21_nl0_ce0(A,B)  .
+cook_vi_21_nl0_ce1(A,B)   :- feather_vi_21_nl0_ce0(A,B)  .
+#exists{D}  touch_vh_21_nl0_ce0(A,D) :- stop_vh_21_nl0_ce0(A,B,C)  .
+#exists{D,E}confirm_vh_21_nl0_ce1(B,C,E,D)   :- stop_vh_21_nl0_ce0(A,B,C)  .
+  language_vnm_21_nl0_ce0(A,B,C) :- expect_vnm_21_nl0_ce0(A,B,C,D)  .
+#exists{E,F}end_vnm_21_nl0_ce1(D,E,F) :- expect_vnm_21_nl0_ce0(A,B,C,D)  .
+#exists{F}involve_vnm_21_nl0_ce2(C,F)   :- expect_vnm_21_nl0_ce0(A,B,C,D)  .
+#exists{G}  healthy_ad_22_nl0_ce0(A,B,C,D,E,F,G)  :- friend_ad_22_nl0_ce0(A,B,C,D,E,F)  .
+  bed_vi_22_nl0_ce0(A,B,C) :- soup_vi_22_nl0_ce0(A,B,C,D,E)  .
+society_vi_22_nl0_ce1(A,D,E)   :- soup_vi_22_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  paper_vh_22_nl0_ce0(A,B,E) :- structure_vh_22_nl0_ce0(A,B,C,D)  .
+#exists{E,F}mind_vh_22_nl0_ce1(C,D,F,E)   :- structure_vh_22_nl0_ce0(A,B,C,D)  .
+  left_vnm_22_nl0_ce0(A,B,C) :- automatic_vnm_22_nl0_ce0(A,B,C,D)  .
+#exists{E,F}branch_vnm_22_nl0_ce1(D,E,F) :- automatic_vnm_22_nl0_ce0(A,B,C,D)  .
+#exists{F}blue_vnm_22_nl0_ce2(C,F)   :- automatic_vnm_22_nl0_ce0(A,B,C,D)  .
+#exists{G}  rub_ad_23_nl0_ce0(A,B,C,D,E,F,G)  :- imagine_ad_23_nl0_ce0(A,B,C,D,E,F)  .
+  use_vi_23_nl0_ce0(A,B,C) :- machine_vi_23_nl0_ce0(A,B,C,D,E)  .
+white_vi_23_nl0_ce1(A,D,E)   :- machine_vi_23_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  concern_vh_23_nl0_ce0(A,B,F) :- wash_vh_23_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}example_vh_23_nl0_ce1(C,D,E,G,F)   :- wash_vh_23_nl0_ce0(A,B,C,D,E)  .
+  simple_vnm_23_nl0_ce0(A,B) :- copy_vnm_23_nl0_ce0(A,B,C)  .
+#exists{D,E}shake_vnm_23_nl0_ce1(C,D,E) :- copy_vnm_23_nl0_ce0(A,B,C)  .
+#exists{E}record_vnm_23_nl0_ce2(B,E)   :- copy_vnm_23_nl0_ce0(A,B,C)  .
+#exists{G}  monkey_ad_24_nl0_ce0(A,B,C,D,E,F,G)  :- run_ad_24_nl0_ce0(A,B,C,D,E,F)  .
+  have_vi_24_nl0_ce0(A,B,C) :- forgive_vi_24_nl0_ce0(A,B,C,D,E)  .
+skin_vi_24_nl0_ce1(A,D,E)   :- forgive_vi_24_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  system_vh_24_nl0_ce0(A,B,C,G) :- note_vh_24_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}paint_vh_24_nl0_ce1(D,E,F,H,G)   :- note_vh_24_nl0_ce0(A,B,C,D,E,F)  .
+  machine_vnm_24_nl0_ce0(A,B,C,D) :- separate_vnm_24_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}punishment_vnm_24_nl0_ce1(E,F,G,H) :- separate_vnm_24_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}authority_vnm_24_nl0_ce2(D,H)   :- separate_vnm_24_nl0_ce0(A,B,C,D,E,F)  .
+#exists{F}  market_ad_25_nl0_ce0(A,B,C,D,E,F)  :- wear_ad_25_nl0_ce0(A,B,C,D,E)  .
+  electric_vi_25_nl0_ce0(A,B) :- cut_vi_25_nl0_ce0(A,B,C,D)  .
+dust_vi_25_nl0_ce1(A,C,D)   :- cut_vi_25_nl0_ce0(A,B,C,D)  .
+#exists{E}  face_vh_25_nl0_ce0(A,B,E) :- laugh_vh_25_nl0_ce0(A,B,C,D)  .
+#exists{E,F}oven_vh_25_nl0_ce1(C,D,F,E)   :- laugh_vh_25_nl0_ce0(A,B,C,D)  .
+  war_vnm_25_nl0_ce0(A,B) :- wind_vnm_25_nl0_ce0(A,B,C)  .
+#exists{D,E}history_vnm_25_nl0_ce1(C,D,E) :- wind_vnm_25_nl0_ce0(A,B,C)  .
+#exists{E}mist_vnm_25_nl0_ce2(B,E)   :- wind_vnm_25_nl0_ce0(A,B,C)  .
+#exists{E}  substance_ad_26_nl0_ce0(A,B,C,D,E)  :- examine_ad_26_nl0_ce0(A,B,C,D)  .
+  provide_vi_26_nl0_ce0(A,B) :- visit_vi_26_nl0_ce0(A,B,C,D)  .
+delicate_vi_26_nl0_ce1(A,C,D)   :- visit_vi_26_nl0_ce0(A,B,C,D)  .
+#exists{G}  invention_vh_26_nl0_ce0(A,B,C,G) :- owner_vh_26_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}use_vh_26_nl0_ce1(D,E,F,H,G)   :- owner_vh_26_nl0_ce0(A,B,C,D,E,F)  .
+  sock_vnm_26_nl0_ce0(A,B,C) :- last_vnm_26_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}authority_vnm_26_nl0_ce1(D,E,F,G) :- last_vnm_26_nl0_ce0(A,B,C,D,E)  .
+#exists{G}express_vnm_26_nl0_ce2(C,G)   :- last_vnm_26_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  fork_ad_27_nl0_ce0(A,B,C,D,E)  :- green_ad_27_nl0_ce0(A,B,C,D)  .
+  nation_vi_27_nl0_ce0(A,B) :- seed_vi_27_nl0_ce0(A,B,C,D)  .
+need_vi_27_nl0_ce1(A,C,D)   :- seed_vi_27_nl0_ce0(A,B,C,D)  .
+#exists{E}  have_vh_27_nl0_ce0(A,B,E) :- guide_vh_27_nl0_ce0(A,B,C,D)  .
+#exists{E,F}separate_vh_27_nl0_ce1(C,D,F,E)   :- guide_vh_27_nl0_ce0(A,B,C,D)  .
+  dark_vnm_27_nl0_ce0(A,B,C) :- meal_vnm_27_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}knot_vnm_27_nl0_ce1(D,E,F,G) :- meal_vnm_27_nl0_ce0(A,B,C,D,E)  .
+#exists{G}leather_vnm_27_nl0_ce2(C,G)   :- meal_vnm_27_nl0_ce0(A,B,C,D,E)  .
+#exists{E}  table_ad_28_nl0_ce0(A,B,C,D,E)  :- nail_ad_28_nl0_ce0(A,B,C,D)  .
+  imagine_vi_28_nl0_ce0(A,B,C) :- fruit_vi_28_nl0_ce0(A,B,C,D,E)  .
+deliver_vi_28_nl0_ce1(A,D,E)   :- fruit_vi_28_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  face_vh_28_nl0_ce0(A,B,F) :- nose_vh_28_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}degree_vh_28_nl0_ce1(C,D,E,G,F)   :- nose_vh_28_nl0_ce0(A,B,C,D,E)  .
+  rise_vnm_28_nl0_ce0(A,B,C,D) :- head_vnm_28_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}shut_vnm_28_nl0_ce1(E,F,G,H) :- head_vnm_28_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}return_vnm_28_nl0_ce2(D,H)   :- head_vnm_28_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  talk_ad_29_nl0_ce0(A,B,C,D,E)  :- automatic_ad_29_nl0_ce0(A,B,C,D)  .
+  discover_vi_29_nl0_ce0(A,B,C) :- raise_vi_29_nl0_ce0(A,B,C,D,E)  .
+edge_vi_29_nl0_ce1(A,D,E)   :- raise_vi_29_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  thumb_vh_29_nl0_ce0(A,B,C,G) :- snake_vh_29_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}fall_vh_29_nl0_ce1(D,E,F,H,G)   :- snake_vh_29_nl0_ce0(A,B,C,D,E,F)  .
+  shame_vnm_29_nl0_ce0(A,B,C) :- special_vnm_29_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}soft_vnm_29_nl0_ce1(D,E,F,G) :- special_vnm_29_nl0_ce0(A,B,C,D,E)  .
+#exists{G}selection_vnm_29_nl0_ce2(C,G)   :- special_vnm_29_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  wonder_ad_30_nl0_ce0(A,B,C,D,E,F)  :- want_ad_30_nl0_ce0(A,B,C,D,E)  .
+  plate_vi_30_nl0_ce0(A,B) :- flower_vi_30_nl0_ce0(A,B,C,D)  .
+lift_vi_30_nl0_ce1(A,C,D)   :- flower_vi_30_nl0_ce0(A,B,C,D)  .
+#exists{F}  protest_vh_30_nl0_ce0(A,B,F) :- stick_vh_30_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}reply_vh_30_nl0_ce1(C,D,E,G,F)   :- stick_vh_30_nl0_ce0(A,B,C,D,E)  .
+  regret_vnm_30_nl0_ce0(A,B) :- chief_vnm_30_nl0_ce0(A,B,C)  .
+#exists{D,E}color_vnm_30_nl0_ce1(C,D,E) :- chief_vnm_30_nl0_ce0(A,B,C)  .
+#exists{E}work_vnm_30_nl0_ce2(B,E)   :- chief_vnm_30_nl0_ce0(A,B,C)  .
+#exists{F}  avoid_ad_31_nl0_ce0(A,B,C,D,E,F)  :- cause_ad_31_nl0_ce0(A,B,C,D,E)  .
+  expert_vi_31_nl0_ce0(A,B,C) :- strong_vi_31_nl0_ce0(A,B,C,D,E,F)  .
+sort_vi_31_nl0_ce1(A,D,E,F)   :- strong_vi_31_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G}  material_vh_31_nl0_ce0(A,B,C,G) :- whistle_vh_31_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}cow_vh_31_nl0_ce1(D,E,F,H,G)   :- whistle_vh_31_nl0_ce0(A,B,C,D,E,F)  .
+  canvas_vnm_31_nl0_ce0(A,B) :- woman_vnm_31_nl0_ce0(A,B,C)  .
+#exists{D,E}count_vnm_31_nl0_ce1(C,D,E) :- woman_vnm_31_nl0_ce0(A,B,C)  .
+#exists{E}weather_vnm_31_nl0_ce2(B,E)   :- woman_vnm_31_nl0_ce0(A,B,C)  .
+#exists{E}  reading_ad_32_nl0_ce0(A,B,C,D,E)  :- become_ad_32_nl0_ce0(A,B,C,D)  .
+  climb_vi_32_nl0_ce0(A,B) :- avoid_vi_32_nl0_ce0(A,B,C)  .
+ill_vi_32_nl0_ce1(A,C)   :- avoid_vi_32_nl0_ce0(A,B,C)  .
+#exists{C}  test_vh_32_nl0_ce0(A,C) :- degree_vh_32_nl0_ce0(A,B)  .
+#exists{C,D}mine_vh_32_nl0_ce1(B,D,C)   :- degree_vh_32_nl0_ce0(A,B)  .
+  stitch_vnm_32_nl0_ce0(A,B,C) :- loose_vnm_32_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}discuss_vnm_32_nl0_ce1(D,E,F,G) :- loose_vnm_32_nl0_ce0(A,B,C,D,E)  .
+#exists{G}moon_vnm_32_nl0_ce2(C,G)   :- loose_vnm_32_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  damage_ad_33_nl0_ce0(A,B,C,D)  :- worm_ad_33_nl0_ce0(A,B,C)  .
+  feeble_vi_33_nl0_ce0(A,B) :- test_vi_33_nl0_ce0(A,B,C)  .
+collar_vi_33_nl0_ce1(A,C)   :- test_vi_33_nl0_ce0(A,B,C)  .
+#exists{F}  verse_vh_33_nl0_ce0(A,B,F) :- building_vh_33_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}open_vh_33_nl0_ce1(C,D,E,G,F)   :- building_vh_33_nl0_ce0(A,B,C,D,E)  .
+  knot_vnm_33_nl0_ce0(A,B,C) :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+#exists{E,F}forgive_vnm_33_nl0_ce1(D,E,F) :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+#exists{F}yellow_vnm_33_nl0_ce2(C,F)   :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+#exists{F}  like_ad_34_nl0_ce0(A,B,C,D,E,F)  :- spoon_ad_34_nl0_ce0(A,B,C,D,E)  .
+  join_vi_34_nl0_ce0(A,B,C) :- enable_ad_9_nl0_ce0(A,B,C,D,E)  .
+peace_vi_34_nl0_ce1(A,D,E)   :- enable_ad_9_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  rest_vh_34_nl0_ce0(A,B,F) :- representative_vh_34_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}attorney_vh_34_nl0_ce1(C,D,E,G,F)   :- representative_vh_34_nl0_ce0(A,B,C,D,E)  .
+  blue_vh_1_nl0_ce0(A,B,C,D) :- effect_vnm_34_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}punishment_vnm_24_nl0_ce1(E,F,G,H) :- effect_vnm_34_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}moon_vnm_32_nl0_ce2(D,H)   :- effect_vnm_34_nl0_ce0(A,B,C,D,E,F)  .
+#exists{B}  authority_vnm_24_nl0_ce2(A,B)  :- condition_ad_35_nl0_ce0(A)  .
+  protest_vi_35_nl0_ce0(A,B) :- pull_vi_35_nl0_ce0(A,B,C)  .
+help_vi_35_nl0_ce1(A,C)   :- pull_vi_35_nl0_ce0(A,B,C)  .
+#exists{C}  seem_vh_35_nl0_ce0(A,C) :- paper_vh_35_nl0_ce0(A,B)  .
+#exists{C,D}agreement_vh_35_nl0_ce1(B,D,C)   :- paper_vh_35_nl0_ce0(A,B)  .
+  complete_vh_4_nl0_ce0(A,B,C) :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+#exists{E,F}deliver_vi_28_nl0_ce1(D,E,F) :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+#exists{F}weather_vnm_31_nl0_ce2(C,F)   :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+#exists{E}  copy_ad_36_nl0_ce0(A,B,C,D,E)  :- learning_ad_36_nl0_ce0(A,B,C,D)  .
+  develop_vi_36_nl0_ce0(A,B) :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+band_vi_36_nl0_ce1(A,C,D)   :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+#exists{F}  glove_vh_36_nl0_ce0(A,B,F) :- want_ad_30_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}jump_vh_36_nl0_ce1(C,D,E,G,F)   :- want_ad_30_nl0_ce0(A,B,C,D,E)  .
+  farm_vnm_3_nl0_ce0(A,B,C) :- hard_vnm_36_nl0_ce0(A,B,C,D)  .
+#exists{E,F}society_vi_22_nl0_ce1(D,E,F) :- hard_vnm_36_nl0_ce0(A,B,C,D)  .
+#exists{F}examine_vnm_20_nl0_ce2(C,F)   :- hard_vnm_36_nl0_ce0(A,B,C,D)  .
+#exists{F}  treat_ad_37_nl0_ce0(A,B,C,D,E,F)  :- shake_ad_37_nl0_ce0(A,B,C,D,E)  .
+  shut_vi_37_nl0_ce0(A,B,C) :- record_vi_37_nl0_ce0(A,B,C,D,E,F)  .
+approval_vi_37_nl0_ce1(A,D,E,F)   :- record_vi_37_nl0_ce0(A,B,C,D,E,F)  .
+#exists{D}  let_vh_37_nl0_ce0(A,D) :- drive_vh_37_nl0_ce0(A,B,C)  .
+#exists{D,E}respect_vh_37_nl0_ce1(B,C,E,D)   :- drive_vh_37_nl0_ce0(A,B,C)  .
+  move_vnm_37_nl0_ce0(A,B,C) :- sweet_vnm_37_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}die_vnm_37_nl0_ce1(D,E,F,G) :- sweet_vnm_37_nl0_ce0(A,B,C,D,E)  .
+#exists{G}bottle_vnm_37_nl0_ce2(C,G)   :- sweet_vnm_37_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  kill_ad_38_nl0_ce0(A,B,C,D)  :- paint_vnm_2_nl0_ce0(A,B,C)  .
+  knowledge_vi_38_nl0_ce0(A,B) :- bucket_vh_8_nl0_ce0(A,B,C,D)  .
+delicate_vi_38_nl0_ce1(A,C,D)   :- bucket_vh_8_nl0_ce0(A,B,C,D)  .
+#exists{E}  night_vh_38_nl0_ce0(A,B,E) :- bag_vh_38_nl0_ce0(A,B,C,D)  .
+#exists{E,F}chemical_vh_38_nl0_ce1(C,D,F,E)   :- bag_vh_38_nl0_ce0(A,B,C,D)  .
+  contain_vnm_38_nl0_ce0(A,B,C,D) :- scissors_vnm_38_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}breath_vnm_38_nl0_ce1(E,F,G,H) :- scissors_vnm_38_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}report_vnm_38_nl0_ce2(D,H)   :- scissors_vnm_38_nl0_ce0(A,B,C,D,E,F)  .
+#exists{F}  reflect_vh_16_nl0_ce1(A,B,C,D,E,F)  :- air_ad_39_nl0_ce0(A,B,C,D,E)  .
+  record_vnm_23_nl0_ce2(A,B) :- tree_vi_39_nl0_ce0(A,B,C)  .
+leather_vnm_27_nl0_ce2(A,C)   :- tree_vi_39_nl0_ce0(A,B,C)  .
+#exists{F}  fly_vh_39_nl0_ce0(A,B,F) :- control_vh_39_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}cut_vh_39_nl0_ce1(C,D,E,G,F)   :- control_vh_39_nl0_ce0(A,B,C,D,E)  .
+  summer_vnm_39_nl0_ce0(A,B,C) :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{E,F}way_vnm_39_nl0_ce1(D,E,F) :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{F}angry_vnm_39_nl0_ce2(C,F)   :- force_vnm_19_nl0_ce0(A,B,C,D)  .
+#exists{E}  drain_ad_40_nl0_ce0(A,B,C,D,E)  :- last_vnm_35_nl0_ce0(A,B,C,D)  .
+  peace_vi_40_nl0_ce0(A,B,C) :- scissors_vnm_38_nl0_ce0(A,B,C,D,E,F)  .
+indicate_vi_40_nl0_ce1(A,D,E,F)   :- scissors_vnm_38_nl0_ce0(A,B,C,D,E,F)  .
+#exists{D}  move_vh_40_nl0_ce0(A,D) :- stop_vh_21_nl0_ce0(A,B,C)  .
+#exists{D,E}place_vh_40_nl0_ce1(B,C,E,D)   :- stop_vh_21_nl0_ce0(A,B,C)  .
+  ring_vnm_40_nl0_ce0(A,B) :- regret_vnm_40_nl0_ce0(A,B,C)  .
+#exists{D,E}experience_vnm_40_nl0_ce1(C,D,E) :- regret_vnm_40_nl0_ce0(A,B,C)  .
+#exists{E}gold_vnm_40_nl0_ce2(B,E)   :- regret_vnm_40_nl0_ce0(A,B,C)  .
+#exists{E}  short_ad_41_nl0_ce0(A,B,C,D,E)  :- parallel_ad_41_nl0_ce0(A,B,C,D)  .
+  touch_vi_41_nl0_ce0(A,B,C) :- enable_ad_9_nl0_ce0(A,B,C,D,E)  .
+separate_vi_41_nl0_ce1(A,D,E)   :- enable_ad_9_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  side_vh_41_nl0_ce0(A,B,F) :- join_vh_41_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}orange_vh_41_nl0_ce1(C,D,E,G,F)   :- join_vh_41_nl0_ce0(A,B,C,D,E)  .
+  soft_vnm_29_nl0_ce1(A,B,C,D) :- umbrella_vnm_41_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}invention_vh_26_nl0_ce0(E,F,G,H) :- umbrella_vnm_41_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}feeble_vi_33_nl0_ce0(D,H)   :- umbrella_vnm_41_nl0_ce0(A,B,C,D,E,F)  .
+#exists{D}  steel_ad_42_nl0_ce0(A,B,C,D)  :- see_ad_42_nl0_ce0(A,B,C)  .
+  skin_vi_24_nl0_ce1(A,B,C) :- reply_vi_42_nl0_ce0(A,B,C,D,E)  .
+bee_vi_16_nl0_ce1(A,D,E)   :- reply_vi_42_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  sun_vh_42_nl0_ce0(A,B,C,G) :- book_vh_42_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}connection_vh_42_nl0_ce1(D,E,F,H,G)   :- book_vh_42_nl0_ce0(A,B,C,D,E,F)  .
+  sense_vnm_42_nl0_ce0(A,B,C,D) :- sex_vnm_42_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}exist_vnm_42_nl0_ce1(E,F,G,H) :- sex_vnm_42_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}relate_vnm_42_nl0_ce2(D,H)   :- sex_vnm_42_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  prove_ad_43_nl0_ce0(A,B,C,D,E)  :- laugh_ad_13_nl0_ce0(A,B,C,D)  .
+  sea_ad_21_nl0_ce0(A,B,C,D,E,F) :- music_vi_43_nl0_ce0(A,B,C,D,E,F,G,H,I,J,K)  .
+clock_ad_7_nl0_ce0(A,G,H,I,J,K)   :- music_vi_43_nl0_ce0(A,B,C,D,E,F,G,H,I,J,K)  .
+#exists{E}  body_vh_43_nl0_ce0(A,B,E) :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+#exists{E,F}day_vh_43_nl0_ce1(C,D,F,E)   :- wing_vh_14_nl0_ce0(A,B,C,D)  .
+  deliver_vi_28_nl0_ce1(A,B,C) :- error_vnm_43_nl0_ce0(A,B,C,D)  .
+#exists{E,F}tin_vnm_16_nl0_ce0(D,E,F) :- error_vnm_43_nl0_ce0(A,B,C,D)  .
+#exists{F}simple_vnm_23_nl0_ce0(C,F)   :- error_vnm_43_nl0_ce0(A,B,C,D)  .
+#exists{F}  person_ad_44_nl0_ce0(A,B,C,D,E,F)  :- natural_ad_44_nl0_ce0(A,B,C,D,E)  .
+  second_vnm_16_nl0_ce2(A,B) :- stone_vi_44_nl0_ce0(A,B,C)  .
+climb_vi_32_nl0_ce0(A,C)   :- stone_vi_44_nl0_ce0(A,B,C)  .
+#exists{F}  tray_vh_44_nl0_ce0(A,B,F) :- air_ad_39_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}found_vh_44_nl0_ce1(C,D,E,G,F)   :- air_ad_39_nl0_ce0(A,B,C,D,E)  .
+  mouth_vnm_44_nl0_ce0(A,B) :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{D,E}industry_vnm_44_nl0_ce1(C,D,E) :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{E}group_vnm_44_nl0_ce2(B,E)   :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{F}  roll_ad_45_nl0_ce0(A,B,C,D,E,F)  :- visit_ad_45_nl0_ce0(A,B,C,D,E)  .
+  narrow_vi_45_nl0_ce0(A,B) :- delicate_ad_6_nl0_ce0(A,B,C,D)  .
+disease_vi_45_nl0_ce1(A,C,D)   :- delicate_ad_6_nl0_ce0(A,B,C,D)  .
+#exists{E}  happen_vh_45_nl0_ce0(A,B,E) :- become_vh_45_nl0_ce0(A,B,C,D)  .
+#exists{E,F}shade_vh_45_nl0_ce1(C,D,F,E)   :- become_vh_45_nl0_ce0(A,B,C,D)  .
+  garden_vnm_45_nl0_ce0(A,B,C) :- make_ad_5_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}contribute_vnm_45_nl0_ce1(D,E,F,G) :- make_ad_5_nl0_ce0(A,B,C,D,E)  .
+#exists{G}yellow_vnm_45_nl0_ce2(C,G)   :- make_ad_5_nl0_ce0(A,B,C,D,E)  .
+#exists{C}  present_vnm_15_nl0_ce0(A,B,C)  :- gain_ad_46_nl0_ce0(A,B)  .
+  arch_vi_46_nl0_ce0(A,B,C) :- pass_vi_46_nl0_ce0(A,B,C,D,E)  .
+compare_vi_46_nl0_ce1(A,D,E)   :- pass_vi_46_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  cloth_vh_46_nl0_ce0(A,B,C,G) :- fill_vh_46_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}meal_vh_46_nl0_ce1(D,E,F,H,G)   :- fill_vh_46_nl0_ce0(A,B,C,D,E,F)  .
+  grass_vnm_46_nl0_ce0(A,B,C,D) :- wax_vnm_46_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}poison_vnm_46_nl0_ce1(E,F,G,H) :- wax_vnm_46_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}office_vnm_46_nl0_ce2(D,H)   :- wax_vnm_46_nl0_ce0(A,B,C,D,E,F)  .
+#exists{F}  last_ad_47_nl0_ce0(A,B,C,D,E,F)  :- last_vnm_26_nl0_ce0(A,B,C,D,E)  .
+  effect_vi_47_nl0_ce0(A,B,C) :- division_vh_2_nl0_ce0(A,B,C,D,E,F)  .
+sound_vi_47_nl0_ce1(A,D,E,F)   :- division_vh_2_nl0_ce0(A,B,C,D,E,F)  .
+#exists{D}  solid_vh_47_nl0_ce0(A,D) :- nerve_vh_47_nl0_ce0(A,B,C)  .
+#exists{D,E}fall_vh_47_nl0_ce1(B,C,E,D)   :- nerve_vh_47_nl0_ce0(A,B,C)  .
+  own_vnm_47_nl0_ce0(A,B,C) :- apparatus_vnm_47_nl0_ce0(A,B,C,D)  .
+#exists{E,F}intend_vnm_47_nl0_ce1(D,E,F) :- apparatus_vnm_47_nl0_ce0(A,B,C,D)  .
+#exists{F}true_vnm_47_nl0_ce2(C,F)   :- apparatus_vnm_47_nl0_ce0(A,B,C,D)  .
+#exists{G}  loss_ad_48_nl0_ce0(A,B,C,D,E,F,G)  :- wax_vnm_46_nl0_ce0(A,B,C,D,E,F)  .
+  fact_vi_48_nl0_ce0(A,B,C,D) :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+obtain_vi_48_nl0_ce1(A,E,F,G)   :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{F}  clear_vh_48_nl0_ce0(A,B,F) :- detail_vh_48_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}achieve_vh_48_nl0_ce1(C,D,E,G,F)   :- detail_vh_48_nl0_ce0(A,B,C,D,E)  .
+  voice_vnm_48_nl0_ce0(A,B,C) :- possible_ad_21_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}flower_vnm_48_nl0_ce1(D,E,F,G) :- possible_ad_21_nl0_ce0(A,B,C,D,E)  .
+#exists{G}must_vnm_48_nl0_ce2(C,G)   :- possible_ad_21_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  whistle_ad_49_nl0_ce0(A,B,C,D)  :- tree_vi_39_nl0_ce0(A,B,C)  .
+  fish_vi_49_nl0_ce0(A,B,C) :- check_vi_49_nl0_ce0(A,B,C,D,E)  .
+tight_vi_49_nl0_ce1(A,D,E)   :- check_vi_49_nl0_ce0(A,B,C,D,E)  .
+#exists{F}  language_vh_49_nl0_ce0(A,B,F) :- past_vh_49_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}bucket_vh_49_nl0_ce1(C,D,E,G,F)   :- past_vh_49_nl0_ce0(A,B,C,D,E)  .
+  manager_vnm_49_nl0_ce0(A,B) :- voice_vnm_49_nl0_ce0(A,B,C)  .
+#exists{D,E}arm_vnm_49_nl0_ce1(C,D,E) :- voice_vnm_49_nl0_ce0(A,B,C)  .
+#exists{E}process_vnm_49_nl0_ce2(B,E)   :- voice_vnm_49_nl0_ce0(A,B,C)  .
+#exists{E}  chalk_ad_50_nl0_ce0(A,B,C,D,E)  :- share_ad_50_nl0_ce0(A,B,C,D)  .
+  separate_vi_41_nl0_ce1(A,B,C) :- insurance_vi_50_nl0_ce0(A,B,C,D,E)  .
+use_vi_23_nl0_ce0(A,D,E)   :- insurance_vi_50_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  place_vnm_1_nl0_ce1(A,B,C,G) :- seat_vh_50_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}know_vh_15_nl0_ce1(D,E,F,H,G)   :- seat_vh_50_nl0_ce0(A,B,C,D,E,F)  .
+  brick_vnm_50_nl0_ce0(A,B) :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{D,E}hold_vnm_50_nl0_ce1(C,D,E) :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{E}work_vnm_50_nl0_ce2(B,E)   :- record_vnm_44_nl0_ce0(A,B,C)  .
+#exists{E}  suggest_ad_51_nl0_ce0(A,B,C,D,E)  :- structure_vh_22_nl0_ce0(A,B,C,D)  .
+  yellow_vi_11_nl0_ce1(A,B,C) :- attack_vi_51_nl0_ce0(A,B,C,D,E)  .
+kind_vi_3_nl0_ce0(A,D,E)   :- attack_vi_51_nl0_ce0(A,B,C,D,E)  .
+#exists{C}  deliver_vh_51_nl0_ce0(A,C) :- feather_vi_21_nl0_ce0(A,B)  .
+#exists{C,D}round_vh_51_nl0_ce1(B,D,C)   :- feather_vi_21_nl0_ce0(A,B)  .
+  account_vh_9_nl0_ce0(A,B,C) :- circle_vnm_51_nl0_ce0(A,B,C,D)  .
+#exists{E,F}industry_vnm_44_nl0_ce1(D,E,F) :- circle_vnm_51_nl0_ce0(A,B,C,D)  .
+#exists{F}mouth_vnm_44_nl0_ce0(C,F)   :- circle_vnm_51_nl0_ce0(A,B,C,D)  .
+#exists{D}  breath_vnm_38_nl0_ce1(A,B,C,D)  :- chess_ad_52_nl0_ce0(A,B,C)  .
+  light_vi_52_nl0_ce0(A,B) :- comb_vi_52_nl0_ce0(A,B,C,D)  .
+industry_vi_52_nl0_ce1(A,C,D)   :- comb_vi_52_nl0_ce0(A,B,C,D)  .
+#exists{G}  indicate_vi_40_nl0_ce1(A,B,C,G) :- leather_vh_52_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}charge_vh_3_nl0_ce1(D,E,F,H,G)   :- leather_vh_52_nl0_ce0(A,B,C,D,E,F)  .
+  snow_vnm_52_nl0_ce0(A,B,C) :- shut_vnm_52_nl0_ce0(A,B,C,D)  .
+#exists{E,F}smoke_vnm_52_nl0_ce1(D,E,F) :- shut_vnm_52_nl0_ce0(A,B,C,D)  .
+#exists{F}card_vnm_52_nl0_ce2(C,F)   :- shut_vnm_52_nl0_ce0(A,B,C,D)  .
+#exists{C}  amount_vnm_18_nl0_ce1(A,B,C)  :- bed_ad_53_nl0_ce0(A,B)  .
+  peace_vi_40_nl0_ce0(A,B,C) :- danger_vi_53_nl0_ce0(A,B,C,D,E)  .
+late_vi_7_nl0_ce1(A,D,E)   :- danger_vi_53_nl0_ce0(A,B,C,D,E)  .
+#exists{G}  line_vh_53_nl0_ce0(A,B,C,G) :- sneeze_vh_53_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}watch_vh_53_nl0_ce1(D,E,F,H,G)   :- sneeze_vh_53_nl0_ce0(A,B,C,D,E,F)  .
+  relation_vnm_53_nl0_ce0(A,B,C,D) :- fold_vnm_53_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{H,I}move_vnm_53_nl0_ce1(E,F,G,H,I) :- fold_vnm_53_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{I}music_vnm_53_nl0_ce2(D,I)   :- fold_vnm_53_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{C}  look_vi_13_nl0_ce1(A,B,C)  :- cruel_ad_54_nl0_ce0(A,B)  .
+  swim_vi_54_nl0_ce0(A,B) :- respect_vnm_7_nl0_ce0(A,B,C,D)  .
+regret_vi_54_nl0_ce1(A,C,D)   :- respect_vnm_7_nl0_ce0(A,B,C,D)  .
+#exists{G}  discuss_vnm_32_nl0_ce1(A,B,C,G) :- straight_vh_54_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}paint_vh_24_nl0_ce1(D,E,F,H,G)   :- straight_vh_54_nl0_ce0(A,B,C,D,E,F)  .
+  private_vnm_54_nl0_ce0(A,B,C,D) :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{H,I}blood_vnm_54_nl0_ce1(E,F,G,H,I) :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{I}lock_vnm_54_nl0_ce2(D,I)   :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{C}  attack_vnm_19_nl0_ce0(A,B,C)  :- dress_ad_55_nl0_ce0(A,B)  .
+  reading_ad_32_nl0_ce0(A,B,C,D,E) :- porter_vi_55_nl0_ce0(A,B,C,D,E,F,G,H,I)  .
+reason_ad_18_nl0_ce0(A,F,G,H,I)   :- porter_vi_55_nl0_ce0(A,B,C,D,E,F,G,H,I)  .
+#exists{E}  sleep_vnm_12_nl0_ce0(A,B,E) :- private_vh_55_nl0_ce0(A,B,C,D)  .
+#exists{E,F}fertile_vh_7_nl0_ce1(C,D,F,E)   :- private_vh_55_nl0_ce0(A,B,C,D)  .
+  delicate_vi_26_nl0_ce1(A,B,C) :- plough_vnm_55_nl0_ce0(A,B,C,D)  .
+#exists{E,F}own_vnm_47_nl0_ce0(D,E,F) :- plough_vnm_55_nl0_ce0(A,B,C,D)  .
+#exists{F}stone_vh_7_nl0_ce0(C,F)   :- plough_vnm_55_nl0_ce0(A,B,C,D)  .
+#exists{E}  protest_ad_56_nl0_ce0(A,B,C,D,E)  :- place_vi_6_nl0_ce0(A,B,C,D)  .
+  error_vi_56_nl0_ce0(A,B,C) :- early_vi_56_nl0_ce0(A,B,C,D,E,F)  .
+twist_vi_56_nl0_ce1(A,D,E,F)   :- early_vi_56_nl0_ce0(A,B,C,D,E,F)  .
+#exists{D}  learn_vh_56_nl0_ce0(A,D) :- write_vh_56_nl0_ce0(A,B,C)  .
+#exists{D,E}loose_vh_56_nl0_ce1(B,C,E,D)   :- write_vh_56_nl0_ce0(A,B,C)  .
+  first_vnm_11_nl0_ce1(A,B,C,D) :- secret_vnm_56_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}sense_vnm_42_nl0_ce0(E,F,G,H) :- secret_vnm_56_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}parallel_vnm_2_nl0_ce0(D,H)   :- secret_vnm_56_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G}  feeble_ad_57_nl0_ce0(A,B,C,D,E,F,G)  :- sneeze_vh_53_nl0_ce0(A,B,C,D,E,F)  .
+  whistle_ad_49_nl0_ce0(A,B,C,D) :- map_vi_57_nl0_ce0(A,B,C,D,E,F,G)  .
+damage_ad_33_nl0_ce0(A,E,F,G)   :- map_vi_57_nl0_ce0(A,B,C,D,E,F,G)  .
+#exists{F}  girl_vh_57_nl0_ce0(A,B,F) :- shoe_vh_57_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}cart_vh_57_nl0_ce1(C,D,E,G,F)   :- shoe_vh_57_nl0_ce0(A,B,C,D,E)  .
+  offer_vnm_57_nl0_ce0(A,B,C,D) :- must_vnm_57_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}fertile_vnm_57_nl0_ce1(E,F,G,H) :- must_vnm_57_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}carry_vnm_57_nl0_ce2(D,H)   :- must_vnm_57_nl0_ce0(A,B,C,D,E,F)  .
+#exists{F}  tree_ad_58_nl0_ce0(A,B,C,D,E,F)  :- sing_ad_58_nl0_ce0(A,B,C,D,E)  .
+  curve_vi_58_nl0_ce0m(A,B) :- curve_vi_58_nl0_ce0(A,B,C,D)  .
+play_vi_58_nl0_ce1(A,C,D)   :- curve_vi_58_nl0_ce0(A,B,C,D)  .
+#exists{D}  nation_vh_58_nl0_ce0(A,D) :- contact_vh_58_nl0_ce0(A,B,C)  .
+#exists{D,E}knock_vh_58_nl0_ce1(B,C,E,D)   :- contact_vh_58_nl0_ce0(A,B,C)  .
+  liquid_vnm_58_nl0_ce0(A,B,C,D) :- do_vnm_58_nl0_ce0(A,B,C,D,E,F)  .
+#exists{G,H}loose_vnm_58_nl0_ce1(E,F,G,H) :- do_vnm_58_nl0_ce0(A,B,C,D,E,F)  .
+#exists{H}lay_vnm_58_nl0_ce2(D,H)   :- do_vnm_58_nl0_ce0(A,B,C,D,E,F)  .
+#exists{C}  green_vnm_8_nl0_ce1(A,B,C)  :- organization_ad_59_nl0_ce0(A,B)  .
+  substance_vi_59_nl0_ce0(A,B,C) :- behavior_vi_59_nl0_ce0(A,B,C,D,E,F)  .
+mean_vi_59_nl0_ce1(A,D,E,F)   :- behavior_vi_59_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  answer_vh_59_nl0_ce0(A,B,E) :- cover_vi_17_nl0_ce0(A,B,C,D)  .
+#exists{E,F}play_vh_59_nl0_ce1(C,D,F,E)   :- cover_vi_17_nl0_ce0(A,B,C,D)  .
+  knot_vnm_33_nl0_ce0(A,B,C) :- need_vnm_59_nl0_ce0(A,B,C,D)  .
+#exists{E,F}move_vnm_37_nl0_ce0(D,E,F) :- need_vnm_59_nl0_ce0(A,B,C,D)  .
+#exists{F}business_vi_11_nl0_ce0(C,F)   :- need_vnm_59_nl0_ce0(A,B,C,D)  .
+#exists{D}  wax_ad_60_nl0_ce0(A,B,C,D)  :- see_ad_42_nl0_ce0(A,B,C)  .
+  female_vi_60_nl0_ce0(A,B,C) :- insurance_vi_14_nl0_ce0(A,B,C,D,E,F)  .
+jelly_vi_60_nl0_ce1(A,D,E,F)   :- insurance_vi_14_nl0_ce0(A,B,C,D,E,F)  .
+#exists{C}  weight_vh_60_nl0_ce0(A,C) :- dress_ad_55_nl0_ce0(A,B)  .
+#exists{C,D}page_vh_60_nl0_ce1(B,D,C)   :- dress_ad_55_nl0_ce0(A,B)  .
+  fall_vnm_60_nl0_ce0(A,B,C) :- limit_vnm_60_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}common_vnm_60_nl0_ce1(D,E,F,G) :- limit_vnm_60_nl0_ce0(A,B,C,D,E)  .
+#exists{G}safe_vnm_60_nl0_ce2(C,G)   :- limit_vnm_60_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  use_ad_61_nl0_ce0(A,B,C,D)  :- worm_ad_33_nl0_ce0(A,B,C)  .
+  avoid_vi_61_nl0_ce0(A,B,C) :- damage_vi_61_nl0_ce0(A,B,C,D,E,F)  .
+grey_vi_61_nl0_ce1(A,D,E,F)   :- damage_vi_61_nl0_ce0(A,B,C,D,E,F)  .
+#exists{E}  blue_vh_61_nl0_ce0(A,B,E) :- learning_ad_36_nl0_ce0(A,B,C,D)  .
+#exists{E,F}stick_vh_61_nl0_ce1(C,D,F,E)   :- learning_ad_36_nl0_ce0(A,B,C,D)  .
+  delicate_vi_38_nl0_ce1(A,B,C) :- watch_vnm_61_nl0_ce0(A,B,C,D)  .
+#exists{E,F}pain_vnm_4_nl0_ce1(D,E,F) :- watch_vnm_61_nl0_ce0(A,B,C,D)  .
+#exists{F}mist_vnm_25_nl0_ce2(C,F)   :- watch_vnm_61_nl0_ce0(A,B,C,D)  .
+#exists{E}  poison_ad_62_nl0_ce0(A,B,C,D,E)  :- back_ad_62_nl0_ce0(A,B,C,D)  .
+  eat_ad_8_nl0_ce0(A,B,C,D,E) :- brick_vi_62_nl0_ce0(A,B,C,D,E,F,G,H,I)  .
+deep_ad_16_nl0_ce0(A,F,G,H,I)   :- brick_vi_62_nl0_ce0(A,B,C,D,E,F,G,H,I)  .
+#exists{F}  smell_vh_62_nl0_ce0(A,B,F) :- buy_vh_62_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}base_vh_62_nl0_ce1(C,D,E,G,F)   :- buy_vh_62_nl0_ce0(A,B,C,D,E)  .
+  cushion_vnm_62_nl0_ce0(A,B) :- new_vnm_62_nl0_ce0(A,B)  .
+#exists{C,D}bell_vnm_62_nl0_ce1(C,D) :- new_vnm_62_nl0_ce0(A,B)  .
+#exists{D}could_vnm_62_nl0_ce2(B,D)   :- new_vnm_62_nl0_ce0(A,B)  .
+#exists{H}  protest_ad_63_nl0_ce0(A,B,C,D,E,F,G,H)  :- winter_vh_16_nl0_ce0(A,B,C,D,E,F,G)  .
+  would_vi_63_nl0_ce0(A,B) :- glove_vi_63_nl0_ce0(A,B,C)  .
+gun_vi_63_nl0_ce1(A,C)   :- glove_vi_63_nl0_ce0(A,B,C)  .
+#exists{E}  conscious_vnm_13_nl0_ce0(A,B,E) :- look_vh_63_nl0_ce0(A,B,C,D)  .
+#exists{E,F}hate_vh_6_nl0_ce1(C,D,F,E)   :- look_vh_63_nl0_ce0(A,B,C,D)  .
+  collar_vnm_63_nl0_ce0(A,B,C) :- eat_vnm_63_nl0_ce0(A,B,C,D,E)  .
+#exists{F,G}concern_vnm_63_nl0_ce1(D,E,F,G) :- eat_vnm_63_nl0_ce0(A,B,C,D,E)  .
+#exists{G}science_vnm_63_nl0_ce2(C,G)   :- eat_vnm_63_nl0_ce0(A,B,C,D,E)  .
+#exists{D}  ray_ad_64_nl0_ce0(A,B,C,D)  :- belong_vnm_18_nl0_ce0(A,B,C)  .
+  neck_vi_64_nl0_ce0(A,B) :- clear_vi_64_nl0_ce0(A,B,C,D)  .
+encourage_vi_64_nl0_ce1(A,C,D)   :- clear_vi_64_nl0_ce0(A,B,C,D)  .
+#exists{D}  fly_vh_64_nl0_ce0(A,D) :- base_vh_64_nl0_ce0(A,B,C)  .
+#exists{D,E}twist_vh_64_nl0_ce1(B,C,E,D)   :- base_vh_64_nl0_ce0(A,B,C)  .
+  use_vnm_64_nl0_ce0(A,B) :- worm_ad_33_nl0_ce0(A,B,C)  .
+#exists{D,E}grey_vnm_64_nl0_ce1(C,D,E) :- worm_ad_33_nl0_ce0(A,B,C)  .
+#exists{E}horse_vnm_64_nl0_ce2(B,E)   :- worm_ad_33_nl0_ce0(A,B,C)  .
+#exists{COMPARE_VI_1_NL0_AE0KE0JOINATTR,DEMAND_VI_1_NL0_AE10,GREAT_VI_1_NL0_AE21}  different_vi_1_nl0_ce0(COMPARE_VI_1_NL0_AE0KE0JOINATTR,DEMAND_VI_1_NL0_AE10,GREAT_VI_1_NL0_AE21)  :- society_vi_1_nl0_ce1(COMPARE_VI_1_NL0_AE0KE0REF,BOARD_VI_1_NL0_AE3,AFFECT_VI_1_NL0_AE4)  .
+#exists{RED_VH_1_NL0_AE11,TAIL_VH_1_NL0_AE00,WRONG_VH_1_NL0_AE22}  blue_vh_1_nl0_ce0(TAIL_VH_1_NL0_AE00, RED_VH_1_NL0_AE11, WRONG_VH_1_NL0_AE22, LETTER_VH_1_NL0_AE0JOINATTR)  :- describe_vh_1_nl0_ce1(PAST_VH_1_NL0_AE30, WHEEL_VH_1_NL0_AE41, WORK_VH_1_NL0_AE52, LETTER_VH_1_NL0_AE0JOINATTR, LETTER_VH_1_NL0_AE0JOINATTRREF3)  .
+#exists{ATTENTION_VNM_1_NL0_AE11,NIGHT_VNM_1_NL0_AE0KE00,OVEN_VNM_1_NL0_AE00}  rest_vnm_1_nl0_ce0(NIGHT_VNM_1_NL0_AE0KE00, ATTENTION_VNM_1_NL0_AE11, OVEN_VNM_1_NL0_AE00)  :- expansion_vnm_1_nl0_ce2(OVEN_VNM_1_NL0_AE00REF, NARROW_VNM_1_NL1_AE01REF)  .
+#exists{DIFFERENT_VNM_1_NL0_AE31,DISCOVER_VNM_1_NL0_AE20,NARROW_VNM_1_NL1_AE01,REVEAL_VNM_1_NL0_AE42}  place_vnm_1_nl0_ce1(DISCOVER_VNM_1_NL0_AE20, DIFFERENT_VNM_1_NL0_AE31, REVEAL_VNM_1_NL0_AE42, NARROW_VNM_1_NL1_AE01)  :- expansion_vnm_1_nl0_ce2(OVEN_VNM_1_NL0_AE00REF, NARROW_VNM_1_NL1_AE01REF)  .
+#exists{BRAIN_VI_2_NL0_AE10,BRANCH_VI_2_NL0_AE21,SMALL_VI_2_NL0_AE0KE0JOINATTR}  approval_vi_2_nl0_ce0(SMALL_VI_2_NL0_AE0KE0JOINATTR, BRAIN_VI_2_NL0_AE10, BRANCH_VI_2_NL0_AE21)  :- blow_vi_2_nl0_ce1(SMALL_VI_2_NL0_AE0KE0REF, SWIM_VI_2_NL0_AE3, PLACE_VI_2_NL0_AE4)  .
+#exists{GUN_VH_2_NL0_AE22,PROPERTY_VH_2_NL0_AE11,READY_VH_2_NL0_AE00}  involve_vh_2_nl0_ce0(READY_VH_2_NL0_AE00, PROPERTY_VH_2_NL0_AE11, GUN_VH_2_NL0_AE22, DISCUSS_VH_2_NL0_AE0JOINATTR)  :- use_vh_2_nl0_ce1(WINTER_VH_2_NL0_AE30, POWDER_VH_2_NL0_AE41, WORK_VH_2_NL0_AE52, DISCUSS_VH_2_NL0_AE0JOINATTR, DISCUSS_VH_2_NL0_AE0JOINATTRREF3)  .
+#exists{DEAD_VNM_2_NL0_AE0KE00,KNEE_VNM_2_NL0_AE00}  parallel_vnm_2_nl0_ce0(DEAD_VNM_2_NL0_AE0KE00, KNEE_VNM_2_NL0_AE00)  :- handle_vnm_2_nl0_ce2(KNEE_VNM_2_NL0_AE00REF, LEAVE_VNM_2_NL1_AE01REF)  .
+#exists{LEAVE_VNM_2_NL1_AE01,REGULAR_VNM_2_NL0_AE21,SEND_VNM_2_NL0_AE10}  collection_vnm_2_nl0_ce1(SEND_VNM_2_NL0_AE10, REGULAR_VNM_2_NL0_AE21, LEAVE_VNM_2_NL1_AE01)  :- handle_vnm_2_nl0_ce2(KNEE_VNM_2_NL0_AE00REF, LEAVE_VNM_2_NL1_AE01REF)  .
+#exists{EFFECT_VI_3_NL0_AE21,NECESSARY_VI_3_NL0_AE0KE0JOINATTR,STICK_VI_3_NL0_AE10}  kind_vi_3_nl0_ce0(NECESSARY_VI_3_NL0_AE0KE0JOINATTR, STICK_VI_3_NL0_AE10, EFFECT_VI_3_NL0_AE21)  :- prove_vi_3_nl0_ce1(NECESSARY_VI_3_NL0_AE0KE0REF, SLOW_VI_3_NL0_AE3, WORD_VI_3_NL0_AE4)  .
+#exists{EARLY_VH_3_NL0_AE00,VIOLENT_VH_3_NL0_AE11}  door_vh_3_nl0_ce0(EARLY_VH_3_NL0_AE00, VIOLENT_VH_3_NL0_AE11, MIND_VH_3_NL0_AE0JOINATTR)  :- charge_vh_3_nl0_ce1(CHALK_VH_3_NL0_AE20, REGULAR_VH_3_NL0_AE31, LOVE_VH_3_NL0_AE42, MIND_VH_3_NL0_AE0JOINATTR, MIND_VH_3_NL0_AE0JOINATTRREF3)  .
+#exists{BENT_VNM_3_NL0_AE11,CRUSH_VNM_3_NL0_AE00,SUGAR_VNM_3_NL0_AE0KE00}  farm_vnm_3_nl0_ce0(SUGAR_VNM_3_NL0_AE0KE00, BENT_VNM_3_NL0_AE11, CRUSH_VNM_3_NL0_AE00)  :- language_vnm_3_nl0_ce2(CRUSH_VNM_3_NL0_AE00REF, TREAT_VNM_3_NL1_AE01REF)  .
+#exists{ROD_VNM_3_NL0_AE31,SILK_VNM_3_NL0_AE42,SWEET_VNM_3_NL0_AE20,TREAT_VNM_3_NL1_AE01}  political_vnm_3_nl0_ce1(SWEET_VNM_3_NL0_AE20, ROD_VNM_3_NL0_AE31, SILK_VNM_3_NL0_AE42, TREAT_VNM_3_NL1_AE01)  :- language_vnm_3_nl0_ce2(CRUSH_VNM_3_NL0_AE00REF, TREAT_VNM_3_NL1_AE01REF)  .
+#exists{FOUND_VI_4_NL0_AE0KE0JOINATTR,SLEEP_VI_4_NL0_AE10}  involve_vi_4_nl0_ce0(FOUND_VI_4_NL0_AE0KE0JOINATTR, SLEEP_VI_4_NL0_AE10)  :- mention_vi_4_nl0_ce1(FOUND_VI_4_NL0_AE0KE0REF, CLEAN_VI_4_NL0_AE2, FLOWER_VI_4_NL0_AE3)  .
+#exists{COMPLEX_VH_4_NL0_AE11,GRIP_VH_4_NL0_AE00}  complete_vh_4_nl0_ce0(GRIP_VH_4_NL0_AE00, COMPLEX_VH_4_NL0_AE11, AGENCY_VH_4_NL0_AE0JOINATTR)  :- count_vh_4_nl0_ce1(CLAIM_VH_4_NL0_AE20, STATE_VH_4_NL0_AE31, EGG_VH_4_NL0_AE42, AGENCY_VH_4_NL0_AE0JOINATTR, AGENCY_VH_4_NL0_AE0JOINATTRREF3)  .
+#exists{DEATH_VNM_4_NL0_AE0KE00,LEATHER_VNM_4_NL0_AE00}  gold_vnm_4_nl0_ce0(DEATH_VNM_4_NL0_AE0KE00, LEATHER_VNM_4_NL0_AE00)  :- accept_vnm_4_nl0_ce2(LEATHER_VNM_4_NL0_AE00REF, DISTRIBUTION_VNM_4_NL1_AE01REF)  .
+#exists{DISTRIBUTION_VNM_4_NL1_AE01,HOLLOW_VNM_4_NL0_AE10,HOLLOW_VNM_4_NL0_AE21}  pain_vnm_4_nl0_ce1(HOLLOW_VNM_4_NL0_AE10, HOLLOW_VNM_4_NL0_AE21, DISTRIBUTION_VNM_4_NL1_AE01)  :- accept_vnm_4_nl0_ce2(LEATHER_VNM_4_NL0_AE00REF, DISTRIBUTION_VNM_4_NL1_AE01REF)  .
+#exists{ATTRACTION_VI_5_NL0_AE21,DISEASE_VI_5_NL0_AE10,FEELING_VI_5_NL0_AE0KE0JOINATTR}  pain_vi_5_nl0_ce0(FEELING_VI_5_NL0_AE0KE0JOINATTR, DISEASE_VI_5_NL0_AE10, ATTRACTION_VI_5_NL0_AE21)  :- straight_vi_5_nl0_ce1(FEELING_VI_5_NL0_AE0KE0REF, SAD_VI_5_NL0_AE3, ROOT_VI_5_NL0_AE4)  .
+#exists{COUNT_VH_5_NL0_AE22,QUESTION_VH_5_NL0_AE00,WALK_VH_5_NL0_AE11}  record_vh_5_nl0_ce0(QUESTION_VH_5_NL0_AE00, WALK_VH_5_NL0_AE11, COUNT_VH_5_NL0_AE22, SETTLE_VH_5_NL0_AE0JOINATTR)  :- probable_vh_5_nl0_ce1(INVOLVE_VH_5_NL0_AE30, EXPLAIN_VH_5_NL0_AE41, THEORY_VH_5_NL0_AE52, SETTLE_VH_5_NL0_AE0JOINATTR, SETTLE_VH_5_NL0_AE0JOINATTRREF3)  .
+#exists{FLAT_VNM_5_NL0_AE00,GOAT_VNM_5_NL0_AE0KE00,HEAD_VNM_5_NL0_AE11,JUDGE_VNM_5_NL0_AE22}  boot_vnm_5_nl0_ce0(GOAT_VNM_5_NL0_AE0KE00, HEAD_VNM_5_NL0_AE11, JUDGE_VNM_5_NL0_AE22, FLAT_VNM_5_NL0_AE00)  :- sea_vnm_5_nl0_ce2(FLAT_VNM_5_NL0_AE00REF, TRAIN_VNM_5_NL1_AE01REF)  .
+#exists{AGENCIES_VNM_5_NL0_AE52,IMPULSE_VNM_5_NL0_AE30,PROSE_VNM_5_NL0_AE41,TRAIN_VNM_5_NL1_AE01}  dependent_vnm_5_nl0_ce1(IMPULSE_VNM_5_NL0_AE30, PROSE_VNM_5_NL0_AE41, AGENCIES_VNM_5_NL0_AE52, TRAIN_VNM_5_NL1_AE01)  :- sea_vnm_5_nl0_ce2(FLAT_VNM_5_NL0_AE00REF, TRAIN_VNM_5_NL1_AE01REF)  .
+#exists{DEBTS_VI_6_NL0_AE10,RETURN_VI_6_NL0_AE0KE0JOINATTR}  oven_vi_6_nl0_ce0(RETURN_VI_6_NL0_AE0KE0JOINATTR, DEBTS_VI_6_NL0_AE10)  :- give_vi_6_nl0_ce1(RETURN_VI_6_NL0_AE0KE0REF, WASH_VI_6_NL0_AE2, GAIN_VI_6_NL0_AE3)  .
+#exists{WINDOW_VH_6_NL0_AE00}  animal_vh_6_nl0_ce0(WINDOW_VH_6_NL0_AE00, FEMALE_VH_6_NL0_AE0JOINATTR)  :- hate_vh_6_nl0_ce1(BELONG_VH_6_NL0_AE10, INCREASE_VH_6_NL0_AE21, FEMALE_VH_6_NL0_AE0JOINATTR, FEMALE_VH_6_NL0_AE0JOINATTRREF2)  .
+#exists{CHIN_VNM_6_NL0_AE00,ROUND_VNM_6_NL0_AE0KE00}  argue_vnm_6_nl0_ce0(ROUND_VNM_6_NL0_AE0KE00, CHIN_VNM_6_NL0_AE00)  :- summer_vnm_6_nl0_ce2(CHIN_VNM_6_NL0_AE00REF, SALT_VNM_6_NL1_AE01REF)  .
+#exists{ACT_VNM_6_NL0_AE10,SALT_VNM_6_NL1_AE01,TURN_VNM_6_NL0_AE21}  late_vnm_6_nl0_ce1(ACT_VNM_6_NL0_AE10, TURN_VNM_6_NL0_AE21, SALT_VNM_6_NL1_AE01)  :- summer_vnm_6_nl0_ce2(CHIN_VNM_6_NL0_AE00REF, SALT_VNM_6_NL1_AE01REF)  .
+#exists{HOLLOW_VI_7_NL0_AE21,INFORM_VI_7_NL0_AE10,PRIVATE_VI_7_NL0_AE0KE0JOINATTR}  fly_vi_7_nl0_ce0(PRIVATE_VI_7_NL0_AE0KE0JOINATTR, INFORM_VI_7_NL0_AE10, HOLLOW_VI_7_NL0_AE21)  :- late_vi_7_nl0_ce1(PRIVATE_VI_7_NL0_AE0KE0REF, SPACE_VI_7_NL0_AE30, ART_VI_7_NL0_AE41)  .
+#exists{SUPPORT_VH_7_NL0_AE00}  stone_vh_7_nl0_ce0(SUPPORT_VH_7_NL0_AE00, ORANGE_VH_7_NL0_AE0JOINATTR)  :- fertile_vh_7_nl0_ce1(SILVER_VH_7_NL0_AE10, TIGHT_VH_7_NL0_AE21, ORANGE_VH_7_NL0_AE0JOINATTR, ORANGE_VH_7_NL0_AE0JOINATTRREF2)  .
+#exists{CONNECTION_VNM_7_NL0_AE11,DISAPPEAR_VNM_7_NL0_AE00,INTEREST_VNM_7_NL0_AE0KE00}  awake_vnm_7_nl0_ce0(INTEREST_VNM_7_NL0_AE0KE00, CONNECTION_VNM_7_NL0_AE11, DISAPPEAR_VNM_7_NL0_AE00)  :- hammer_vnm_7_nl0_ce2(DISAPPEAR_VNM_7_NL0_AE00REF, INDICATE_VNM_7_NL1_AE01REF)  .
+#exists{HEART_VNM_7_NL0_AE20,INDICATE_VNM_7_NL1_AE01,SEEM_VNM_7_NL0_AE31}  church_vnm_7_nl0_ce1(HEART_VNM_7_NL0_AE20, SEEM_VNM_7_NL0_AE31, INDICATE_VNM_7_NL1_AE01)  :- hammer_vnm_7_nl0_ce2(DISAPPEAR_VNM_7_NL0_AE00REF, INDICATE_VNM_7_NL1_AE01REF)  .
+#exists{FOOT_VI_8_NL0_AE0KE0JOINATTR,POISON_VI_8_NL0_AE21,YEAR_VI_8_NL0_AE10}  complain_vi_8_nl0_ce0(FOOT_VI_8_NL0_AE0KE0JOINATTR, YEAR_VI_8_NL0_AE10, POISON_VI_8_NL0_AE21)  :- snake_vi_8_nl0_ce1(FOOT_VI_8_NL0_AE0KE0REF, OPINION_VI_8_NL0_AE3, HELP_VI_8_NL0_AE4)  .
+#exists{ANGLE_VH_8_NL0_AE00,JUMP_VH_8_NL0_AE11}  touch_vh_8_nl0_ce0(ANGLE_VH_8_NL0_AE00, JUMP_VH_8_NL0_AE11, DISCOVER_VH_8_NL0_AE0JOINATTR)  :- settle_vh_8_nl0_ce1(LIFT_VH_8_NL0_AE20, EXCHANGE_VH_8_NL0_AE31, DISCOVER_VH_8_NL0_AE0JOINATTR, DISCOVER_VH_8_NL0_AE0JOINATTRREF2)  .
+#exists{HOLLOW_VNM_8_NL0_AE11,OBSERVATION_VNM_8_NL0_AE00,WINTER_VNM_8_NL0_AE0KE00}  trick_vnm_8_nl0_ce0(WINTER_VNM_8_NL0_AE0KE00, HOLLOW_VNM_8_NL0_AE11, OBSERVATION_VNM_8_NL0_AE00)  :- jump_vnm_8_nl0_ce2(OBSERVATION_VNM_8_NL0_AE00REF, LIKE_VNM_8_NL1_AE01REF)  .
+#exists{BITTER_VNM_8_NL0_AE31,LIKE_VNM_8_NL1_AE01,SIGN_VNM_8_NL0_AE20}  green_vnm_8_nl0_ce1(SIGN_VNM_8_NL0_AE20, BITTER_VNM_8_NL0_AE31, LIKE_VNM_8_NL1_AE01)  :- jump_vnm_8_nl0_ce2(OBSERVATION_VNM_8_NL0_AE00REF, LIKE_VNM_8_NL1_AE01REF)  .
+#exists{BASE_VI_9_NL0_AE10,PROVE_VI_9_NL0_AE0KE0JOINATTR,SPEAK_VI_9_NL0_AE21}  degree_vi_9_nl0_ce0(PROVE_VI_9_NL0_AE0KE0JOINATTR, BASE_VI_9_NL0_AE10, SPEAK_VI_9_NL0_AE21)  :- forgive_vi_9_nl0_ce1(PROVE_VI_9_NL0_AE0KE0REF, COMB_VI_9_NL0_AE3, PAINT_VI_9_NL0_AE4)  .
+#exists{EVENT_VH_9_NL0_AE11,WEIGHT_VH_9_NL0_AE00}  account_vh_9_nl0_ce0(WEIGHT_VH_9_NL0_AE00, EVENT_VH_9_NL0_AE11, PASTE_VH_9_NL0_AE0JOINATTR)  :- fiction_vh_9_nl0_ce1(SORT_VH_9_NL0_AE20, MEAN_VH_9_NL0_AE31, DESIRE_VH_9_NL0_AE42, PASTE_VH_9_NL0_AE0JOINATTR, PASTE_VH_9_NL0_AE0JOINATTRREF3)  .
+#exists{CUT_VNM_9_NL0_AE00,REGRET_VNM_9_NL0_AE11,ROUND_VNM_9_NL0_AE0KE00}  ring_vnm_9_nl0_ce0(ROUND_VNM_9_NL0_AE0KE00, REGRET_VNM_9_NL0_AE11, CUT_VNM_9_NL0_AE00)  :- room_vnm_9_nl0_ce2(CUT_VNM_9_NL0_AE00REF, CONNECTION_VNM_9_NL1_AE01REF)  .
+#exists{BEAT_VNM_9_NL0_AE31,CONNECTION_VNM_9_NL1_AE01,HAMMER_VNM_9_NL0_AE42,TRAIN_VNM_9_NL0_AE20}  voice_vnm_9_nl0_ce1(TRAIN_VNM_9_NL0_AE20, BEAT_VNM_9_NL0_AE31, HAMMER_VNM_9_NL0_AE42, CONNECTION_VNM_9_NL1_AE01)  :- room_vnm_9_nl0_ce2(CUT_VNM_9_NL0_AE00REF, CONNECTION_VNM_9_NL1_AE01REF)  .
+#exists{CONSCIOUS_VI_10_NL0_AE21,INK_VI_10_NL0_AE10,SAIL_VI_10_NL0_AE0KE0JOINATTR}  come_vi_10_nl0_ce0(SAIL_VI_10_NL0_AE0KE0JOINATTR, INK_VI_10_NL0_AE10, CONSCIOUS_VI_10_NL0_AE21)  :- long_vi_10_nl0_ce1(SAIL_VI_10_NL0_AE0KE0REF, LEAD_VI_10_NL0_AE3, BASIN_VI_10_NL0_AE4)  .
+#exists{DESTRUCTION_VH_10_NL0_AE00,INSURANCE_VH_10_NL0_AE11}  reply_vh_10_nl0_ce0(DESTRUCTION_VH_10_NL0_AE00, INSURANCE_VH_10_NL0_AE11, THIN_VH_10_NL0_AE0JOINATTR)  :- require_vh_10_nl0_ce1(RHYTHM_VH_10_NL0_AE20, FICTION_VH_10_NL0_AE31, COOK_VH_10_NL0_AE42, THIN_VH_10_NL0_AE0JOINATTR, THIN_VH_10_NL0_AE0JOINATTRREF3)  .
+#exists{BLADE_VNM_10_NL0_AE00,FAMILY_VNM_10_NL0_AE0KE00,PARALLEL_VNM_10_NL0_AE22,PLANE_VNM_10_NL0_AE11}  church_vnm_10_nl0_ce0(FAMILY_VNM_10_NL0_AE0KE00, PLANE_VNM_10_NL0_AE11, PARALLEL_VNM_10_NL0_AE22, BLADE_VNM_10_NL0_AE00)  :- digestion_vnm_10_nl0_ce2(BLADE_VNM_10_NL0_AE00REF, COMPANY_VNM_10_NL1_AE01REF)  .
+#exists{COMPANY_VNM_10_NL1_AE01,GRAIN_VNM_10_NL0_AE30,LIFT_VNM_10_NL0_AE41,THIN_VNM_10_NL0_AE52,YELLOW_VNM_10_NL0_AE63}  point_vnm_10_nl0_ce1(GRAIN_VNM_10_NL0_AE30, LIFT_VNM_10_NL0_AE41, THIN_VNM_10_NL0_AE52, YELLOW_VNM_10_NL0_AE63, COMPANY_VNM_10_NL1_AE01)  :- digestion_vnm_10_nl0_ce2(BLADE_VNM_10_NL0_AE00REF, COMPANY_VNM_10_NL1_AE01REF)  .
+#exists{SAFE_VI_11_NL0_AE0KE0JOINATTR,TALK_VI_11_NL0_AE10}  business_vi_11_nl0_ce0(SAFE_VI_11_NL0_AE0KE0JOINATTR, TALK_VI_11_NL0_AE10)  :- yellow_vi_11_nl0_ce1(SAFE_VI_11_NL0_AE0KE0REF, REGARD_VI_11_NL0_AE20, BURN_VI_11_NL0_AE31)  .
+#exists{FISH_VH_11_NL0_AE11,RECEIPT_VH_11_NL0_AE00}  beautiful_vh_11_nl0_ce0(RECEIPT_VH_11_NL0_AE00, FISH_VH_11_NL0_AE11, GO_VH_11_NL0_AE0JOINATTR)  :- watch_vh_11_nl0_ce1(WISH_VH_11_NL0_AE20, RED_VH_11_NL0_AE31, THUMB_VH_11_NL0_AE42, GO_VH_11_NL0_AE0JOINATTR, GO_VH_11_NL0_AE0JOINATTRREF3)  .
+#exists{FORM_VNM_11_NL0_AE0KE00,SIDE_VNM_11_NL0_AE00,STAMP_VNM_11_NL0_AE11}  compare_vnm_11_nl0_ce0(FORM_VNM_11_NL0_AE0KE00, STAMP_VNM_11_NL0_AE11, SIDE_VNM_11_NL0_AE00)  :- play_vnm_11_nl0_ce2(SIDE_VNM_11_NL0_AE00REF, ARRANGE_VNM_11_NL1_AE01REF)  .
+#exists{ARRANGE_VNM_11_NL1_AE01,CHECK_VNM_11_NL0_AE20,LANGUAGE_VNM_11_NL0_AE42,PLACE_VNM_11_NL0_AE31}  first_vnm_11_nl0_ce1(CHECK_VNM_11_NL0_AE20, PLACE_VNM_11_NL0_AE31, LANGUAGE_VNM_11_NL0_AE42, ARRANGE_VNM_11_NL1_AE01)  :- play_vnm_11_nl0_ce2(SIDE_VNM_11_NL0_AE00REF, ARRANGE_VNM_11_NL1_AE01REF)  .
+#exists{POINT_VI_12_NL0_AE21,REQUEST_VI_12_NL0_AE0KE0JOINATTR,SHADE_VI_12_NL0_AE10}  provide_vi_12_nl0_ce0(REQUEST_VI_12_NL0_AE0KE0JOINATTR, SHADE_VI_12_NL0_AE10, POINT_VI_12_NL0_AE21)  :- secret_vi_12_nl0_ce1(REQUEST_VI_12_NL0_AE0KE0REF, LEARN_VI_12_NL0_AE3, ACID_VI_12_NL0_AE4)  .
+#exists{OPEN_VH_12_NL0_AE11,SEE_VH_12_NL0_AE00,SILK_VH_12_NL0_AE22}  try_vh_12_nl0_ce0(SEE_VH_12_NL0_AE00, OPEN_VH_12_NL0_AE11, SILK_VH_12_NL0_AE22, TROUSERS_VH_12_NL0_AE0JOINATTR)  :- complex_vh_12_nl0_ce1(COULD_VH_12_NL0_AE30, ERROR_VH_12_NL0_AE41, BELL_VH_12_NL0_AE52, TROUSERS_VH_12_NL0_AE0JOINATTR, TROUSERS_VH_12_NL0_AE0JOINATTRREF3)  .
+#exists{DEPENDENT_VNM_12_NL0_AE00,DRIVING_VNM_12_NL0_AE0KE00,MOUNTAIN_VNM_12_NL0_AE11}  sleep_vnm_12_nl0_ce0(DRIVING_VNM_12_NL0_AE0KE00, MOUNTAIN_VNM_12_NL0_AE11, DEPENDENT_VNM_12_NL0_AE00)  :- engine_vnm_12_nl0_ce2(DEPENDENT_VNM_12_NL0_AE00REF, DESIRE_VNM_12_NL1_AE01REF)  .
+#exists{DESIRE_VNM_12_NL1_AE01,POWDER_VNM_12_NL0_AE20,TAX_VNM_12_NL0_AE31}  measure_vnm_12_nl0_ce1(POWDER_VNM_12_NL0_AE20, TAX_VNM_12_NL0_AE31, DESIRE_VNM_12_NL1_AE01)  :- engine_vnm_12_nl0_ce2(DEPENDENT_VNM_12_NL0_AE00REF, DESIRE_VNM_12_NL1_AE01REF)  .
+#exists{AVOID_VI_13_NL0_AE0KE0JOINATTR,DO_VI_13_NL0_AE10,KNOCK_VI_13_NL0_AE21}  thread_vi_13_nl0_ce0(AVOID_VI_13_NL0_AE0KE0JOINATTR, DO_VI_13_NL0_AE10, KNOCK_VI_13_NL0_AE21)  :- look_vi_13_nl0_ce1(AVOID_VI_13_NL0_AE0KE0REF, TALK_VI_13_NL0_AE3, BULB_VI_13_NL0_AE4)  .
+#exists{DESIRE_VH_13_NL0_AE11,TICKET_VH_13_NL0_AE00}  wet_vh_13_nl0_ce0(TICKET_VH_13_NL0_AE00, DESIRE_VH_13_NL0_AE11, DEATH_VH_13_NL0_AE0JOINATTR)  :- back_vh_13_nl0_ce1(MALE_VH_13_NL0_AE20, GENERAL_VH_13_NL0_AE31, DEATH_VH_13_NL0_AE0JOINATTR, DEATH_VH_13_NL0_AE0JOINATTRREF2)  .
+#exists{HURT_VNM_13_NL0_AE0KE00,POT_VNM_13_NL0_AE00,STOP_VNM_13_NL0_AE11}  conscious_vnm_13_nl0_ce0(HURT_VNM_13_NL0_AE0KE00, STOP_VNM_13_NL0_AE11, POT_VNM_13_NL0_AE00)  :- loose_vnm_13_nl0_ce2(POT_VNM_13_NL0_AE00REF, ADD_VNM_13_NL1_AE01REF)  .
+#exists{ADD_VNM_13_NL1_AE01,EXPERT_VNM_13_NL0_AE31,PROMISE_VNM_13_NL0_AE42,YEAR_VNM_13_NL0_AE20}  wait_vnm_13_nl0_ce1(YEAR_VNM_13_NL0_AE20, EXPERT_VNM_13_NL0_AE31, PROMISE_VNM_13_NL0_AE42, ADD_VNM_13_NL1_AE01)  :- loose_vnm_13_nl0_ce2(POT_VNM_13_NL0_AE00REF, ADD_VNM_13_NL1_AE01REF)  .
+#exists{EYE_VI_14_NL0_AE0KE0JOINATTR,LEAD_VI_14_NL0_AE10,WOUND_VI_14_NL0_AE21}  advertisement_vi_14_nl0_ce0(EYE_VI_14_NL0_AE0KE0JOINATTR, LEAD_VI_14_NL0_AE10, WOUND_VI_14_NL0_AE21)  :- smoke_vi_14_nl0_ce1(EYE_VI_14_NL0_AE0KE0REF, HAPPY_VI_14_NL0_AE3, PREFER_VI_14_NL0_AE4, DESCRIBE_VI_14_NL0_AE5)  .
+#exists{OBTAIN_VH_14_NL0_AE11,SUDDEN_VH_14_NL0_AE00}  coat_vh_14_nl0_ce0(SUDDEN_VH_14_NL0_AE00, OBTAIN_VH_14_NL0_AE11, YEAR_VH_14_NL0_AE0JOINATTR)  :- father_vh_14_nl0_ce1(RECEIVE_VH_14_NL0_AE20, MARK_VH_14_NL0_AE31, YEAR_VH_14_NL0_AE0JOINATTR, YEAR_VH_14_NL0_AE0JOINATTRREF2)  .
+#exists{OPINION_VNM_14_NL0_AE11,TASTE_VNM_14_NL0_AE00,TOUCH_VNM_14_NL0_AE0KE00}  skin_vnm_14_nl0_ce0(TOUCH_VNM_14_NL0_AE0KE00, OPINION_VNM_14_NL0_AE11, TASTE_VNM_14_NL0_AE00)  :- adjustment_vnm_14_nl0_ce2(TASTE_VNM_14_NL0_AE00REF, STEEL_VNM_14_NL1_AE01REF)  .
+#exists{HIDE_VNM_14_NL0_AE31,OPEN_VNM_14_NL0_AE42,RECEIVE_VNM_14_NL0_AE20,STEEL_VNM_14_NL1_AE01}  believe_vnm_14_nl0_ce1(RECEIVE_VNM_14_NL0_AE20, HIDE_VNM_14_NL0_AE31, OPEN_VNM_14_NL0_AE42, STEEL_VNM_14_NL1_AE01)  :- adjustment_vnm_14_nl0_ce2(TASTE_VNM_14_NL0_AE00REF, STEEL_VNM_14_NL1_AE01REF)  .
+#exists{NERVE_VI_15_NL0_AE0KE0JOINATTR,TICKET_VI_15_NL0_AE10}  jewel_vi_15_nl0_ce0(NERVE_VI_15_NL0_AE0KE0JOINATTR, TICKET_VI_15_NL0_AE10)  :- change_vi_15_nl0_ce1(NERVE_VI_15_NL0_AE0KE0REF, WARN_VI_15_NL0_AE2)  .
+#exists{BRICK_VH_15_NL0_AE11,CARD_VH_15_NL0_AE00}  contain_vh_15_nl0_ce0(CARD_VH_15_NL0_AE00, BRICK_VH_15_NL0_AE11, FLAT_VH_15_NL0_AE0JOINATTR)  :- know_vh_15_nl0_ce1(SMOOTH_VH_15_NL0_AE20, WILL_VH_15_NL0_AE31, REST_VH_15_NL0_AE42, FLAT_VH_15_NL0_AE0JOINATTR, FLAT_VH_15_NL0_AE0JOINATTRREF3)  .
+#exists{AMOUNT_VNM_15_NL0_AE11,FEED_VNM_15_NL0_AE00,WASH_VNM_15_NL0_AE0KE00}  present_vnm_15_nl0_ce0(WASH_VNM_15_NL0_AE0KE00, AMOUNT_VNM_15_NL0_AE11, FEED_VNM_15_NL0_AE00)  :- butter_vnm_15_nl0_ce2(FEED_VNM_15_NL0_AE00REF, PRICE_VNM_15_NL1_AE01REF)  .
+#exists{DELICATE_VNM_15_NL0_AE31,MEDICAL_VNM_15_NL0_AE20,PRICE_VNM_15_NL1_AE01}  sister_vnm_15_nl0_ce1(MEDICAL_VNM_15_NL0_AE20, DELICATE_VNM_15_NL0_AE31, PRICE_VNM_15_NL1_AE01)  :- butter_vnm_15_nl0_ce2(FEED_VNM_15_NL0_AE00REF, PRICE_VNM_15_NL1_AE01REF)  .
+#exists{CAN_VI_16_NL0_AE21,CLAIM_VI_16_NL0_AE10,SUN_VI_16_NL0_AE0KE0JOINATTR}  involve_vi_16_nl0_ce0(SUN_VI_16_NL0_AE0KE0JOINATTR, CLAIM_VI_16_NL0_AE10, CAN_VI_16_NL0_AE21)  :- bee_vi_16_nl0_ce1(SUN_VI_16_NL0_AE0KE0REF, CLEAN_VI_16_NL0_AE30, SMELL_VI_16_NL0_AE41)  .
+#exists{AVOID_VH_16_NL0_AE11,CLEAN_VH_16_NL0_AE22,SNEEZE_VH_16_NL0_AE00}  afford_vh_16_nl0_ce0(SNEEZE_VH_16_NL0_AE00, AVOID_VH_16_NL0_AE11, CLEAN_VH_16_NL0_AE22, LAUGH_VH_16_NL0_AE0JOINATTR)  :- reflect_vh_16_nl0_ce1(ROUND_VH_16_NL0_AE30, BEGIN_VH_16_NL0_AE41, CREATE_VH_16_NL0_AE52, COPY_VH_16_NL0_AE63, LAUGH_VH_16_NL0_AE0JOINATTR, LAUGH_VH_16_NL0_AE0JOINATTRREF4)  .
+#exists{CHEESE_VNM_16_NL0_AE00,FIXED_VNM_16_NL0_AE11,SIDE_VNM_16_NL0_AE0KE00}  tin_vnm_16_nl0_ce0(SIDE_VNM_16_NL0_AE0KE00, FIXED_VNM_16_NL0_AE11, CHEESE_VNM_16_NL0_AE00)  :- second_vnm_16_nl0_ce2(CHEESE_VNM_16_NL0_AE00REF, GRIP_VNM_16_NL1_AE01REF0)  .
+#exists{BABY_VNM_16_NL0_AE20,GRIP_VNM_16_NL1_AE01,ORANGE_VNM_16_NL0_AE42,PASS_VNM_16_NL0_AE31}  reading_vnm_16_nl0_ce1(BABY_VNM_16_NL0_AE20, PASS_VNM_16_NL0_AE31, ORANGE_VNM_16_NL0_AE42, GRIP_VNM_16_NL1_AE01)  :- second_vnm_16_nl0_ce2(CHEESE_VNM_16_NL0_AE00REF, GRIP_VNM_16_NL1_AE01REF0)  .
+#exists{CRY_VI_17_NL0_AE0KE0JOINATTR,STAND_VI_17_NL0_AE10}  hide_vi_17_nl0_ce0(CRY_VI_17_NL0_AE0KE0JOINATTR, STAND_VI_17_NL0_AE10)  :- shoe_vi_17_nl0_ce1(CRY_VI_17_NL0_AE0KE0REF, MAN_VI_17_NL0_AE2, BEGIN_VI_17_NL0_AE3)  .
+#exists{EXPERT_VH_17_NL0_AE00,SUDDEN_VH_17_NL0_AE11}  cross_vh_17_nl0_ce0(EXPERT_VH_17_NL0_AE00, SUDDEN_VH_17_NL0_AE11, MINUTE_VH_17_NL0_AE0JOINATTR)  :- act_vh_17_nl0_ce1(PLANE_VH_17_NL0_AE20, BITTER_VH_17_NL0_AE31, MINUTE_VH_17_NL0_AE0JOINATTR, MINUTE_VH_17_NL0_AE0JOINATTRREF2)  .
+#exists{AVOID_VNM_17_NL0_AE11,DRAIN_VNM_17_NL0_AE00,LAST_VNM_17_NL0_AE0KE00}  size_vnm_17_nl0_ce0(LAST_VNM_17_NL0_AE0KE00, AVOID_VNM_17_NL0_AE11, DRAIN_VNM_17_NL0_AE00)  :- baby_vnm_17_nl0_ce2(DRAIN_VNM_17_NL0_AE00REF, COUGH_VNM_17_NL1_AE01REF)  .
+#exists{CARD_VNM_17_NL0_AE20,COUGH_VNM_17_NL1_AE01,WALK_VNM_17_NL0_AE31}  raise_vnm_17_nl0_ce1(CARD_VNM_17_NL0_AE20, WALK_VNM_17_NL0_AE31, COUGH_VNM_17_NL1_AE01)  :- baby_vnm_17_nl0_ce2(DRAIN_VNM_17_NL0_AE00REF, COUGH_VNM_17_NL1_AE01REF)  .
+#exists{LIKE_VI_18_NL0_AE10,PUBLIC_VI_18_NL0_AE0KE0JOINATTR}  point_vi_18_nl0_ce0(PUBLIC_VI_18_NL0_AE0KE0JOINATTR, LIKE_VI_18_NL0_AE10)  :- band_vi_18_nl0_ce1(PUBLIC_VI_18_NL0_AE0KE0REF, OVEN_VI_18_NL0_AE2, SKY_VI_18_NL0_AE3)  .
+#exists{DEBTS_VH_18_NL0_AE00,LOCK_VH_18_NL0_AE22,SCREW_VH_18_NL0_AE11}  level_vh_18_nl0_ce0(DEBTS_VH_18_NL0_AE00, SCREW_VH_18_NL0_AE11, LOCK_VH_18_NL0_AE22, TAX_VH_18_NL0_AE0JOINATTR)  :- present_vh_18_nl0_ce1(EXAMINE_VH_18_NL0_AE30, SIMPLE_VH_18_NL0_AE41, PAST_VH_18_NL0_AE52, PAGE_VH_18_NL0_AE63, TAX_VH_18_NL0_AE0JOINATTR, TAX_VH_18_NL0_AE0JOINATTRREF4)  .
+#exists{MUSCLE_VNM_18_NL0_AE00,SHEEP_VNM_18_NL0_AE0KE00}  oven_vnm_18_nl0_ce0(SHEEP_VNM_18_NL0_AE0KE00, MUSCLE_VNM_18_NL0_AE00)  :- avoid_vnm_18_nl0_ce2(MUSCLE_VNM_18_NL0_AE00REF, LIE_VNM_18_NL1_AE01REF)  .
+#exists{GREY_VNM_18_NL0_AE10,LIE_VNM_18_NL1_AE01,TROUBLE_VNM_18_NL0_AE21}  amount_vnm_18_nl0_ce1(GREY_VNM_18_NL0_AE10, TROUBLE_VNM_18_NL0_AE21, LIE_VNM_18_NL1_AE01)  :- avoid_vnm_18_nl0_ce2(MUSCLE_VNM_18_NL0_AE00REF, LIE_VNM_18_NL1_AE01REF)  .
+#exists{COPY_VI_19_NL0_AE21,MARRIED_VI_19_NL0_AE10,STUDY_VI_19_NL0_AE0KE0JOINATTR}  chalk_vi_19_nl0_ce0(STUDY_VI_19_NL0_AE0KE0JOINATTR, MARRIED_VI_19_NL0_AE10, COPY_VI_19_NL0_AE21)  :- smile_vi_19_nl0_ce1(STUDY_VI_19_NL0_AE0KE0REF, SHUT_VI_19_NL0_AE3, MISS_VI_19_NL0_AE4, MANAGE_VI_19_NL0_AE5)  .
+#exists{ACID_VH_19_NL0_AE00,SORT_VH_19_NL0_AE11}  arrange_vh_19_nl0_ce0(ACID_VH_19_NL0_AE00, SORT_VH_19_NL0_AE11, SWEET_VH_19_NL0_AE0JOINATTR)  :- brush_vh_19_nl0_ce1(HOPE_VH_19_NL0_AE20, ADVERTISEMENT_VH_19_NL0_AE31, SWEET_VH_19_NL0_AE0JOINATTR, SWEET_VH_19_NL0_AE0JOINATTRREF2)  .
+#exists{ORANGE_VNM_19_NL0_AE0KE00,SEAT_VNM_19_NL0_AE11,SHARP_VNM_19_NL0_AE00}  attack_vnm_19_nl0_ce0(ORANGE_VNM_19_NL0_AE0KE00, SEAT_VNM_19_NL0_AE11, SHARP_VNM_19_NL0_AE00)  :- matter_vnm_19_nl0_ce2(SHARP_VNM_19_NL0_AE00REF, CAUSE_VNM_19_NL1_AE01REF)  .
+#exists{CAUSE_VNM_19_NL1_AE01,PARCEL_VNM_19_NL0_AE20,RAY_VNM_19_NL0_AE31}  stitch_vnm_19_nl0_ce1(PARCEL_VNM_19_NL0_AE20, RAY_VNM_19_NL0_AE31, CAUSE_VNM_19_NL1_AE01)  :- matter_vnm_19_nl0_ce2(SHARP_VNM_19_NL0_AE00REF, CAUSE_VNM_19_NL1_AE01REF)  .
+#exists{BAND_VI_20_NL0_AE10,IMPROVE_VI_20_NL0_AE0KE0JOINATTR,SAIL_VI_20_NL0_AE21}  violent_vi_20_nl0_ce0(IMPROVE_VI_20_NL0_AE0KE0JOINATTR, BAND_VI_20_NL0_AE10, SAIL_VI_20_NL0_AE21)  :- hide_vi_20_nl0_ce1(IMPROVE_VI_20_NL0_AE0KE0REF, BOY_VI_20_NL0_AE3, SOLID_VI_20_NL0_AE4)  .
+#exists{FLOOR_VH_20_NL0_AE11,HIDE_VH_20_NL0_AE00}  agencies_vh_20_nl0_ce0(HIDE_VH_20_NL0_AE00, FLOOR_VH_20_NL0_AE11, CHANGE_VH_20_NL0_AE0JOINATTR)  :- wave_vh_20_nl0_ce1(COVER_VH_20_NL0_AE20, COPPER_VH_20_NL0_AE31, DEPEND_VH_20_NL0_AE42, CHANGE_VH_20_NL0_AE0JOINATTR, CHANGE_VH_20_NL0_AE0JOINATTRREF3)  .
+#exists{ICE_VNM_20_NL0_AE0KE00,PAIN_VNM_20_NL0_AE11,REPRESENT_VNM_20_NL0_AE00}  family_vnm_20_nl0_ce0(ICE_VNM_20_NL0_AE0KE00, PAIN_VNM_20_NL0_AE11, REPRESENT_VNM_20_NL0_AE00)  :- examine_vnm_20_nl0_ce2(REPRESENT_VNM_20_NL0_AE00REF, EARTH_VNM_20_NL1_AE01REF)  .
+#exists{DIVISION_VNM_20_NL0_AE42,EARTH_VNM_20_NL1_AE01,REQUEST_VNM_20_NL0_AE31,THUMB_VNM_20_NL0_AE20}  remain_vnm_20_nl0_ce1(THUMB_VNM_20_NL0_AE20, REQUEST_VNM_20_NL0_AE31, DIVISION_VNM_20_NL0_AE42, EARTH_VNM_20_NL1_AE01)  :- examine_vnm_20_nl0_ce2(REPRESENT_VNM_20_NL0_AE00REF, EARTH_VNM_20_NL1_AE01REF)  .
+#exists{NATION_VI_21_NL0_AE0KE0JOINATTR}  screw_vi_21_nl0_ce0(NATION_VI_21_NL0_AE0KE0JOINATTR)  :- cook_vi_21_nl0_ce1(NATION_VI_21_NL0_AE0KE0REF, WET_VI_21_NL0_AE1)  .
+#exists{LIBRARY_VH_21_NL0_AE00}  touch_vh_21_nl0_ce0(LIBRARY_VH_21_NL0_AE00, BOARD_VH_21_NL0_AE0JOINATTR)  :- confirm_vh_21_nl0_ce1(CRIME_VH_21_NL0_AE10, MEASURE_VH_21_NL0_AE21, BOARD_VH_21_NL0_AE0JOINATTR, BOARD_VH_21_NL0_AE0JOINATTRREF2)  .
+#exists{BLOW_VNM_21_NL0_AE0KE00,LEAF_VNM_21_NL0_AE00,PERSON_VNM_21_NL0_AE11}  language_vnm_21_nl0_ce0(BLOW_VNM_21_NL0_AE0KE00, PERSON_VNM_21_NL0_AE11, LEAF_VNM_21_NL0_AE00)  :- involve_vnm_21_nl0_ce2(LEAF_VNM_21_NL0_AE00REF, PLAY_VNM_21_NL1_AE01REF)  .
+#exists{PLAY_VNM_21_NL1_AE01,PROSE_VNM_21_NL0_AE20,RUB_VNM_21_NL0_AE31}  end_vnm_21_nl0_ce1(PROSE_VNM_21_NL0_AE20, RUB_VNM_21_NL0_AE31, PLAY_VNM_21_NL1_AE01)  :- involve_vnm_21_nl0_ce2(LEAF_VNM_21_NL0_AE00REF, PLAY_VNM_21_NL1_AE01REF)  .
+#exists{CHANGE_VI_22_NL0_AE0KE0JOINATTR,FLIGHT_VI_22_NL0_AE10,SUPPOSE_VI_22_NL0_AE21}  bed_vi_22_nl0_ce0(CHANGE_VI_22_NL0_AE0KE0JOINATTR, FLIGHT_VI_22_NL0_AE10, SUPPOSE_VI_22_NL0_AE21)  :- society_vi_22_nl0_ce1(CHANGE_VI_22_NL0_AE0KE0REF0, SMOOTH_VI_22_NL0_AE31, WALK_VI_22_NL0_AE4)  .
+#exists{INDICATE_VH_22_NL0_AE11,SMILE_VH_22_NL0_AE00}  paper_vh_22_nl0_ce0(SMILE_VH_22_NL0_AE00, INDICATE_VH_22_NL0_AE11, STATION_VH_22_NL0_AE0JOINATTR)  :- mind_vh_22_nl0_ce1(DEAR_VH_22_NL0_AE20, LOUD_VH_22_NL0_AE31, STATION_VH_22_NL0_AE0JOINATTR, STATION_VH_22_NL0_AE0JOINATTRREF2)  .
+#exists{CARRY_VNM_22_NL0_AE0KE00,FACE_VNM_22_NL0_AE11,READING_VNM_22_NL0_AE00}  left_vnm_22_nl0_ce0(CARRY_VNM_22_NL0_AE0KE00, FACE_VNM_22_NL0_AE11, READING_VNM_22_NL0_AE00)  :- blue_vnm_22_nl0_ce2(READING_VNM_22_NL0_AE00REF, BASIN_VNM_22_NL1_AE01REF)  .
+#exists{BASIN_VNM_22_NL1_AE01,MEET_VNM_22_NL0_AE31,NIGHT_VNM_22_NL0_AE20}  branch_vnm_22_nl0_ce1(NIGHT_VNM_22_NL0_AE20, MEET_VNM_22_NL0_AE31, BASIN_VNM_22_NL1_AE01)  :- blue_vnm_22_nl0_ce2(READING_VNM_22_NL0_AE00REF, BASIN_VNM_22_NL1_AE01REF)  .
+#exists{COPY_VI_23_NL0_AE21,ORANGE_VI_23_NL0_AE10,PRICE_VI_23_NL0_AE0KE0JOINATTR}  use_vi_23_nl0_ce0(PRICE_VI_23_NL0_AE0KE0JOINATTR, ORANGE_VI_23_NL0_AE10, COPY_VI_23_NL0_AE21)  :- white_vi_23_nl0_ce1(PRICE_VI_23_NL0_AE0KE0REF, BOARD_VI_23_NL0_AE3, PROCESS_VI_23_NL0_AE4)  .
+#exists{PENCIL_VH_23_NL0_AE11,UNDERSTAND_VH_23_NL0_AE00}  concern_vh_23_nl0_ce0(UNDERSTAND_VH_23_NL0_AE00, PENCIL_VH_23_NL0_AE11, PEN_VH_23_NL0_AE0JOINATTR)  :- example_vh_23_nl0_ce1(LIQUID_VH_23_NL0_AE20, BIRTH_VH_23_NL0_AE31, INFLUENCE_VH_23_NL0_AE42, PEN_VH_23_NL0_AE0JOINATTR, PEN_VH_23_NL0_AE0JOINATTRREF3)  .
+#exists{STAR_VNM_23_NL0_AE0KE00,WARM_VNM_23_NL0_AE00}  simple_vnm_23_nl0_ce0(STAR_VNM_23_NL0_AE0KE00, WARM_VNM_23_NL0_AE00)  :- record_vnm_23_nl0_ce2(WARM_VNM_23_NL0_AE00REF, RELIGION_VNM_23_NL1_AE01REF0)  .
+#exists{INSECT_VNM_23_NL0_AE10,INTEND_VNM_23_NL0_AE21,RELIGION_VNM_23_NL1_AE01}  shake_vnm_23_nl0_ce1(INSECT_VNM_23_NL0_AE10, INTEND_VNM_23_NL0_AE21, RELIGION_VNM_23_NL1_AE01)  :- record_vnm_23_nl0_ce2(WARM_VNM_23_NL0_AE00REF, RELIGION_VNM_23_NL1_AE01REF0)  .
+#exists{BEHAVIOR_VI_24_NL0_AE0KE0JOINATTR,CURTAIN_VI_24_NL0_AE21,SPONGE_VI_24_NL0_AE10}  have_vi_24_nl0_ce0(BEHAVIOR_VI_24_NL0_AE0KE0JOINATTR, SPONGE_VI_24_NL0_AE10, CURTAIN_VI_24_NL0_AE21)  :- skin_vi_24_nl0_ce1(BEHAVIOR_VI_24_NL0_AE0KE0REF, GLOVE_VI_24_NL0_AE30, SNOW_VI_24_NL0_AE41)  .
+#exists{BECOME_VH_24_NL0_AE22,INCLUDE_VH_24_NL0_AE11,SHORT_VH_24_NL0_AE00}  system_vh_24_nl0_ce0(SHORT_VH_24_NL0_AE00, INCLUDE_VH_24_NL0_AE11, BECOME_VH_24_NL0_AE22, WHITE_VH_24_NL0_AE0JOINATTR)  :- paint_vh_24_nl0_ce1(PROVE_VH_24_NL0_AE30, PAYMENT_VH_24_NL0_AE41, PIN_VH_24_NL0_AE52, WHITE_VH_24_NL0_AE0JOINATTR, WHITE_VH_24_NL0_AE0JOINATTRREF3)  .
+#exists{REGARD_VNM_24_NL0_AE00,SERVANT_VNM_24_NL0_AE0KE00,SNOW_VNM_24_NL0_AE11,WORK_VNM_24_NL0_AE22}  machine_vnm_24_nl0_ce0(SERVANT_VNM_24_NL0_AE0KE00, SNOW_VNM_24_NL0_AE11, WORK_VNM_24_NL0_AE22, REGARD_VNM_24_NL0_AE00)  :- authority_vnm_24_nl0_ce2(REGARD_VNM_24_NL0_AE00REF, BREATH_VNM_24_NL1_AE01REF)  .
+#exists{BREATH_VNM_24_NL1_AE01,DISTRIBUTION_VNM_24_NL0_AE41,LIE_VNM_24_NL0_AE52,SHIP_VNM_24_NL0_AE30}  punishment_vnm_24_nl0_ce1(SHIP_VNM_24_NL0_AE30, DISTRIBUTION_VNM_24_NL0_AE41, LIE_VNM_24_NL0_AE52, BREATH_VNM_24_NL1_AE01)  :- authority_vnm_24_nl0_ce2(REGARD_VNM_24_NL0_AE00REF, BREATH_VNM_24_NL1_AE01REF)  .
+#exists{OWNER_VI_25_NL0_AE0KE0JOINATTR,WOMAN_VI_25_NL0_AE10}  electric_vi_25_nl0_ce0(OWNER_VI_25_NL0_AE0KE0JOINATTR, WOMAN_VI_25_NL0_AE10)  :- dust_vi_25_nl0_ce1(OWNER_VI_25_NL0_AE0KE0REF, COOK_VI_25_NL0_AE2, POCKET_VI_25_NL0_AE3)  .
+#exists{MIND_VH_25_NL0_AE00,RUN_VH_25_NL0_AE11}  face_vh_25_nl0_ce0(MIND_VH_25_NL0_AE00, RUN_VH_25_NL0_AE11, NEED_VH_25_NL0_AE0JOINATTR)  :- oven_vh_25_nl0_ce1(PUSH_VH_25_NL0_AE20, ORDER_VH_25_NL0_AE31, NEED_VH_25_NL0_AE0JOINATTR, NEED_VH_25_NL0_AE0JOINATTRREF2)  .
+#exists{AGENCIES_VNM_25_NL0_AE0KE00,ENCOURAGE_VNM_25_NL0_AE00}  war_vnm_25_nl0_ce0(AGENCIES_VNM_25_NL0_AE0KE00, ENCOURAGE_VNM_25_NL0_AE00)  :- mist_vnm_25_nl0_ce2(ENCOURAGE_VNM_25_NL0_AE00REF, CHEAP_VNM_25_NL1_AE01REF)  .
+#exists{BLUE_VNM_25_NL0_AE21,CHEAP_VNM_25_NL1_AE01,REFLECT_VNM_25_NL0_AE10}  history_vnm_25_nl0_ce1(REFLECT_VNM_25_NL0_AE10, BLUE_VNM_25_NL0_AE21, CHEAP_VNM_25_NL1_AE01)  :- mist_vnm_25_nl0_ce2(ENCOURAGE_VNM_25_NL0_AE00REF, CHEAP_VNM_25_NL1_AE01REF)  .
+#exists{SHELF_VI_26_NL0_AE10,SNAKE_VI_26_NL0_AE0KE0JOINATTR}  provide_vi_26_nl0_ce0(SNAKE_VI_26_NL0_AE0KE0JOINATTR, SHELF_VI_26_NL0_AE10)  :- delicate_vi_26_nl0_ce1(SNAKE_VI_26_NL0_AE0KE0REF0, AFFECT_VI_26_NL0_AE21, PRIVATE_VI_26_NL0_AE3)  .
+#exists{FACE_VH_26_NL0_AE11,INTRODUCE_VH_26_NL0_AE22,SWEET_VH_26_NL0_AE00}  invention_vh_26_nl0_ce0(SWEET_VH_26_NL0_AE00, FACE_VH_26_NL0_AE11, INTRODUCE_VH_26_NL0_AE22, YOUNG_VH_26_NL0_AE0JOINATTR)  :- use_vh_26_nl0_ce1(STOMACH_VH_26_NL0_AE30, AFFORD_VH_26_NL0_AE41, BASE_VH_26_NL0_AE52, YOUNG_VH_26_NL0_AE0JOINATTR, YOUNG_VH_26_NL0_AE0JOINATTRREF3)  .
+#exists{DEAL_VNM_26_NL0_AE00,SOCK_VNM_26_NL0_AE11,STAR_VNM_26_NL0_AE0KE00}  sock_vnm_26_nl0_ce0(STAR_VNM_26_NL0_AE0KE00, SOCK_VNM_26_NL0_AE11, DEAL_VNM_26_NL0_AE00)  :- express_vnm_26_nl0_ce2(DEAL_VNM_26_NL0_AE00REF, POT_VNM_26_NL1_AE01REF)  .
+#exists{CALL_VNM_26_NL0_AE31,POT_VNM_26_NL1_AE01,STONE_VNM_26_NL0_AE20,WIN_VNM_26_NL0_AE42}  authority_vnm_26_nl0_ce1(STONE_VNM_26_NL0_AE20, CALL_VNM_26_NL0_AE31, WIN_VNM_26_NL0_AE42, POT_VNM_26_NL1_AE01)  :- express_vnm_26_nl0_ce2(DEAL_VNM_26_NL0_AE00REF, POT_VNM_26_NL1_AE01REF)  .
+#exists{MENTION_VI_27_NL0_AE0KE0JOINATTR,ROAD_VI_27_NL0_AE10}  nation_vi_27_nl0_ce0(MENTION_VI_27_NL0_AE0KE0JOINATTR, ROAD_VI_27_NL0_AE10)  :- need_vi_27_nl0_ce1(MENTION_VI_27_NL0_AE0KE0REF, THOUGHT_VI_27_NL0_AE2, SUDDEN_VI_27_NL0_AE3)  .
+#exists{HEART_VH_27_NL0_AE00,PUNISHMENT_VH_27_NL0_AE11}  have_vh_27_nl0_ce0(HEART_VH_27_NL0_AE00, PUNISHMENT_VH_27_NL0_AE11, DIRTY_VH_27_NL0_AE0JOINATTR)  :- separate_vh_27_nl0_ce1(SUPPORT_VH_27_NL0_AE20, ACID_VH_27_NL0_AE31, DIRTY_VH_27_NL0_AE0JOINATTR, DIRTY_VH_27_NL0_AE0JOINATTRREF2)  .
+#exists{CHESS_VNM_27_NL0_AE00,MEAT_VNM_27_NL0_AE11,SAFE_VNM_27_NL0_AE0KE00}  dark_vnm_27_nl0_ce0(SAFE_VNM_27_NL0_AE0KE00, MEAT_VNM_27_NL0_AE11, CHESS_VNM_27_NL0_AE00)  :- leather_vnm_27_nl0_ce2(CHESS_VNM_27_NL0_AE00REF, WRONG_VNM_27_NL1_AE01REF0)  .
+#exists{DISGUST_VNM_27_NL0_AE31,DRY_VNM_27_NL0_AE20,VALUE_VNM_27_NL0_AE42,WRONG_VNM_27_NL1_AE01}  knot_vnm_27_nl0_ce1(DRY_VNM_27_NL0_AE20, DISGUST_VNM_27_NL0_AE31, VALUE_VNM_27_NL0_AE42, WRONG_VNM_27_NL1_AE01)  :- leather_vnm_27_nl0_ce2(CHESS_VNM_27_NL0_AE00REF, WRONG_VNM_27_NL1_AE01REF0)  .
+#exists{BRUSH_VI_28_NL0_AE21,SHARE_VI_28_NL0_AE0KE0JOINATTR,WINE_VI_28_NL0_AE10}  imagine_vi_28_nl0_ce0(SHARE_VI_28_NL0_AE0KE0JOINATTR, WINE_VI_28_NL0_AE10, BRUSH_VI_28_NL0_AE21)  :- deliver_vi_28_nl0_ce1(SHARE_VI_28_NL0_AE0KE0REF0, CANVAS_VI_28_NL0_AE31, INTRODUCE_VI_28_NL0_AE4)  .
+#exists{COPY_VH_28_NL0_AE00,HAT_VH_28_NL0_AE11}  face_vh_28_nl0_ce0(COPY_VH_28_NL0_AE00, HAT_VH_28_NL0_AE11, PART_VH_28_NL0_AE0JOINATTR)  :- degree_vh_28_nl0_ce1(DESTRUCTION_VH_28_NL0_AE20, BRAKE_VH_28_NL0_AE31, THANK_VH_28_NL0_AE42, PART_VH_28_NL0_AE0JOINATTR, PART_VH_28_NL0_AE0JOINATTRREF3)  .
+#exists{BULB_VNM_28_NL0_AE0KE00,PULL_VNM_28_NL0_AE00,THEORY_VNM_28_NL0_AE11,WHISTLE_VNM_28_NL0_AE22}  rise_vnm_28_nl0_ce0(BULB_VNM_28_NL0_AE0KE00, THEORY_VNM_28_NL0_AE11, WHISTLE_VNM_28_NL0_AE22, PULL_VNM_28_NL0_AE00)  :- return_vnm_28_nl0_ce2(PULL_VNM_28_NL0_AE00REF, BASE_VNM_28_NL1_AE01REF)  .
+#exists{BASE_VNM_28_NL1_AE01,DISCUSS_VNM_28_NL0_AE52,LANGUAGE_VNM_28_NL0_AE30,MEAT_VNM_28_NL0_AE41}  shut_vnm_28_nl0_ce1(LANGUAGE_VNM_28_NL0_AE30, MEAT_VNM_28_NL0_AE41, DISCUSS_VNM_28_NL0_AE52, BASE_VNM_28_NL1_AE01)  :- return_vnm_28_nl0_ce2(PULL_VNM_28_NL0_AE00REF, BASE_VNM_28_NL1_AE01REF)  .
+#exists{POTATO_VI_29_NL0_AE21,ROUGH_VI_29_NL0_AE10,RUB_VI_29_NL0_AE0KE0JOINATTR}  discover_vi_29_nl0_ce0(RUB_VI_29_NL0_AE0KE0JOINATTR, ROUGH_VI_29_NL0_AE10, POTATO_VI_29_NL0_AE21)  :- edge_vi_29_nl0_ce1(RUB_VI_29_NL0_AE0KE0REF, EGG_VI_29_NL0_AE3, COMMIT_VI_29_NL0_AE4)  .
+#exists{BULB_VH_29_NL0_AE22,CORRECT_VH_29_NL0_AE11,FEEL_VH_29_NL0_AE00}  thumb_vh_29_nl0_ce0(FEEL_VH_29_NL0_AE00, CORRECT_VH_29_NL0_AE11, BULB_VH_29_NL0_AE22, BOX_VH_29_NL0_AE0JOINATTR)  :- fall_vh_29_nl0_ce1(COST_VH_29_NL0_AE30, COAL_VH_29_NL0_AE41, APPARATUS_VH_29_NL0_AE52, BOX_VH_29_NL0_AE0JOINATTR, BOX_VH_29_NL0_AE0JOINATTRREF3)  .
+#exists{FEMALE_VNM_29_NL0_AE00,KICK_VNM_29_NL0_AE11,MIND_VNM_29_NL0_AE0KE00}  shame_vnm_29_nl0_ce0(MIND_VNM_29_NL0_AE0KE00, KICK_VNM_29_NL0_AE11, FEMALE_VNM_29_NL0_AE00)  :- selection_vnm_29_nl0_ce2(FEMALE_VNM_29_NL0_AE00REF, EXISTENCE_VNM_29_NL1_AE01REF)  .
+#exists{EXISTENCE_VNM_29_NL1_AE01,PERSON_VNM_29_NL0_AE20,SALT_VNM_29_NL0_AE42,SUGGESTION_VNM_29_NL0_AE31}  soft_vnm_29_nl0_ce1(PERSON_VNM_29_NL0_AE20, SUGGESTION_VNM_29_NL0_AE31, SALT_VNM_29_NL0_AE42, EXISTENCE_VNM_29_NL1_AE01)  :- selection_vnm_29_nl0_ce2(FEMALE_VNM_29_NL0_AE00REF, EXISTENCE_VNM_29_NL1_AE01REF)  .
+#exists{ADJUSTMENT_VI_30_NL0_AE0KE0JOINATTR,FOWL_VI_30_NL0_AE10}  plate_vi_30_nl0_ce0(ADJUSTMENT_VI_30_NL0_AE0KE0JOINATTR, FOWL_VI_30_NL0_AE10)  :- lift_vi_30_nl0_ce1(ADJUSTMENT_VI_30_NL0_AE0KE0REF, STRONG_VI_30_NL0_AE2, SOUND_VI_30_NL0_AE3)  .
+#exists{NATION_VH_30_NL0_AE11,RING_VH_30_NL0_AE00}  protest_vh_30_nl0_ce0(RING_VH_30_NL0_AE00, NATION_VH_30_NL0_AE11, SWEET_VH_30_NL0_AE0JOINATTR)  :- reply_vh_30_nl0_ce1(ART_VH_30_NL0_AE20, LOCK_VH_30_NL0_AE31, BECOME_VH_30_NL0_AE42, SWEET_VH_30_NL0_AE0JOINATTR, SWEET_VH_30_NL0_AE0JOINATTRREF3)  .
+#exists{COMFORT_VNM_30_NL0_AE0KE00,KISS_VNM_30_NL0_AE00}  regret_vnm_30_nl0_ce0(COMFORT_VNM_30_NL0_AE0KE00, KISS_VNM_30_NL0_AE00)  :- work_vnm_30_nl0_ce2(KISS_VNM_30_NL0_AE00REF, ZOO_VNM_30_NL1_AE01REF)  .
+#exists{PROSE_VNM_30_NL0_AE21,VIEW_VNM_30_NL0_AE10,ZOO_VNM_30_NL1_AE01}  color_vnm_30_nl0_ce1(VIEW_VNM_30_NL0_AE10, PROSE_VNM_30_NL0_AE21, ZOO_VNM_30_NL1_AE01)  :- work_vnm_30_nl0_ce2(KISS_VNM_30_NL0_AE00REF, ZOO_VNM_30_NL1_AE01REF)  .
+#exists{ACT_VI_31_NL0_AE21,COMPETITION_VI_31_NL0_AE10,HARMONY_VI_31_NL0_AE0KE0JOINATTR}  expert_vi_31_nl0_ce0(HARMONY_VI_31_NL0_AE0KE0JOINATTR, COMPETITION_VI_31_NL0_AE10, ACT_VI_31_NL0_AE21)  :- sort_vi_31_nl0_ce1(HARMONY_VI_31_NL0_AE0KE0REF, SLEEP_VI_31_NL0_AE3, CREATE_VI_31_NL0_AE4, AGREE_VI_31_NL0_AE5)  .
+#exists{BRICK_VH_31_NL0_AE00,COMPLETE_VH_31_NL0_AE22,EXTEND_VH_31_NL0_AE11}  material_vh_31_nl0_ce0(BRICK_VH_31_NL0_AE00, EXTEND_VH_31_NL0_AE11, COMPLETE_VH_31_NL0_AE22, REWARD_VH_31_NL0_AE0JOINATTR)  :- cow_vh_31_nl0_ce1(COLLECT_VH_31_NL0_AE30, AGREE_VH_31_NL0_AE41, EFFECT_VH_31_NL0_AE52, REWARD_VH_31_NL0_AE0JOINATTR, REWARD_VH_31_NL0_AE0JOINATTRREF3)  .
+#exists{ALLOW_VNM_31_NL0_AE0KE00,SMILE_VNM_31_NL0_AE00}  canvas_vnm_31_nl0_ce0(ALLOW_VNM_31_NL0_AE0KE00, SMILE_VNM_31_NL0_AE00)  :- weather_vnm_31_nl0_ce2(SMILE_VNM_31_NL0_AE00REF, MEAL_VNM_31_NL1_AE01REF)  .
+#exists{DESCRIBE_VNM_31_NL0_AE10,FEMALE_VNM_31_NL0_AE21,MEAL_VNM_31_NL1_AE01}  count_vnm_31_nl0_ce1(DESCRIBE_VNM_31_NL0_AE10, FEMALE_VNM_31_NL0_AE21, MEAL_VNM_31_NL1_AE01)  :- weather_vnm_31_nl0_ce2(SMILE_VNM_31_NL0_AE00REF, MEAL_VNM_31_NL1_AE01REF)  .
+#exists{PAPER_VI_32_NL0_AE10,SHUT_VI_32_NL0_AE0KE0JOINATTR}  climb_vi_32_nl0_ce0(SHUT_VI_32_NL0_AE0KE0JOINATTR, PAPER_VI_32_NL0_AE10)  :- ill_vi_32_nl0_ce1(SHUT_VI_32_NL0_AE0KE0REF, YEAR_VI_32_NL0_AE2)  .
+#exists{COAT_VH_32_NL0_AE00}  test_vh_32_nl0_ce0(COAT_VH_32_NL0_AE00, BUILDING_VH_32_NL0_AE0JOINATTR)  :- mine_vh_32_nl0_ce1(INTRODUCE_VH_32_NL0_AE10, BUILDING_VH_32_NL0_AE0JOINATTR, BUILDING_VH_32_NL0_AE0JOINATTRREF1)  .
+#exists{ATTEMPT_VNM_32_NL0_AE11,CHANGE_VNM_32_NL0_AE00,CONNECTION_VNM_32_NL0_AE0KE00}  stitch_vnm_32_nl0_ce0(CONNECTION_VNM_32_NL0_AE0KE00, ATTEMPT_VNM_32_NL0_AE11, CHANGE_VNM_32_NL0_AE00)  :- moon_vnm_32_nl0_ce2(CHANGE_VNM_32_NL0_AE00REF, CONTAIN_VNM_32_NL1_AE01REF)  .
+#exists{CONTAIN_VNM_32_NL1_AE01,DETAIL_VNM_32_NL0_AE20,ELECTRIC_VNM_32_NL0_AE42,NOTICE_VNM_32_NL0_AE31}  discuss_vnm_32_nl0_ce1(DETAIL_VNM_32_NL0_AE20, NOTICE_VNM_32_NL0_AE31, ELECTRIC_VNM_32_NL0_AE42, CONTAIN_VNM_32_NL1_AE01)  :- moon_vnm_32_nl0_ce2(CHANGE_VNM_32_NL0_AE00REF, CONTAIN_VNM_32_NL1_AE01REF)  .
+#exists{BROTHER_VI_33_NL0_AE10,WEAR_VI_33_NL0_AE0KE0JOINATTR}  feeble_vi_33_nl0_ce0(WEAR_VI_33_NL0_AE0KE0JOINATTR, BROTHER_VI_33_NL0_AE10)  :- collar_vi_33_nl0_ce1(WEAR_VI_33_NL0_AE0KE0REF, EQUAL_VI_33_NL0_AE2)  .
+#exists{DOOR_VH_33_NL0_AE11,STREET_VH_33_NL0_AE00}  verse_vh_33_nl0_ce0(STREET_VH_33_NL0_AE00, DOOR_VH_33_NL0_AE11, REST_VH_33_NL0_AE0JOINATTR)  :- open_vh_33_nl0_ce1(BUY_VH_33_NL0_AE20, TRAY_VH_33_NL0_AE31, BALL_VH_33_NL0_AE42, REST_VH_33_NL0_AE0JOINATTR, REST_VH_33_NL0_AE0JOINATTRREF3)  .
+#exists{OBTAIN_VH_14_NL0_AE11,REPORT_VNM_33_NL0_AE00,SUDDEN_VH_14_NL0_AE00}  knot_vnm_33_nl0_ce0(SUDDEN_VH_14_NL0_AE00, OBTAIN_VH_14_NL0_AE11, REPORT_VNM_33_NL0_AE00)  :- yellow_vnm_33_nl0_ce2(REPORT_VNM_33_NL0_AE00REF, OFFICE_VNM_33_NL1_AE01REF)  .
+#exists{MARK_VH_14_NL0_AE31,OFFICE_VNM_33_NL1_AE01,RECEIVE_VH_14_NL0_AE20}  forgive_vnm_33_nl0_ce1(RECEIVE_VH_14_NL0_AE20, MARK_VH_14_NL0_AE31, OFFICE_VNM_33_NL1_AE01)  :- yellow_vnm_33_nl0_ce2(REPORT_VNM_33_NL0_AE00REF, OFFICE_VNM_33_NL1_AE01REF)  .
+#exists{FRUIT_AD_9_NL0_AE10,SOAP_AD_9_NL0_AE0KE0JOINATTR,STAY_AD_9_NL0_AE21}  join_vi_34_nl0_ce0(SOAP_AD_9_NL0_AE0KE0JOINATTR, FRUIT_AD_9_NL0_AE10, STAY_AD_9_NL0_AE21)  :- peace_vi_34_nl0_ce1(SOAP_AD_9_NL0_AE0KE0REF, SHALL_AD_9_NL0_AE3, COMMITTEE_AD_9_NL0_AE4)  .
+#exists{PLEASURE_VH_34_NL0_AE00,WORRY_VH_34_NL0_AE11}  rest_vh_34_nl0_ce0(PLEASURE_VH_34_NL0_AE00, WORRY_VH_34_NL0_AE11, AUTHORITY_VH_34_NL0_AE0JOINATTR)  :- attorney_vh_34_nl0_ce1(BOX_VH_34_NL0_AE20, MISS_VH_34_NL0_AE31, TICKET_VH_34_NL0_AE42, AUTHORITY_VH_34_NL0_AE0JOINATTR, AUTHORITY_VH_34_NL0_AE0JOINATTRREF3)  .
+#exists{LETTER_VH_1_NL0_AE0JOINATTR,RED_VH_1_NL0_AE11,TAIL_VH_1_NL0_AE00,WRONG_VH_1_NL0_AE22}  blue_vh_1_nl0_ce0(TAIL_VH_1_NL0_AE00, RED_VH_1_NL0_AE11, WRONG_VH_1_NL0_AE22, LETTER_VH_1_NL0_AE0JOINATTR)  :- moon_vnm_32_nl0_ce2(CHANGE_VNM_32_NL0_AE00REF, CONTAIN_VNM_32_NL1_AE01REF)  .
+#exists{BREATH_VNM_24_NL1_AE01,DISTRIBUTION_VNM_24_NL0_AE41,LIE_VNM_24_NL0_AE52,SHIP_VNM_24_NL0_AE30}  punishment_vnm_24_nl0_ce1(SHIP_VNM_24_NL0_AE30, DISTRIBUTION_VNM_24_NL0_AE41, LIE_VNM_24_NL0_AE52, BREATH_VNM_24_NL1_AE01)  :- moon_vnm_32_nl0_ce2(CHANGE_VNM_32_NL0_AE00REF, CONTAIN_VNM_32_NL1_AE01REF)  .
+#exists{BODY_VI_35_NL0_AE10,FINGER_VI_35_NL0_AE0KE0JOINATTR}  protest_vi_35_nl0_ce0(FINGER_VI_35_NL0_AE0KE0JOINATTR, BODY_VI_35_NL0_AE10)  :- help_vi_35_nl0_ce1(FINGER_VI_35_NL0_AE0KE0REF, TOWN_VI_35_NL0_AE2)  .
+#exists{STOP_VH_35_NL0_AE00}  seem_vh_35_nl0_ce0(STOP_VH_35_NL0_AE00, JUMP_VH_35_NL0_AE0JOINATTR)  :- agreement_vh_35_nl0_ce1(SIMPLE_VH_35_NL0_AE10, JUMP_VH_35_NL0_AE0JOINATTR, JUMP_VH_35_NL0_AE0JOINATTRREF1)  .
+#exists{AGENCY_VH_4_NL0_AE0JOINATTR,COMPLEX_VH_4_NL0_AE11,GRIP_VH_4_NL0_AE00}  complete_vh_4_nl0_ce0(GRIP_VH_4_NL0_AE00, COMPLEX_VH_4_NL0_AE11, AGENCY_VH_4_NL0_AE0JOINATTR)  :- weather_vnm_31_nl0_ce2(SMILE_VNM_31_NL0_AE00REF, MEAL_VNM_31_NL1_AE01REF)  .
+#exists{CANVAS_VI_28_NL0_AE31,INTRODUCE_VI_28_NL0_AE4,SHARE_VI_28_NL0_AE0KE0REF0}  deliver_vi_28_nl0_ce1(SHARE_VI_28_NL0_AE0KE0REF0, CANVAS_VI_28_NL0_AE31, INTRODUCE_VI_28_NL0_AE4)  :- weather_vnm_31_nl0_ce2(SMILE_VNM_31_NL0_AE00REF, MEAL_VNM_31_NL1_AE01REF)  .
+#exists{CAMERA_VNM_35_NL0_AE0KE0JOINATTR,PROVE_VNM_35_NL0_AE10}  develop_vi_36_nl0_ce0(CAMERA_VNM_35_NL0_AE0KE0JOINATTR, PROVE_VNM_35_NL0_AE10)  :- band_vi_36_nl0_ce1(CAMERA_VNM_35_NL0_AE0KE0REF, SLEEP_VNM_35_NL0_AE2, ATTORNEY_VNM_35_NL0_AE3)  .
+#exists{GOVERNMENT_AD_30_NL0_AE11,NECESSARY_AD_30_NL0_AE0KE00}  glove_vh_36_nl0_ce0(NECESSARY_AD_30_NL0_AE0KE00, GOVERNMENT_AD_30_NL0_AE11, GUN_VH_36_NL0_AE0JOINATTR)  :- jump_vh_36_nl0_ce1(CUT_AD_30_NL0_AE20, WOULD_AD_30_NL0_AE31, APPLY_AD_30_NL0_AE42, GUN_VH_36_NL0_AE0JOINATTR, GUN_VH_36_NL0_AE0JOINATTRREF3)  .
+#exists{BENT_VNM_3_NL0_AE11,CRUSH_VNM_3_NL0_AE00,SUGAR_VNM_3_NL0_AE0KE00}  farm_vnm_3_nl0_ce0(SUGAR_VNM_3_NL0_AE0KE00, BENT_VNM_3_NL0_AE11, CRUSH_VNM_3_NL0_AE00)  :- examine_vnm_20_nl0_ce2(REPRESENT_VNM_20_NL0_AE00REF, EARTH_VNM_20_NL1_AE01REF)  .
+#exists{CHANGE_VI_22_NL0_AE0KE0REF0,SMOOTH_VI_22_NL0_AE31,WALK_VI_22_NL0_AE4}  society_vi_22_nl0_ce1(CHANGE_VI_22_NL0_AE0KE0REF0, SMOOTH_VI_22_NL0_AE31, WALK_VI_22_NL0_AE4)  :- examine_vnm_20_nl0_ce2(REPRESENT_VNM_20_NL0_AE00REF, EARTH_VNM_20_NL1_AE01REF)  .
+#exists{AFFORD_VI_37_NL0_AE10,ARCH_VI_37_NL0_AE0KE0JOINATTR,CONTINUE_VI_37_NL0_AE21}  shut_vi_37_nl0_ce0(ARCH_VI_37_NL0_AE0KE0JOINATTR, AFFORD_VI_37_NL0_AE10, CONTINUE_VI_37_NL0_AE21)  :- approval_vi_37_nl0_ce1(ARCH_VI_37_NL0_AE0KE0REF, FEAR_VI_37_NL0_AE3, EARTH_VI_37_NL0_AE4, REMOVE_VI_37_NL0_AE5)  .
+#exists{ARM_VH_37_NL0_AE00}  let_vh_37_nl0_ce0(ARM_VH_37_NL0_AE00, ADD_VH_37_NL0_AE0JOINATTR)  :- respect_vh_37_nl0_ce1(MARK_VH_37_NL0_AE10, SEA_VH_37_NL0_AE21, ADD_VH_37_NL0_AE0JOINATTR, ADD_VH_37_NL0_AE0JOINATTRREF2)  .
+#exists{CONSIST_VNM_37_NL0_AE11,MASS_VNM_37_NL0_AE00,PIG_VNM_37_NL0_AE0KE00}  move_vnm_37_nl0_ce0(PIG_VNM_37_NL0_AE0KE00, CONSIST_VNM_37_NL0_AE11, MASS_VNM_37_NL0_AE00)  :- bottle_vnm_37_nl0_ce2(MASS_VNM_37_NL0_AE00REF, LIMIT_VNM_37_NL1_AE01REF)  .
+#exists{BEE_VNM_37_NL0_AE42,FOLLOW_VNM_37_NL0_AE20,LIMIT_VNM_37_NL1_AE01,THICK_VNM_37_NL0_AE31}  die_vnm_37_nl0_ce1(FOLLOW_VNM_37_NL0_AE20, THICK_VNM_37_NL0_AE31, BEE_VNM_37_NL0_AE42, LIMIT_VNM_37_NL1_AE01)  :- bottle_vnm_37_nl0_ce2(MASS_VNM_37_NL0_AE00REF, LIMIT_VNM_37_NL1_AE01REF)  .
+#exists{ANGLE_VH_8_NL0_AE0JOINATTR,JUMP_VH_8_NL0_AE10}  knowledge_vi_38_nl0_ce0(ANGLE_VH_8_NL0_AE0JOINATTR, JUMP_VH_8_NL0_AE10)  :- delicate_vi_38_nl0_ce1(ANGLE_VH_8_NL0_AE0REF0, LIFT_VH_8_NL0_AE21, EXCHANGE_VH_8_NL0_AE3)  .
+#exists{COUGH_VH_38_NL0_AE00,WINDOW_VH_38_NL0_AE11}  night_vh_38_nl0_ce0(COUGH_VH_38_NL0_AE00, WINDOW_VH_38_NL0_AE11, HOLD_VH_38_NL0_AE0JOINATTR)  :- chemical_vh_38_nl0_ce1(TELOS_VH_38_NL0_AE20, PART_VH_38_NL0_AE31, HOLD_VH_38_NL0_AE0JOINATTR, HOLD_VH_38_NL0_AE0JOINATTRREF2)  .
+#exists{CONSCIOUS_VNM_38_NL0_AE11,SHUT_VNM_38_NL0_AE22,THREAD_VNM_38_NL0_AE00,UNIT_VNM_38_NL0_AE0KE00}  contain_vnm_38_nl0_ce0(UNIT_VNM_38_NL0_AE0KE00, CONSCIOUS_VNM_38_NL0_AE11, SHUT_VNM_38_NL0_AE22, THREAD_VNM_38_NL0_AE00)  :- report_vnm_38_nl0_ce2(THREAD_VNM_38_NL0_AE00REF, CAN_VNM_38_NL1_AE01REF)  .
+#exists{CAN_VNM_38_NL1_AE01,ILL_VNM_38_NL0_AE52,TALL_VNM_38_NL0_AE41,WALL_VNM_38_NL0_AE30}  breath_vnm_38_nl0_ce1(WALL_VNM_38_NL0_AE30, TALL_VNM_38_NL0_AE41, ILL_VNM_38_NL0_AE52, CAN_VNM_38_NL1_AE01)  :- report_vnm_38_nl0_ce2(THREAD_VNM_38_NL0_AE00REF, CAN_VNM_38_NL1_AE01REF)  .
+#exists{RELIGION_VNM_23_NL1_AE01REF0,WARM_VNM_23_NL0_AE00REF}  record_vnm_23_nl0_ce2(WARM_VNM_23_NL0_AE00REF, RELIGION_VNM_23_NL1_AE01REF0)  :- leather_vnm_27_nl0_ce2(CHESS_VNM_27_NL0_AE00REF, WRONG_VNM_27_NL1_AE01REF0)  .
+#exists{CONSIDER_VH_39_NL0_AE00,SKY_VH_39_NL0_AE11}  fly_vh_39_nl0_ce0(CONSIDER_VH_39_NL0_AE00, SKY_VH_39_NL0_AE11, MEMORY_VH_39_NL0_AE0JOINATTR)  :- cut_vh_39_nl0_ce1(WOUND_VH_39_NL0_AE20, FALSE_VH_39_NL0_AE31, BELONG_VH_39_NL0_AE42, MEMORY_VH_39_NL0_AE0JOINATTR, MEMORY_VH_39_NL0_AE0JOINATTRREF3)  .
+#exists{ORANGE_VNM_19_NL0_AE0KE00,SEAT_VNM_19_NL0_AE11,STORE_VNM_39_NL0_AE00}  summer_vnm_39_nl0_ce0(ORANGE_VNM_19_NL0_AE0KE00, SEAT_VNM_19_NL0_AE11, STORE_VNM_39_NL0_AE00)  :- angry_vnm_39_nl0_ce2(STORE_VNM_39_NL0_AE00REF, FLAME_VNM_39_NL1_AE01REF)  .
+#exists{FLAME_VNM_39_NL1_AE01,PARCEL_VNM_19_NL0_AE20,RAY_VNM_19_NL0_AE31}  way_vnm_39_nl0_ce1(PARCEL_VNM_19_NL0_AE20, RAY_VNM_19_NL0_AE31, FLAME_VNM_39_NL1_AE01)  :- angry_vnm_39_nl0_ce2(STORE_VNM_39_NL0_AE00REF, FLAME_VNM_39_NL1_AE01REF)  .
+#exists{CONSCIOUS_VNM_38_NL0_AE10,SHUT_VNM_38_NL0_AE21,UNIT_VNM_38_NL0_AE0KE0JOINATTR}  peace_vi_40_nl0_ce0(UNIT_VNM_38_NL0_AE0KE0JOINATTR, CONSCIOUS_VNM_38_NL0_AE10, SHUT_VNM_38_NL0_AE21)  :- indicate_vi_40_nl0_ce1(UNIT_VNM_38_NL0_AE0KE0REF0, WALL_VNM_38_NL0_AE31, TALL_VNM_38_NL0_AE42, ILL_VNM_38_NL0_AE5)  .
+#exists{LIBRARY_VH_21_NL0_AE00}  move_vh_40_nl0_ce0(LIBRARY_VH_21_NL0_AE00, HANGING_VH_40_NL0_AE0JOINATTR)  :- place_vh_40_nl0_ce1(CRIME_VH_21_NL0_AE10, MEASURE_VH_21_NL0_AE21, HANGING_VH_40_NL0_AE0JOINATTR, HANGING_VH_40_NL0_AE0JOINATTRREF2)  .
+#exists{BRASS_VNM_40_NL0_AE00,EXAMPLE_VNM_40_NL0_AE0KE00}  ring_vnm_40_nl0_ce0(EXAMPLE_VNM_40_NL0_AE0KE00, BRASS_VNM_40_NL0_AE00)  :- gold_vnm_40_nl0_ce2(BRASS_VNM_40_NL0_AE00REF, SERIOUS_VNM_40_NL1_AE01REF)  .
+#exists{CLIMB_VNM_40_NL0_AE21,COMPARISON_VNM_40_NL0_AE10,SERIOUS_VNM_40_NL1_AE01}  experience_vnm_40_nl0_ce1(COMPARISON_VNM_40_NL0_AE10, CLIMB_VNM_40_NL0_AE21, SERIOUS_VNM_40_NL1_AE01)  :- gold_vnm_40_nl0_ce2(BRASS_VNM_40_NL0_AE00REF, SERIOUS_VNM_40_NL1_AE01REF)  .
+#exists{FRUIT_AD_9_NL0_AE10,SOAP_AD_9_NL0_AE0KE0JOINATTR,STAY_AD_9_NL0_AE21}  touch_vi_41_nl0_ce0(SOAP_AD_9_NL0_AE0KE0JOINATTR, FRUIT_AD_9_NL0_AE10, STAY_AD_9_NL0_AE21)  :- separate_vi_41_nl0_ce1(SOAP_AD_9_NL0_AE0KE0REF, SHALL_AD_9_NL0_AE30, COMMITTEE_AD_9_NL0_AE41)  .
+#exists{RISE_VH_41_NL0_AE00,SUN_VH_41_NL0_AE11}  side_vh_41_nl0_ce0(RISE_VH_41_NL0_AE00, SUN_VH_41_NL0_AE11, CARE_VH_41_NL0_AE0JOINATTR)  :- orange_vh_41_nl0_ce1(SNAKE_VH_41_NL0_AE20, PUT_VH_41_NL0_AE31, FIGHT_VH_41_NL0_AE42, CARE_VH_41_NL0_AE0JOINATTR, CARE_VH_41_NL0_AE0JOINATTRREF3)  .
+#exists{EXISTENCE_VNM_29_NL1_AE01,PERSON_VNM_29_NL0_AE20,SALT_VNM_29_NL0_AE42,SUGGESTION_VNM_29_NL0_AE31}  soft_vnm_29_nl0_ce1(PERSON_VNM_29_NL0_AE20, SUGGESTION_VNM_29_NL0_AE31, SALT_VNM_29_NL0_AE42, EXISTENCE_VNM_29_NL1_AE01)  :- feeble_vi_33_nl0_ce0(WEAR_VI_33_NL0_AE0KE0JOINATTR, BROTHER_VI_33_NL0_AE10)  .
+#exists{FACE_VH_26_NL0_AE11,INTRODUCE_VH_26_NL0_AE22,SWEET_VH_26_NL0_AE00,YOUNG_VH_26_NL0_AE0JOINATTR}  invention_vh_26_nl0_ce0(SWEET_VH_26_NL0_AE00, FACE_VH_26_NL0_AE11, INTRODUCE_VH_26_NL0_AE22, YOUNG_VH_26_NL0_AE0JOINATTR)  :- feeble_vi_33_nl0_ce0(WEAR_VI_33_NL0_AE0KE0JOINATTR, BROTHER_VI_33_NL0_AE10)  .
+#exists{BEHAVIOR_VI_24_NL0_AE0KE0REF,GLOVE_VI_24_NL0_AE30,SNOW_VI_24_NL0_AE41}  skin_vi_24_nl0_ce1(BEHAVIOR_VI_24_NL0_AE0KE0REF, GLOVE_VI_24_NL0_AE30, SNOW_VI_24_NL0_AE41)  :- bee_vi_16_nl0_ce1(SUN_VI_16_NL0_AE0KE0REF, CLEAN_VI_16_NL0_AE30, SMELL_VI_16_NL0_AE41)  .
+#exists{COMFORT_VH_42_NL0_AE22,DUST_VH_42_NL0_AE00,SORT_VH_42_NL0_AE11}  sun_vh_42_nl0_ce0(DUST_VH_42_NL0_AE00, SORT_VH_42_NL0_AE11, COMFORT_VH_42_NL0_AE22, USE_VH_42_NL0_AE0JOINATTR)  :- connection_vh_42_nl0_ce1(FIND_VH_42_NL0_AE30, TELOS_VH_42_NL0_AE41, HOUR_VH_42_NL0_AE52, USE_VH_42_NL0_AE0JOINATTR, USE_VH_42_NL0_AE0JOINATTRREF3)  .
+#exists{HOLD_VNM_42_NL0_AE0KE00,JUMP_VNM_42_NL0_AE22,SMELL_VNM_42_NL0_AE11,TICKET_VNM_42_NL0_AE00}  sense_vnm_42_nl0_ce0(HOLD_VNM_42_NL0_AE0KE00, SMELL_VNM_42_NL0_AE11, JUMP_VNM_42_NL0_AE22, TICKET_VNM_42_NL0_AE00)  :- relate_vnm_42_nl0_ce2(TICKET_VNM_42_NL0_AE00REF, PRICE_VNM_42_NL1_AE01REF)  .
+#exists{GUN_VNM_42_NL0_AE30,PRICE_VNM_42_NL1_AE01,PROPERTY_VNM_42_NL0_AE41,PUNISHMENT_VNM_42_NL0_AE52}  exist_vnm_42_nl0_ce1(GUN_VNM_42_NL0_AE30, PROPERTY_VNM_42_NL0_AE41, PUNISHMENT_VNM_42_NL0_AE52, PRICE_VNM_42_NL1_AE01)  :- relate_vnm_42_nl0_ce2(TICKET_VNM_42_NL0_AE00REF, PRICE_VNM_42_NL1_AE01REF)  .
+#exists{FACE_AD_21_NL0_AE21,SNOW_AD_21_NL0_AE0KE0,SONG_AD_21_NL0_AE32,TICKET_AD_21_NL0_AE54,WHEEL_AD_21_NL0_AE10,WRITING_AD_21_NL0_AE43}  sea_ad_21_nl0_ce0(SNOW_AD_21_NL0_AE0KE0, WHEEL_AD_21_NL0_AE10, FACE_AD_21_NL0_AE21, SONG_AD_21_NL0_AE32, WRITING_AD_21_NL0_AE43, TICKET_AD_21_NL0_AE54)  :- clock_ad_7_nl0_ce0(SHUT_AD_7_NL0_AE0KE0, CHAIN_AD_7_NL0_AE10, APPEAR_AD_7_NL0_AE21, IDEA_AD_7_NL0_AE32, TAIL_AD_7_NL0_AE43, EXPRESS_AD_7_NL0_AE54)  .
+#exists{OBTAIN_VH_14_NL0_AE11,SUDDEN_VH_14_NL0_AE00}  body_vh_43_nl0_ce0(SUDDEN_VH_14_NL0_AE00, OBTAIN_VH_14_NL0_AE11, FIXED_VH_43_NL0_AE0JOINATTR)  :- day_vh_43_nl0_ce1(RECEIVE_VH_14_NL0_AE20, MARK_VH_14_NL0_AE31, FIXED_VH_43_NL0_AE0JOINATTR, FIXED_VH_43_NL0_AE0JOINATTRREF2)  .
+#exists{CANVAS_VI_28_NL0_AE31,INTRODUCE_VI_28_NL0_AE4,SHARE_VI_28_NL0_AE0KE0REF0}  deliver_vi_28_nl0_ce1(SHARE_VI_28_NL0_AE0KE0REF0, CANVAS_VI_28_NL0_AE31, INTRODUCE_VI_28_NL0_AE4)  :- simple_vnm_23_nl0_ce0(STAR_VNM_23_NL0_AE0KE00, WARM_VNM_23_NL0_AE00)  .
+#exists{CHEESE_VNM_16_NL0_AE00,FIXED_VNM_16_NL0_AE11,SIDE_VNM_16_NL0_AE0KE00}  tin_vnm_16_nl0_ce0(SIDE_VNM_16_NL0_AE0KE00, FIXED_VNM_16_NL0_AE11, CHEESE_VNM_16_NL0_AE00)  :- simple_vnm_23_nl0_ce0(STAR_VNM_23_NL0_AE0KE00, WARM_VNM_23_NL0_AE00)  .
+#exists{CHEESE_VNM_16_NL0_AE00REF,GRIP_VNM_16_NL1_AE01REF0}  second_vnm_16_nl0_ce2(CHEESE_VNM_16_NL0_AE00REF, GRIP_VNM_16_NL1_AE01REF0)  :- climb_vi_32_nl0_ce0(SHUT_VI_32_NL0_AE0KE0JOINATTR, PAPER_VI_32_NL0_AE10)  .
+#exists{SHOCK_AD_39_NL0_AE11,TOP_AD_39_NL0_AE0KE00}  tray_vh_44_nl0_ce0(TOP_AD_39_NL0_AE0KE00, SHOCK_AD_39_NL0_AE11, MIGHT_VH_44_NL0_AE0JOINATTR)  :- found_vh_44_nl0_ce1(PLAN_AD_39_NL0_AE20, RUB_AD_39_NL0_AE31, COPPER_AD_39_NL0_AE42, MIGHT_VH_44_NL0_AE0JOINATTR, MIGHT_VH_44_NL0_AE0JOINATTRREF3)  .
+#exists{PARALLEL_VNM_44_NL0_AE00,SHAKE_VNM_44_NL0_AE0KE00}  mouth_vnm_44_nl0_ce0(SHAKE_VNM_44_NL0_AE0KE00, PARALLEL_VNM_44_NL0_AE00)  :- group_vnm_44_nl0_ce2(PARALLEL_VNM_44_NL0_AE00REF, SLIP_VNM_44_NL1_AE01REF)  .
+#exists{MONEY_VNM_44_NL0_AE10,MONEY_VNM_44_NL0_AE21,SLIP_VNM_44_NL1_AE01}  industry_vnm_44_nl0_ce1(MONEY_VNM_44_NL0_AE10, MONEY_VNM_44_NL0_AE21, SLIP_VNM_44_NL1_AE01)  :- group_vnm_44_nl0_ce2(PARALLEL_VNM_44_NL0_AE00REF, SLIP_VNM_44_NL1_AE01REF)  .
+#exists{CALL_AD_6_NL0_AE10,SLEEP_AD_6_NL0_AE0KE0JOINATTR}  narrow_vi_45_nl0_ce0(SLEEP_AD_6_NL0_AE0KE0JOINATTR, CALL_AD_6_NL0_AE10)  :- disease_vi_45_nl0_ce1(SLEEP_AD_6_NL0_AE0KE0REF, ROAD_AD_6_NL0_AE2, RHYTHM_AD_6_NL0_AE3)  .
+#exists{FALL_VH_45_NL0_AE00,NOTICE_VH_45_NL0_AE11}  happen_vh_45_nl0_ce0(FALL_VH_45_NL0_AE00, NOTICE_VH_45_NL0_AE11, PEACE_VH_45_NL0_AE0JOINATTR)  :- shade_vh_45_nl0_ce1(BLADE_VH_45_NL0_AE20, EAR_VH_45_NL0_AE31, PEACE_VH_45_NL0_AE0JOINATTR, PEACE_VH_45_NL0_AE0JOINATTRREF2)  .
+#exists{LOW_AD_5_NL0_AE11,PREVENT_AD_5_NL0_AE0KE00,RETURN_VNM_45_NL0_AE00}  garden_vnm_45_nl0_ce0(PREVENT_AD_5_NL0_AE0KE00, LOW_AD_5_NL0_AE11, RETURN_VNM_45_NL0_AE00)  :- yellow_vnm_45_nl0_ce2(RETURN_VNM_45_NL0_AE00REF, SAME_VNM_45_NL1_AE01REF)  .
+#exists{BATH_AD_5_NL0_AE20,BUTTER_AD_5_NL0_AE31,COPY_AD_5_NL0_AE42,SAME_VNM_45_NL1_AE01}  contribute_vnm_45_nl0_ce1(BATH_AD_5_NL0_AE20, BUTTER_AD_5_NL0_AE31, COPY_AD_5_NL0_AE42, SAME_VNM_45_NL1_AE01)  :- yellow_vnm_45_nl0_ce2(RETURN_VNM_45_NL0_AE00REF, SAME_VNM_45_NL1_AE01REF)  .
+#exists{COMFORT_VI_46_NL0_AE10,CROSS_VI_46_NL0_AE0KE0JOINATTR,TURN_VI_46_NL0_AE21}  arch_vi_46_nl0_ce0(CROSS_VI_46_NL0_AE0KE0JOINATTR, COMFORT_VI_46_NL0_AE10, TURN_VI_46_NL0_AE21)  :- compare_vi_46_nl0_ce1(CROSS_VI_46_NL0_AE0KE0REF, HIGH_VI_46_NL0_AE3, SERIOUS_VI_46_NL0_AE4)  .
+#exists{HUMOR_VH_46_NL0_AE00,PREPARE_VH_46_NL0_AE22,UMBRELLA_VH_46_NL0_AE11}  cloth_vh_46_nl0_ce0(HUMOR_VH_46_NL0_AE00, UMBRELLA_VH_46_NL0_AE11, PREPARE_VH_46_NL0_AE22, ACT_VH_46_NL0_AE0JOINATTR)  :- meal_vh_46_nl0_ce1(HANGING_VH_46_NL0_AE30, CAN_VH_46_NL0_AE41, BUTTON_VH_46_NL0_AE52, ACT_VH_46_NL0_AE0JOINATTR, ACT_VH_46_NL0_AE0JOINATTRREF3)  .
+#exists{ADVERTISEMENT_VNM_46_NL0_AE22,ERROR_VNM_46_NL0_AE0KE00,PURPOSE_VNM_46_NL0_AE11,SAME_VNM_46_NL0_AE00}  grass_vnm_46_nl0_ce0(ERROR_VNM_46_NL0_AE0KE00, PURPOSE_VNM_46_NL0_AE11, ADVERTISEMENT_VNM_46_NL0_AE22, SAME_VNM_46_NL0_AE00)  :- office_vnm_46_nl0_ce2(SAME_VNM_46_NL0_AE00REF, GROUP_VNM_46_NL1_AE01REF)  .
+#exists{ATTORNEYS_VNM_46_NL0_AE52,COLLAR_VNM_46_NL0_AE41,FRIEND_VNM_46_NL0_AE30,GROUP_VNM_46_NL1_AE01}  poison_vnm_46_nl0_ce1(FRIEND_VNM_46_NL0_AE30, COLLAR_VNM_46_NL0_AE41, ATTORNEYS_VNM_46_NL0_AE52, GROUP_VNM_46_NL1_AE01)  :- office_vnm_46_nl0_ce2(SAME_VNM_46_NL0_AE00REF, GROUP_VNM_46_NL1_AE01REF)  .
+#exists{GUN_VH_2_NL0_AE21,PROPERTY_VH_2_NL0_AE10,READY_VH_2_NL0_AE0JOINATTR}  effect_vi_47_nl0_ce0(READY_VH_2_NL0_AE0JOINATTR, PROPERTY_VH_2_NL0_AE10, GUN_VH_2_NL0_AE21)  :- sound_vi_47_nl0_ce1(READY_VH_2_NL0_AE0REF, WINTER_VH_2_NL0_AE3, POWDER_VH_2_NL0_AE4, WORK_VH_2_NL0_AE5)  .
+#exists{CONDITION_VH_47_NL0_AE00}  solid_vh_47_nl0_ce0(CONDITION_VH_47_NL0_AE00, USE_VH_47_NL0_AE0JOINATTR)  :- fall_vh_47_nl0_ce1(CHEAP_VH_47_NL0_AE10, MACHINE_VH_47_NL0_AE21, USE_VH_47_NL0_AE0JOINATTR, USE_VH_47_NL0_AE0JOINATTRREF2)  .
+#exists{FERTILE_VNM_47_NL0_AE11,NATURAL_VNM_47_NL0_AE00,THROAT_VNM_47_NL0_AE0KE00}  own_vnm_47_nl0_ce0(THROAT_VNM_47_NL0_AE0KE00, FERTILE_VNM_47_NL0_AE11, NATURAL_VNM_47_NL0_AE00)  :- true_vnm_47_nl0_ce2(NATURAL_VNM_47_NL0_AE00REF, RIVER_VNM_47_NL1_AE01REF)  .
+#exists{ACHIEVE_VNM_47_NL0_AE31,RIVER_VNM_47_NL1_AE01,SUFFER_VNM_47_NL0_AE20}  intend_vnm_47_nl0_ce1(SUFFER_VNM_47_NL0_AE20, ACHIEVE_VNM_47_NL0_AE31, RIVER_VNM_47_NL1_AE01)  :- true_vnm_47_nl0_ce2(NATURAL_VNM_47_NL0_AE00REF, RIVER_VNM_47_NL1_AE01REF)  .
+#exists{AVOID_VH_16_NL0_AE10,CLEAN_VH_16_NL0_AE21,ROUND_VH_16_NL0_AE32,SNEEZE_VH_16_NL0_AE0JOINATTR}  fact_vi_48_nl0_ce0(SNEEZE_VH_16_NL0_AE0JOINATTR, AVOID_VH_16_NL0_AE10, CLEAN_VH_16_NL0_AE21, ROUND_VH_16_NL0_AE32)  :- obtain_vi_48_nl0_ce1(SNEEZE_VH_16_NL0_AE0REF, BEGIN_VH_16_NL0_AE4, CREATE_VH_16_NL0_AE5, COPY_VH_16_NL0_AE6)  .
+#exists{RAISE_VH_48_NL0_AE11,ROAD_VH_48_NL0_AE00}  clear_vh_48_nl0_ce0(ROAD_VH_48_NL0_AE00, RAISE_VH_48_NL0_AE11, AFFECT_VH_48_NL0_AE0JOINATTR)  :- achieve_vh_48_nl0_ce1(CURRENT_VH_48_NL0_AE20, POLITICAL_VH_48_NL0_AE31, AGENCIES_VH_48_NL0_AE42, AFFECT_VH_48_NL0_AE0JOINATTR, AFFECT_VH_48_NL0_AE0JOINATTRREF3)  .
+#exists{ENJOY_VNM_48_NL0_AE00,SNOW_AD_21_NL0_AE0KE00,WHEEL_AD_21_NL0_AE11}  voice_vnm_48_nl0_ce0(SNOW_AD_21_NL0_AE0KE00, WHEEL_AD_21_NL0_AE11, ENJOY_VNM_48_NL0_AE00)  :- must_vnm_48_nl0_ce2(ENJOY_VNM_48_NL0_AE00REF, POTATO_VNM_48_NL1_AE01REF)  .
+#exists{FACE_AD_21_NL0_AE20,POTATO_VNM_48_NL1_AE01,SONG_AD_21_NL0_AE31,WRITING_AD_21_NL0_AE42}  flower_vnm_48_nl0_ce1(FACE_AD_21_NL0_AE20, SONG_AD_21_NL0_AE31, WRITING_AD_21_NL0_AE42, POTATO_VNM_48_NL1_AE01)  :- must_vnm_48_nl0_ce2(ENJOY_VNM_48_NL0_AE00REF, POTATO_VNM_48_NL1_AE01REF)  .
+#exists{BUTTON_VI_49_NL0_AE10,GOLD_VI_49_NL0_AE0KE0JOINATTR,SUPPORT_VI_49_NL0_AE21}  fish_vi_49_nl0_ce0(GOLD_VI_49_NL0_AE0KE0JOINATTR, BUTTON_VI_49_NL0_AE10, SUPPORT_VI_49_NL0_AE21)  :- tight_vi_49_nl0_ce1(GOLD_VI_49_NL0_AE0KE0REF, ATTENTION_VI_49_NL0_AE3, FEED_VI_49_NL0_AE4)  .
+#exists{IMPROVE_VH_49_NL0_AE00,QUICK_VH_49_NL0_AE11}  language_vh_49_nl0_ce0(IMPROVE_VH_49_NL0_AE00, QUICK_VH_49_NL0_AE11, WILL_VH_49_NL0_AE0JOINATTR)  :- bucket_vh_49_nl0_ce1(NORMAL_VH_49_NL0_AE20, LOSS_VH_49_NL0_AE31, FLAG_VH_49_NL0_AE42, WILL_VH_49_NL0_AE0JOINATTR, WILL_VH_49_NL0_AE0JOINATTRREF3)  .
+#exists{PROTEST_VNM_49_NL0_AE00,STOMACH_VNM_49_NL0_AE0KE00}  manager_vnm_49_nl0_ce0(STOMACH_VNM_49_NL0_AE0KE00, PROTEST_VNM_49_NL0_AE00)  :- process_vnm_49_nl0_ce2(PROTEST_VNM_49_NL0_AE00REF, GRAIN_VNM_49_NL1_AE01REF)  .
+#exists{GRAIN_VNM_49_NL1_AE01,PLOUGH_VNM_49_NL0_AE21,REMAIN_VNM_49_NL0_AE10}  arm_vnm_49_nl0_ce1(REMAIN_VNM_49_NL0_AE10, PLOUGH_VNM_49_NL0_AE21, GRAIN_VNM_49_NL1_AE01)  :- process_vnm_49_nl0_ce2(PROTEST_VNM_49_NL0_AE00REF, GRAIN_VNM_49_NL1_AE01REF)  .
+#exists{COMMITTEE_AD_9_NL0_AE41,SHALL_AD_9_NL0_AE30,SOAP_AD_9_NL0_AE0KE0REF}  separate_vi_41_nl0_ce1(SOAP_AD_9_NL0_AE0KE0REF, SHALL_AD_9_NL0_AE30, COMMITTEE_AD_9_NL0_AE41)  :- use_vi_23_nl0_ce0(PRICE_VI_23_NL0_AE0KE0JOINATTR, ORANGE_VI_23_NL0_AE10, COPY_VI_23_NL0_AE21)  .
+#exists{DIFFERENT_VNM_1_NL0_AE31,DISCOVER_VNM_1_NL0_AE20,NARROW_VNM_1_NL1_AE01,REVEAL_VNM_1_NL0_AE42}  place_vnm_1_nl0_ce1(DISCOVER_VNM_1_NL0_AE20, DIFFERENT_VNM_1_NL0_AE31, REVEAL_VNM_1_NL0_AE42, NARROW_VNM_1_NL1_AE01)  :- know_vh_15_nl0_ce1(SMOOTH_VH_15_NL0_AE20, WILL_VH_15_NL0_AE31, REST_VH_15_NL0_AE42, FLAT_VH_15_NL0_AE0JOINATTR, FLAT_VH_15_NL0_AE0JOINATTRREF3)  .
+#exists{DROP_VNM_50_NL0_AE00,SHAKE_VNM_44_NL0_AE0KE00}  brick_vnm_50_nl0_ce0(SHAKE_VNM_44_NL0_AE0KE00, DROP_VNM_50_NL0_AE00)  :- work_vnm_50_nl0_ce2(DROP_VNM_50_NL0_AE00REF, SLOPE_VNM_50_NL1_AE01REF)  .
+#exists{MONEY_VNM_44_NL0_AE10,MONEY_VNM_44_NL0_AE21,SLOPE_VNM_50_NL1_AE01}  hold_vnm_50_nl0_ce1(MONEY_VNM_44_NL0_AE10, MONEY_VNM_44_NL0_AE21, SLOPE_VNM_50_NL1_AE01)  :- work_vnm_50_nl0_ce2(DROP_VNM_50_NL0_AE00REF, SLOPE_VNM_50_NL1_AE01REF)  .
+#exists{BURN_VI_11_NL0_AE31,REGARD_VI_11_NL0_AE20,SAFE_VI_11_NL0_AE0KE0REF}  yellow_vi_11_nl0_ce1(SAFE_VI_11_NL0_AE0KE0REF, REGARD_VI_11_NL0_AE20, BURN_VI_11_NL0_AE31)  :- kind_vi_3_nl0_ce0(NECESSARY_VI_3_NL0_AE0KE0JOINATTR, STICK_VI_3_NL0_AE10, EFFECT_VI_3_NL0_AE21)  .
+#exists{NATION_VI_21_NL0_AE0KE00}  deliver_vh_51_nl0_ce0(NATION_VI_21_NL0_AE0KE00, DISGUST_VH_51_NL0_AE0JOINATTR)  :- round_vh_51_nl0_ce1(WET_VI_21_NL0_AE10, DISGUST_VH_51_NL0_AE0JOINATTR, DISGUST_VH_51_NL0_AE0JOINATTRREF1)  .
+#exists{EVENT_VH_9_NL0_AE11,PASTE_VH_9_NL0_AE0JOINATTR,WEIGHT_VH_9_NL0_AE00}  account_vh_9_nl0_ce0(WEIGHT_VH_9_NL0_AE00, EVENT_VH_9_NL0_AE11, PASTE_VH_9_NL0_AE0JOINATTR)  :- mouth_vnm_44_nl0_ce0(SHAKE_VNM_44_NL0_AE0KE00, PARALLEL_VNM_44_NL0_AE00)  .
+#exists{MONEY_VNM_44_NL0_AE10,MONEY_VNM_44_NL0_AE21,SLIP_VNM_44_NL1_AE01}  industry_vnm_44_nl0_ce1(MONEY_VNM_44_NL0_AE10, MONEY_VNM_44_NL0_AE21, SLIP_VNM_44_NL1_AE01)  :- mouth_vnm_44_nl0_ce0(SHAKE_VNM_44_NL0_AE0KE00, PARALLEL_VNM_44_NL0_AE00)  .
+#exists{CLEAR_VI_52_NL0_AE10,KNIFE_VI_52_NL0_AE0KE0JOINATTR}  light_vi_52_nl0_ce0(KNIFE_VI_52_NL0_AE0KE0JOINATTR, CLEAR_VI_52_NL0_AE10)  :- industry_vi_52_nl0_ce1(KNIFE_VI_52_NL0_AE0KE0REF, ARRIVE_VI_52_NL0_AE2, HAPPEN_VI_52_NL0_AE3)  .
+#exists{ILL_VNM_38_NL0_AE5,TALL_VNM_38_NL0_AE42,UNIT_VNM_38_NL0_AE0KE0REF0,WALL_VNM_38_NL0_AE31}  indicate_vi_40_nl0_ce1(UNIT_VNM_38_NL0_AE0KE0REF0, WALL_VNM_38_NL0_AE31, TALL_VNM_38_NL0_AE42, ILL_VNM_38_NL0_AE5)  :- charge_vh_3_nl0_ce1(CHALK_VH_3_NL0_AE20, REGULAR_VH_3_NL0_AE31, LOVE_VH_3_NL0_AE42, MIND_VH_3_NL0_AE0JOINATTR, MIND_VH_3_NL0_AE0JOINATTRREF3)  .
+#exists{SHARE_VNM_52_NL0_AE00,STEEL_VNM_52_NL0_AE11,WEATHER_VNM_52_NL0_AE0KE00}  snow_vnm_52_nl0_ce0(WEATHER_VNM_52_NL0_AE0KE00, STEEL_VNM_52_NL0_AE11, SHARE_VNM_52_NL0_AE00)  :- card_vnm_52_nl0_ce2(SHARE_VNM_52_NL0_AE00REF, HANDLE_VNM_52_NL1_AE01REF)  .
+#exists{ACT_VNM_52_NL0_AE31,HANDLE_VNM_52_NL1_AE01,HELP_VNM_52_NL0_AE20}  smoke_vnm_52_nl0_ce1(HELP_VNM_52_NL0_AE20, ACT_VNM_52_NL0_AE31, HANDLE_VNM_52_NL1_AE01)  :- card_vnm_52_nl0_ce2(SHARE_VNM_52_NL0_AE00REF, HANDLE_VNM_52_NL1_AE01REF)  .
+#exists{CONSCIOUS_VNM_38_NL0_AE10,SHUT_VNM_38_NL0_AE21,UNIT_VNM_38_NL0_AE0KE0JOINATTR}  peace_vi_40_nl0_ce0(UNIT_VNM_38_NL0_AE0KE0JOINATTR, CONSCIOUS_VNM_38_NL0_AE10, SHUT_VNM_38_NL0_AE21)  :- late_vi_7_nl0_ce1(PRIVATE_VI_7_NL0_AE0KE0REF, SPACE_VI_7_NL0_AE30, ART_VI_7_NL0_AE41)  .
+#exists{AIM_VH_53_NL0_AE00,DIFFERENT_VH_53_NL0_AE22,TICKET_VH_53_NL0_AE11}  line_vh_53_nl0_ce0(AIM_VH_53_NL0_AE00, TICKET_VH_53_NL0_AE11, DIFFERENT_VH_53_NL0_AE22, SNEEZE_VH_53_NL0_AE0JOINATTR)  :- watch_vh_53_nl0_ce1(EXPANSION_VH_53_NL0_AE30, SHARE_VH_53_NL0_AE41, ABLE_VH_53_NL0_AE52, SNEEZE_VH_53_NL0_AE0JOINATTR, SNEEZE_VH_53_NL0_AE0JOINATTRREF3)  .
+#exists{GAIN_VNM_53_NL0_AE0KE00,MEAN_VNM_53_NL0_AE22,RAISE_VNM_53_NL0_AE11,ZOO_VNM_53_NL0_AE00}  relation_vnm_53_nl0_ce0(GAIN_VNM_53_NL0_AE0KE00, RAISE_VNM_53_NL0_AE11, MEAN_VNM_53_NL0_AE22, ZOO_VNM_53_NL0_AE00)  :- music_vnm_53_nl0_ce2(ZOO_VNM_53_NL0_AE00REF, HOLE_VNM_53_NL1_AE01REF)  .
+#exists{EGG_VNM_53_NL0_AE52,HOLE_VNM_53_NL1_AE01,KNOCK_VNM_53_NL0_AE30,PAGE_VNM_53_NL0_AE41,SHOULD_VNM_53_NL0_AE63}  move_vnm_53_nl0_ce1(KNOCK_VNM_53_NL0_AE30, PAGE_VNM_53_NL0_AE41, EGG_VNM_53_NL0_AE52, SHOULD_VNM_53_NL0_AE63, HOLE_VNM_53_NL1_AE01)  :- music_vnm_53_nl0_ce2(ZOO_VNM_53_NL0_AE00REF, HOLE_VNM_53_NL1_AE01REF)  .
+#exists{CONNECTION_VNM_7_NL0_AE10,INTEREST_VNM_7_NL0_AE0KE0JOINATTR}  swim_vi_54_nl0_ce0(INTEREST_VNM_7_NL0_AE0KE0JOINATTR, CONNECTION_VNM_7_NL0_AE10)  :- regret_vi_54_nl0_ce1(INTEREST_VNM_7_NL0_AE0KE0REF, HEART_VNM_7_NL0_AE2, SEEM_VNM_7_NL0_AE3)  .
+#exists{CONTAIN_VNM_32_NL1_AE01,DETAIL_VNM_32_NL0_AE20,ELECTRIC_VNM_32_NL0_AE42,NOTICE_VNM_32_NL0_AE31}  discuss_vnm_32_nl0_ce1(DETAIL_VNM_32_NL0_AE20, NOTICE_VNM_32_NL0_AE31, ELECTRIC_VNM_32_NL0_AE42, CONTAIN_VNM_32_NL1_AE01)  :- paint_vh_24_nl0_ce1(PROVE_VH_24_NL0_AE30, PAYMENT_VH_24_NL0_AE41, PIN_VH_24_NL0_AE52, WHITE_VH_24_NL0_AE0JOINATTR, WHITE_VH_24_NL0_AE0JOINATTRREF3)  .
+#exists{AVOID_VH_16_NL0_AE11,CLEAN_VH_16_NL0_AE22,RESPONSIBLE_VNM_54_NL0_AE00,SNEEZE_VH_16_NL0_AE00}  private_vnm_54_nl0_ce0(SNEEZE_VH_16_NL0_AE00, AVOID_VH_16_NL0_AE11, CLEAN_VH_16_NL0_AE22, RESPONSIBLE_VNM_54_NL0_AE00)  :- lock_vnm_54_nl0_ce2(RESPONSIBLE_VNM_54_NL0_AE00REF, POOR_VNM_54_NL1_AE01REF)  .
+#exists{BEGIN_VH_16_NL0_AE41,COPY_VH_16_NL0_AE63,CREATE_VH_16_NL0_AE52,POOR_VNM_54_NL1_AE01,ROUND_VH_16_NL0_AE30}  blood_vnm_54_nl0_ce1(ROUND_VH_16_NL0_AE30, BEGIN_VH_16_NL0_AE41, CREATE_VH_16_NL0_AE52, COPY_VH_16_NL0_AE63, POOR_VNM_54_NL1_AE01)  :- lock_vnm_54_nl0_ce2(RESPONSIBLE_VNM_54_NL0_AE00REF, POOR_VNM_54_NL1_AE01REF)  .
+#exists{COMB_AD_32_NL0_AE10,GLASS_AD_32_NL0_AE21,ICE_AD_32_NL0_AE0KE0,PROSE_AD_32_NL0_AE43,SHAME_AD_32_NL0_AE32}  reading_ad_32_nl0_ce0(ICE_AD_32_NL0_AE0KE0, COMB_AD_32_NL0_AE10, GLASS_AD_32_NL0_AE21, SHAME_AD_32_NL0_AE32, PROSE_AD_32_NL0_AE43)  :- reason_ad_18_nl0_ce0(MIDDLE_AD_18_NL0_AE0KE0, ATTEMPT_AD_18_NL0_AE10, HEAR_AD_18_NL0_AE21, MEAL_AD_18_NL0_AE32, DEGREE_AD_18_NL0_AE43)  .
+#exists{DEPENDENT_VNM_12_NL0_AE00,DRIVING_VNM_12_NL0_AE0KE00,MOUNTAIN_VNM_12_NL0_AE11}  sleep_vnm_12_nl0_ce0(DRIVING_VNM_12_NL0_AE0KE00, MOUNTAIN_VNM_12_NL0_AE11, DEPENDENT_VNM_12_NL0_AE00)  :- fertile_vh_7_nl0_ce1(SILVER_VH_7_NL0_AE10, TIGHT_VH_7_NL0_AE21, ORANGE_VH_7_NL0_AE0JOINATTR, ORANGE_VH_7_NL0_AE0JOINATTRREF2)  .
+#exists{AFFECT_VI_26_NL0_AE21,PRIVATE_VI_26_NL0_AE3,SNAKE_VI_26_NL0_AE0KE0REF0}  delicate_vi_26_nl0_ce1(SNAKE_VI_26_NL0_AE0KE0REF0, AFFECT_VI_26_NL0_AE21, PRIVATE_VI_26_NL0_AE3)  :- stone_vh_7_nl0_ce0(SUPPORT_VH_7_NL0_AE00, ORANGE_VH_7_NL0_AE0JOINATTR)  .
+#exists{FERTILE_VNM_47_NL0_AE11,NATURAL_VNM_47_NL0_AE00,THROAT_VNM_47_NL0_AE0KE00}  own_vnm_47_nl0_ce0(THROAT_VNM_47_NL0_AE0KE00, FERTILE_VNM_47_NL0_AE11, NATURAL_VNM_47_NL0_AE00)  :- stone_vh_7_nl0_ce0(SUPPORT_VH_7_NL0_AE00, ORANGE_VH_7_NL0_AE0JOINATTR)  .
+#exists{CARE_VI_56_NL0_AE21,OBSERVATION_VI_56_NL0_AE0KE0JOINATTR,STRETCH_VI_56_NL0_AE10}  error_vi_56_nl0_ce0(OBSERVATION_VI_56_NL0_AE0KE0JOINATTR, STRETCH_VI_56_NL0_AE10, CARE_VI_56_NL0_AE21)  :- twist_vi_56_nl0_ce1(OBSERVATION_VI_56_NL0_AE0KE0REF, FINGER_VI_56_NL0_AE3, EXAMINE_VI_56_NL0_AE4, STOCKING_VI_56_NL0_AE5)  .
+#exists{DESIRE_VH_56_NL0_AE00}  learn_vh_56_nl0_ce0(DESIRE_VH_56_NL0_AE00, DAUGHTER_VH_56_NL0_AE0JOINATTR)  :- loose_vh_56_nl0_ce1(CONSIST_VH_56_NL0_AE10, CHESS_VH_56_NL0_AE21, DAUGHTER_VH_56_NL0_AE0JOINATTR, DAUGHTER_VH_56_NL0_AE0JOINATTRREF2)  .
+#exists{ARRANGE_VNM_11_NL1_AE01,CHECK_VNM_11_NL0_AE20,LANGUAGE_VNM_11_NL0_AE42,PLACE_VNM_11_NL0_AE31}  first_vnm_11_nl0_ce1(CHECK_VNM_11_NL0_AE20, PLACE_VNM_11_NL0_AE31, LANGUAGE_VNM_11_NL0_AE42, ARRANGE_VNM_11_NL1_AE01)  :- parallel_vnm_2_nl0_ce0(DEAD_VNM_2_NL0_AE0KE00, KNEE_VNM_2_NL0_AE00)  .
+#exists{HOLD_VNM_42_NL0_AE0KE00,JUMP_VNM_42_NL0_AE22,SMELL_VNM_42_NL0_AE11,TICKET_VNM_42_NL0_AE00}  sense_vnm_42_nl0_ce0(HOLD_VNM_42_NL0_AE0KE00, SMELL_VNM_42_NL0_AE11, JUMP_VNM_42_NL0_AE22, TICKET_VNM_42_NL0_AE00)  :- parallel_vnm_2_nl0_ce0(DEAD_VNM_2_NL0_AE0KE00, KNEE_VNM_2_NL0_AE00)  .
+#exists{DOG_AD_49_NL0_AE32,JELLY_VI_39_NL0_AE10,LIFT_VI_39_NL0_AE21,SAIL_VI_39_NL0_AE0KE0}  whistle_ad_49_nl0_ce0(SAIL_VI_39_NL0_AE0KE0, JELLY_VI_39_NL0_AE10, LIFT_VI_39_NL0_AE21, DOG_AD_49_NL0_AE32)  :- damage_ad_33_nl0_ce0(INFLUENCE_AD_33_NL0_AE0KE0, PROFIT_AD_33_NL0_AE10, REWARD_AD_33_NL0_AE21, FAIL_AD_33_NL0_AE32)  .
+#exists{COW_VH_57_NL0_AE00,DISCOVERY_VH_57_NL0_AE11}  girl_vh_57_nl0_ce0(COW_VH_57_NL0_AE00, DISCOVERY_VH_57_NL0_AE11, SET_VH_57_NL0_AE0JOINATTR)  :- cart_vh_57_nl0_ce1(PLANE_VH_57_NL0_AE20, OFFER_VH_57_NL0_AE31, TROUBLE_VH_57_NL0_AE42, SET_VH_57_NL0_AE0JOINATTR, SET_VH_57_NL0_AE0JOINATTRREF3)  .
+#exists{DISGUST_VNM_57_NL0_AE00,FISH_VNM_57_NL0_AE22,INDICATE_VNM_57_NL0_AE11,THIN_VNM_57_NL0_AE0KE00}  offer_vnm_57_nl0_ce0(THIN_VNM_57_NL0_AE0KE00, INDICATE_VNM_57_NL0_AE11, FISH_VNM_57_NL0_AE22, DISGUST_VNM_57_NL0_AE00)  :- carry_vnm_57_nl0_ce2(DISGUST_VNM_57_NL0_AE00REF, REALIZE_VNM_57_NL1_AE01REF)  .
+#exists{MEAL_VNM_57_NL0_AE41,PULL_VNM_57_NL0_AE52,REALIZE_VNM_57_NL1_AE01,RHYTHM_VNM_57_NL0_AE30}  fertile_vnm_57_nl0_ce1(RHYTHM_VNM_57_NL0_AE30, MEAL_VNM_57_NL0_AE41, PULL_VNM_57_NL0_AE52, REALIZE_VNM_57_NL1_AE01)  :- carry_vnm_57_nl0_ce2(DISGUST_VNM_57_NL0_AE00REF, REALIZE_VNM_57_NL1_AE01REF)  .
+#exists{ART_VI_58_NL0_AE10,USE_VI_58_NL0_AE0KE0JOINATTR}  curve_vi_58_nl0_ce0m(USE_VI_58_NL0_AE0KE0JOINATTR, ART_VI_58_NL0_AE10)  :- play_vi_58_nl0_ce1(USE_VI_58_NL0_AE0KE0REF, LIMIT_VI_58_NL0_AE2, SHOE_VI_58_NL0_AE3)  .
+#exists{INTEND_VH_58_NL0_AE00}  nation_vh_58_nl0_ce0(INTEND_VH_58_NL0_AE00, BEE_VH_58_NL0_AE0JOINATTR)  :- knock_vh_58_nl0_ce1(TRICK_VH_58_NL0_AE10, GUIDE_VH_58_NL0_AE21, BEE_VH_58_NL0_AE0JOINATTR, BEE_VH_58_NL0_AE0JOINATTRREF2)  .
+#exists{BUTTON_VNM_58_NL0_AE22,REGULAR_VNM_58_NL0_AE00,STICK_VNM_58_NL0_AE11,SYSTEM_VNM_58_NL0_AE0KE00}  liquid_vnm_58_nl0_ce0(SYSTEM_VNM_58_NL0_AE0KE00, STICK_VNM_58_NL0_AE11, BUTTON_VNM_58_NL0_AE22, REGULAR_VNM_58_NL0_AE00)  :- lay_vnm_58_nl0_ce2(REGULAR_VNM_58_NL0_AE00REF, FREQUENT_VNM_58_NL1_AE01REF)  .
+#exists{COUNTRY_VNM_58_NL0_AE52,FREQUENT_VNM_58_NL1_AE01,TREE_VNM_58_NL0_AE30,WIND_VNM_58_NL0_AE41}  loose_vnm_58_nl0_ce1(TREE_VNM_58_NL0_AE30, WIND_VNM_58_NL0_AE41, COUNTRY_VNM_58_NL0_AE52, FREQUENT_VNM_58_NL1_AE01)  :- lay_vnm_58_nl0_ce2(REGULAR_VNM_58_NL0_AE00REF, FREQUENT_VNM_58_NL1_AE01REF)  .
+#exists{DRAIN_VI_59_NL0_AE10,FUTURE_VI_59_NL0_AE21,TENDENCY_VI_59_NL0_AE0KE0JOINATTR}  substance_vi_59_nl0_ce0(TENDENCY_VI_59_NL0_AE0KE0JOINATTR, DRAIN_VI_59_NL0_AE10, FUTURE_VI_59_NL0_AE21)  :- mean_vi_59_nl0_ce1(TENDENCY_VI_59_NL0_AE0KE0REF, ENGINE_VI_59_NL0_AE3, EDGE_VI_59_NL0_AE4, FORM_VI_59_NL0_AE5)  .
+#exists{CRY_VI_17_NL0_AE0KE00,STAND_VI_17_NL0_AE11}  answer_vh_59_nl0_ce0(CRY_VI_17_NL0_AE0KE00, STAND_VI_17_NL0_AE11, SPADE_VH_59_NL0_AE0JOINATTR)  :- play_vh_59_nl0_ce1(MAN_VI_17_NL0_AE20, BEGIN_VI_17_NL0_AE31, SPADE_VH_59_NL0_AE0JOINATTR, SPADE_VH_59_NL0_AE0JOINATTRREF2)  .
+#exists{OBTAIN_VH_14_NL0_AE11,REPORT_VNM_33_NL0_AE00,SUDDEN_VH_14_NL0_AE00}  knot_vnm_33_nl0_ce0(SUDDEN_VH_14_NL0_AE00, OBTAIN_VH_14_NL0_AE11, REPORT_VNM_33_NL0_AE00)  :- business_vi_11_nl0_ce0(SAFE_VI_11_NL0_AE0KE0JOINATTR, TALK_VI_11_NL0_AE10)  .
+#exists{CONSIST_VNM_37_NL0_AE11,MASS_VNM_37_NL0_AE00,PIG_VNM_37_NL0_AE0KE00}  move_vnm_37_nl0_ce0(PIG_VNM_37_NL0_AE0KE00, CONSIST_VNM_37_NL0_AE11, MASS_VNM_37_NL0_AE00)  :- business_vi_11_nl0_ce0(SAFE_VI_11_NL0_AE0KE0JOINATTR, TALK_VI_11_NL0_AE10)  .
+#exists{EYE_VI_14_NL0_AE0KE0JOINATTR,LEAD_VI_14_NL0_AE10,WOUND_VI_14_NL0_AE21}  female_vi_60_nl0_ce0(EYE_VI_14_NL0_AE0KE0JOINATTR, LEAD_VI_14_NL0_AE10, WOUND_VI_14_NL0_AE21)  :- jelly_vi_60_nl0_ce1(EYE_VI_14_NL0_AE0KE0REF, HAPPY_VI_14_NL0_AE3, PREFER_VI_14_NL0_AE4, DESCRIBE_VI_14_NL0_AE5)  .
+#exists{POSSIBLE_AD_55_NL0_AE0KE00}  weight_vh_60_nl0_ce0(POSSIBLE_AD_55_NL0_AE0KE00, FOUND_VH_60_NL0_AE0JOINATTR)  :- page_vh_60_nl0_ce1(MISS_AD_55_NL0_AE10, FOUND_VH_60_NL0_AE0JOINATTR, FOUND_VH_60_NL0_AE0JOINATTRREF1)  .
+#exists{EXPECT_VNM_60_NL0_AE0KE00,FINGER_VNM_60_NL0_AE00,PUNISHMENT_VNM_60_NL0_AE11}  fall_vnm_60_nl0_ce0(EXPECT_VNM_60_NL0_AE0KE00, PUNISHMENT_VNM_60_NL0_AE11, FINGER_VNM_60_NL0_AE00)  :- safe_vnm_60_nl0_ce2(FINGER_VNM_60_NL0_AE00REF, ENJOY_VNM_60_NL1_AE01REF)  .
+#exists{ENJOY_VNM_60_NL1_AE01,KIND_VNM_60_NL0_AE42,MATERIAL_VNM_60_NL0_AE31,SEA_VNM_60_NL0_AE20}  common_vnm_60_nl0_ce1(SEA_VNM_60_NL0_AE20, MATERIAL_VNM_60_NL0_AE31, KIND_VNM_60_NL0_AE42, ENJOY_VNM_60_NL1_AE01)  :- safe_vnm_60_nl0_ce2(FINGER_VNM_60_NL0_AE00REF, ENJOY_VNM_60_NL1_AE01REF)  .
+#exists{BRIGHT_VI_61_NL0_AE10,WINTER_VI_61_NL0_AE0KE0JOINATTR,WIRE_VI_61_NL0_AE21}  avoid_vi_61_nl0_ce0(WINTER_VI_61_NL0_AE0KE0JOINATTR, BRIGHT_VI_61_NL0_AE10, WIRE_VI_61_NL0_AE21)  :- grey_vi_61_nl0_ce1(WINTER_VI_61_NL0_AE0KE0REF, NAME_VI_61_NL0_AE3, DELIVER_VI_61_NL0_AE4, FAT_VI_61_NL0_AE5)  .
+#exists{BAND_AD_36_NL0_AE11,SLOW_AD_36_NL0_AE0KE00}  blue_vh_61_nl0_ce0(SLOW_AD_36_NL0_AE0KE00, BAND_AD_36_NL0_AE11, QUALITY_VH_61_NL0_AE0JOINATTR)  :- stick_vh_61_nl0_ce1(LIGHT_AD_36_NL0_AE20, WET_AD_36_NL0_AE31, QUALITY_VH_61_NL0_AE0JOINATTR, QUALITY_VH_61_NL0_AE0JOINATTRREF2)  .
+#exists{ANGLE_VH_8_NL0_AE0REF0,EXCHANGE_VH_8_NL0_AE3,LIFT_VH_8_NL0_AE21}  delicate_vi_38_nl0_ce1(ANGLE_VH_8_NL0_AE0REF0, LIFT_VH_8_NL0_AE21, EXCHANGE_VH_8_NL0_AE3)  :- mist_vnm_25_nl0_ce2(ENCOURAGE_VNM_25_NL0_AE00REF, CHEAP_VNM_25_NL1_AE01REF)  .
+#exists{DISTRIBUTION_VNM_4_NL1_AE01,HOLLOW_VNM_4_NL0_AE10,HOLLOW_VNM_4_NL0_AE21}  pain_vnm_4_nl0_ce1(HOLLOW_VNM_4_NL0_AE10, HOLLOW_VNM_4_NL0_AE21, DISTRIBUTION_VNM_4_NL1_AE01)  :- mist_vnm_25_nl0_ce2(ENCOURAGE_VNM_25_NL0_AE00REF, CHEAP_VNM_25_NL1_AE01REF)  .
+#exists{ALLOW_AD_8_NL0_AE32,COVER_AD_8_NL0_AE21,EXIST_AD_8_NL0_AE10,PREFER_AD_8_NL0_AE43,SHUT_AD_8_NL0_AE0KE0}  eat_ad_8_nl0_ce0(SHUT_AD_8_NL0_AE0KE0, EXIST_AD_8_NL0_AE10, COVER_AD_8_NL0_AE21, ALLOW_AD_8_NL0_AE32, PREFER_AD_8_NL0_AE43)  :- deep_ad_16_nl0_ce0(TOE_AD_16_NL0_AE0KE0, HANDLE_AD_16_NL0_AE10, GLOVE_AD_16_NL0_AE21, DARK_AD_16_NL0_AE32, PICTURE_AD_16_NL0_AE43)  .
+#exists{DIRTY_VH_62_NL0_AE11,SHADE_VH_62_NL0_AE00}  smell_vh_62_nl0_ce0(SHADE_VH_62_NL0_AE00, DIRTY_VH_62_NL0_AE11, DOOR_VH_62_NL0_AE0JOINATTR)  :- base_vh_62_nl0_ce1(FALSE_VH_62_NL0_AE20, RULE_VH_62_NL0_AE31, CHECK_VH_62_NL0_AE42, DOOR_VH_62_NL0_AE0JOINATTR, DOOR_VH_62_NL0_AE0JOINATTRREF3)  .
+#exists{HELP_VNM_62_NL0_AE0KE00,HIDE_VNM_62_NL0_AE00}  cushion_vnm_62_nl0_ce0(HELP_VNM_62_NL0_AE0KE00, HIDE_VNM_62_NL0_AE00)  :- could_vnm_62_nl0_ce2(HIDE_VNM_62_NL0_AE00REF, RESULT_VNM_62_NL1_AE01REF)  .
+#exists{GOLD_VNM_62_NL0_AE10,RESULT_VNM_62_NL1_AE01}  bell_vnm_62_nl0_ce1(GOLD_VNM_62_NL0_AE10, RESULT_VNM_62_NL1_AE01)  :- could_vnm_62_nl0_ce2(HIDE_VNM_62_NL0_AE00REF, RESULT_VNM_62_NL1_AE01REF)  .
+#exists{OPINION_VI_63_NL0_AE0KE0JOINATTR,RICE_VI_63_NL0_AE10}  would_vi_63_nl0_ce0(OPINION_VI_63_NL0_AE0KE0JOINATTR, RICE_VI_63_NL0_AE10)  :- gun_vi_63_nl0_ce1(OPINION_VI_63_NL0_AE0KE0REF, NEWS_VI_63_NL0_AE2)  .
+#exists{HURT_VNM_13_NL0_AE0KE00,POT_VNM_13_NL0_AE00,STOP_VNM_13_NL0_AE11}  conscious_vnm_13_nl0_ce0(HURT_VNM_13_NL0_AE0KE00, STOP_VNM_13_NL0_AE11, POT_VNM_13_NL0_AE00)  :- hate_vh_6_nl0_ce1(BELONG_VH_6_NL0_AE10, INCREASE_VH_6_NL0_AE21, FEMALE_VH_6_NL0_AE0JOINATTR, FEMALE_VH_6_NL0_AE0JOINATTRREF2)  .
+#exists{ACT_VNM_63_NL0_AE00,FASTEN_VNM_63_NL0_AE0KE00,PROVE_VNM_63_NL0_AE11}  collar_vnm_63_nl0_ce0(FASTEN_VNM_63_NL0_AE0KE00, PROVE_VNM_63_NL0_AE11, ACT_VNM_63_NL0_AE00)  :- science_vnm_63_nl0_ce2(ACT_VNM_63_NL0_AE00REF, RATE_VNM_63_NL1_AE01REF)  .
+#exists{ATTENTION_VNM_63_NL0_AE20,BELONG_VNM_63_NL0_AE31,RATE_VNM_63_NL1_AE01,WEEK_VNM_63_NL0_AE42}  concern_vnm_63_nl0_ce1(ATTENTION_VNM_63_NL0_AE20, BELONG_VNM_63_NL0_AE31, WEEK_VNM_63_NL0_AE42, RATE_VNM_63_NL1_AE01)  :- science_vnm_63_nl0_ce2(ACT_VNM_63_NL0_AE00REF, RATE_VNM_63_NL1_AE01REF)  .
+#exists{SUMMER_VI_64_NL0_AE0KE0JOINATTR,WANT_VI_64_NL0_AE10}  neck_vi_64_nl0_ce0(SUMMER_VI_64_NL0_AE0KE0JOINATTR, WANT_VI_64_NL0_AE10)  :- encourage_vi_64_nl0_ce1(SUMMER_VI_64_NL0_AE0KE0REF, CONDITION_VI_64_NL0_AE2, MANAGER_VI_64_NL0_AE3)  .
+#exists{HUMOR_VH_64_NL0_AE00}  fly_vh_64_nl0_ce0(HUMOR_VH_64_NL0_AE00, AIM_VH_64_NL0_AE0JOINATTR)  :- twist_vh_64_nl0_ce1(OPEN_VH_64_NL0_AE10, REGRET_VH_64_NL0_AE21, AIM_VH_64_NL0_AE0JOINATTR, AIM_VH_64_NL0_AE0JOINATTRREF2)  .
+#exists{INFLUENCE_AD_33_NL0_AE0KE00,OIL_VNM_64_NL0_AE00}  use_vnm_64_nl0_ce0(INFLUENCE_AD_33_NL0_AE0KE00, OIL_VNM_64_NL0_AE00)  :- horse_vnm_64_nl0_ce2(OIL_VNM_64_NL0_AE00REF, ANSWER_VNM_64_NL1_AE01REF)  .
+#exists{ANSWER_VNM_64_NL1_AE01,PROFIT_AD_33_NL0_AE10,REWARD_AD_33_NL0_AE21}  grey_vnm_64_nl0_ce1(PROFIT_AD_33_NL0_AE10, REWARD_AD_33_NL0_AE21, ANSWER_VNM_64_NL1_AE01)  :- horse_vnm_64_nl0_ce2(OIL_VNM_64_NL0_AE00REF, ANSWER_VNM_64_NL1_AE01REF)  .
+#exists{FRUIT_AD_9_NL0_AE10,SOAP_AD_9_NL0_AE0KE0JOINATTR,STAY_AD_9_NL0_AE21}  touch_vi_41_nl0_ce0(SOAP_AD_9_NL0_AE0KE0JOINATTR, FRUIT_AD_9_NL0_AE10, STAY_AD_9_NL0_AE21)  :- base_vh_62_nl0_ce1(FALSE_VH_62_NL0_AE20, RULE_VH_62_NL0_AE31, CHECK_VH_62_NL0_AE42, DOOR_VH_62_NL0_AE0JOINATTR, DOOR_VH_62_NL0_AE0JOINATTRREF3)  .
+#exists{DEBTS_VI_6_NL0_AE10,FALL_AD_56_NL0_AE43,GAIN_VI_6_NL0_AE32,RETURN_VI_6_NL0_AE0KE0,WASH_VI_6_NL0_AE21}  protest_ad_56_nl0_ce0(RETURN_VI_6_NL0_AE0KE0, DEBTS_VI_6_NL0_AE10, WASH_VI_6_NL0_AE21, GAIN_VI_6_NL0_AE32, FALL_AD_56_NL0_AE43)  :- let_vh_37_nl0_ce0(ARM_VH_37_NL0_AE00, ADD_VH_37_NL0_AE0JOINATTR)  .
+#exists{CALL_AD_6_NL0_AE10,SLEEP_AD_6_NL0_AE0KE0JOINATTR}  narrow_vi_45_nl0_ce0(SLEEP_AD_6_NL0_AE0KE0JOINATTR, CALL_AD_6_NL0_AE10)  :- society_vi_22_nl0_ce1(CHANGE_VI_22_NL0_AE0KE0REF0, SMOOTH_VI_22_NL0_AE31, WALK_VI_22_NL0_AE4)  .
+#exists{PLAY_VNM_21_NL1_AE01,PROSE_VNM_21_NL0_AE20,RUB_VNM_21_NL0_AE31}  end_vnm_21_nl0_ce1(PROSE_VNM_21_NL0_AE20, RUB_VNM_21_NL0_AE31, PLAY_VNM_21_NL1_AE01)  :- chemical_vh_38_nl0_ce1(TELOS_VH_38_NL0_AE20, PART_VH_38_NL0_AE31, HOLD_VH_38_NL0_AE0JOINATTR, HOLD_VH_38_NL0_AE0JOINATTRREF2)  .
+#exists{IMPROVE_VH_49_NL0_AE00,QUICK_VH_49_NL0_AE11,WILL_VH_49_NL0_AE0JOINATTR}  language_vh_49_nl0_ce0(IMPROVE_VH_49_NL0_AE00, QUICK_VH_49_NL0_AE11, WILL_VH_49_NL0_AE0JOINATTR)  :- copy_ad_36_nl0_ce0(SLOW_AD_36_NL0_AE0KE0, BAND_AD_36_NL0_AE10, LIGHT_AD_36_NL0_AE21, WET_AD_36_NL0_AE32, FINISH_AD_36_NL0_AE43)  .
+#exists{BABY_VNM_16_NL0_AE20,GRIP_VNM_16_NL1_AE01,ORANGE_VNM_16_NL0_AE42,PASS_VNM_16_NL0_AE31}  reading_vnm_16_nl0_ce1(BABY_VNM_16_NL0_AE20, PASS_VNM_16_NL0_AE31, ORANGE_VNM_16_NL0_AE42, GRIP_VNM_16_NL1_AE01)  :- leather_vnm_27_nl0_ce2(CHESS_VNM_27_NL0_AE00REF, WRONG_VNM_27_NL1_AE01REF0)  .
+#exists{CALL_VNM_26_NL0_AE31,POT_VNM_26_NL1_AE01,STONE_VNM_26_NL0_AE20,WIN_VNM_26_NL0_AE42}  authority_vnm_26_nl0_ce1(STONE_VNM_26_NL0_AE20, CALL_VNM_26_NL0_AE31, WIN_VNM_26_NL0_AE42, POT_VNM_26_NL1_AE01)  :- private_vnm_54_nl0_ce0(SNEEZE_VH_16_NL0_AE00, AVOID_VH_16_NL0_AE11, CLEAN_VH_16_NL0_AE22, RESPONSIBLE_VNM_54_NL0_AE00)  .
+#exists{CLEAN_VI_16_NL0_AE30,SMELL_VI_16_NL0_AE41,SUN_VI_16_NL0_AE0KE0REF}  bee_vi_16_nl0_ce1(SUN_VI_16_NL0_AE0KE0REF, CLEAN_VI_16_NL0_AE30, SMELL_VI_16_NL0_AE41)  :- kind_vi_3_nl0_ce0(NECESSARY_VI_3_NL0_AE0KE0JOINATTR, STICK_VI_3_NL0_AE10, EFFECT_VI_3_NL0_AE21)  .
+#exists{LETTER_VH_1_NL0_AE0JOINATTR,RED_VH_1_NL0_AE11,TAIL_VH_1_NL0_AE00,WRONG_VH_1_NL0_AE22}  blue_vh_1_nl0_ce0(TAIL_VH_1_NL0_AE00, RED_VH_1_NL0_AE11, WRONG_VH_1_NL0_AE22, LETTER_VH_1_NL0_AE0JOINATTR)  :- blue_vnm_22_nl0_ce2(READING_VNM_22_NL0_AE00REF, BASIN_VNM_22_NL1_AE01REF)  .
+#exists{DEBTS_VI_6_NL0_AE10,RETURN_VI_6_NL0_AE0KE0JOINATTR}  oven_vi_6_nl0_ce0(RETURN_VI_6_NL0_AE0KE0JOINATTR, DEBTS_VI_6_NL0_AE10)  :- grey_vnm_64_nl0_ce1(PROFIT_AD_33_NL0_AE10, REWARD_AD_33_NL0_AE21, ANSWER_VNM_64_NL1_AE01)  .
+#exists{MUSCLE_VNM_18_NL0_AE00,SHEEP_VNM_18_NL0_AE0KE00}  oven_vnm_18_nl0_ce0(SHEEP_VNM_18_NL0_AE0KE00, MUSCLE_VNM_18_NL0_AE00)  :- size_vnm_17_nl0_ce0(LAST_VNM_17_NL0_AE0KE00, AVOID_VNM_17_NL0_AE11, DRAIN_VNM_17_NL0_AE00)  .
+#exists{AIM_VH_64_NL0_AE0JOINATTR,HUMOR_VH_64_NL0_AE00}  fly_vh_64_nl0_ce0(HUMOR_VH_64_NL0_AE00, AIM_VH_64_NL0_AE0JOINATTR)  :- shake_vnm_23_nl0_ce1(INSECT_VNM_23_NL0_AE10, INTEND_VNM_23_NL0_AE21, RELIGION_VNM_23_NL1_AE01)  .
+#exists{COPPER_AD_39_NL0_AE42,MIGHT_VH_44_NL0_AE0JOINATTR,MIGHT_VH_44_NL0_AE0JOINATTRREF3,PLAN_AD_39_NL0_AE20,RUB_AD_39_NL0_AE31}  found_vh_44_nl0_ce1(PLAN_AD_39_NL0_AE20, RUB_AD_39_NL0_AE31, COPPER_AD_39_NL0_AE42, MIGHT_VH_44_NL0_AE0JOINATTR, MIGHT_VH_44_NL0_AE0JOINATTRREF3)  :- kill_ad_38_nl0_ce0(DEAD_VNM_2_NL0_AE0KE0, SEND_VNM_2_NL0_AE10, REGULAR_VNM_2_NL0_AE21, ADVERTISEMENT_AD_38_NL0_AE32)  .
+#exists{DARK_AD_16_NL0_AE32,GLOVE_AD_16_NL0_AE21,HANDLE_AD_16_NL0_AE10,PICTURE_AD_16_NL0_AE43,TOE_AD_16_NL0_AE0KE0}  deep_ad_16_nl0_ce0(TOE_AD_16_NL0_AE0KE0, HANDLE_AD_16_NL0_AE10, GLOVE_AD_16_NL0_AE21, DARK_AD_16_NL0_AE32, PICTURE_AD_16_NL0_AE43)  :- forgive_vnm_33_nl0_ce1(RECEIVE_VH_14_NL0_AE20, MARK_VH_14_NL0_AE31, OFFICE_VNM_33_NL1_AE01)  .
+#exists{FLAT_VH_15_NL0_AE0JOINATTR,FLAT_VH_15_NL0_AE0JOINATTRREF3,REST_VH_15_NL0_AE42,SMOOTH_VH_15_NL0_AE20,WILL_VH_15_NL0_AE31}  know_vh_15_nl0_ce1(SMOOTH_VH_15_NL0_AE20, WILL_VH_15_NL0_AE31, REST_VH_15_NL0_AE42, FLAT_VH_15_NL0_AE0JOINATTR, FLAT_VH_15_NL0_AE0JOINATTRREF3) :- use_ad_61_nl0_ce0(INFLUENCE_AD_33_NL0_AE0KE0, PROFIT_AD_33_NL0_AE10, REWARD_AD_33_NL0_AE21, BELIEF_AD_61_NL0_AE32)  .
+#exists{NERVE_VI_15_NL0_AE0KE0JOINATTR,TICKET_VI_15_NL0_AE10}  jewel_vi_15_nl0_ce0(NERVE_VI_15_NL0_AE0KE0JOINATTR, TICKET_VI_15_NL0_AE10) :- mine_vh_32_nl0_ce1(INTRODUCE_VH_32_NL0_AE10, BUILDING_VH_32_NL0_AE0JOINATTR, BUILDING_VH_32_NL0_AE0JOINATTRREF1)  .
+#exists{SAFE_VI_11_NL0_AE0KE0JOINATTR,TALK_VI_11_NL0_AE10}  business_vi_11_nl0_ce0(SAFE_VI_11_NL0_AE0KE0JOINATTR, TALK_VI_11_NL0_AE10) :- shade_vh_45_nl0_ce1(BLADE_VH_45_NL0_AE20, EAR_VH_45_NL0_AE31, PEACE_VH_45_NL0_AE0JOINATTR, PEACE_VH_45_NL0_AE0JOINATTRREF2)  .
+q1T(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF,EXAMINE_VNM_20_NL0_CE2_EARTH_VNM_20_NL1_AE01REF) :- language_vnm_3_nl0_ce2(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF,LANGUAGE_VNM_3_NL0_CE2_TREAT_VNM_3_NL1_AE01REF), examine_vnm_20_nl0_ce2(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF,EXAMINE_VNM_20_NL0_CE2_EARTH_VNM_20_NL1_AE01REF).
+q1(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF) :- q1T(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF,EXAMINE_VNM_20_NL0_CE2_EARTH_VNM_20_NL1_AE01REF), office_vnm_46_nl0_ce2(LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF,OFFICE_VNM_46_NL0_CE2_GROUP_VNM_46_NL1_AE01REF) .
+q11(BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR,SET_AD_13_NL0_CE0_TOUCH_AD_13_NL0_AE2,SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,SET_AD_13_NL0_CE0_HARD_AD_13_NL0_AE3)  :- business_vi_11_nl0_ce0(BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR,BUSINESS_VI_11_NL0_CE0_TALK_VI_11_NL0_AE1), set_ad_13_nl0_ce0(SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR,SET_AD_13_NL0_CE0_TOUCH_AD_13_NL0_AE2,SET_AD_13_NL0_CE0_HARD_AD_13_NL0_AE3,SET_AD_13_NL0_CE0_REMAIN_AD_13_NL0_AE4), society_vi_1_nl0_ce1(SOCIETY_VI_1_NL0_CE1_COMPARE_VI_1_NL0_AE0KE0REF,BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR,SOCIETY_VI_1_NL0_CE1_AFFECT_VI_1_NL0_AE4), prove_ad_43_nl0_ce0(SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,PROVE_AD_43_NL0_CE0_HARD_AD_13_NL0_AE1,PROVE_AD_43_NL0_CE0_TOUCH_AD_13_NL0_AE2,PROVE_AD_43_NL0_CE0_HARD_AD_13_NL0_AE3,PROVE_AD_43_NL0_CE0_ADMIT_AD_43_NL0_AE4), jewel_vi_15_nl0_ce0(JEWEL_VI_15_NL0_CE0_NERVE_VI_15_NL0_AE0KE0JOINATTR,BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR), grass_vnm_46_nl0_ce0(GRASS_VNM_46_NL0_CE0_ERROR_VNM_46_NL0_AE0KE0,BUSINESS_VI_11_NL0_CE0_SAFE_VI_11_NL0_AE0KE0JOINATTR,GRASS_VNM_46_NL0_CE0_ADVERTISEMENT_VNM_46_NL0_AE2,GRASS_VNM_46_NL0_CE0_SAME_VNM_46_NL0_AE00) .
+q13(LANGUAGE_VNM_21_NL0_CE0_BLOW_VNM_21_NL0_AE0KE0,LANGUAGE_VNM_21_NL0_CE0_PERSON_VNM_21_NL0_AE1,LANGUAGE_VNM_21_NL0_CE0_LEAF_VNM_21_NL0_AE00)  :- language_vnm_21_nl0_ce0(LANGUAGE_VNM_21_NL0_CE0_BLOW_VNM_21_NL0_AE0KE0,LANGUAGE_VNM_21_NL0_CE0_PERSON_VNM_21_NL0_AE1,LANGUAGE_VNM_21_NL0_CE0_LEAF_VNM_21_NL0_AE00), substance_ad_26_nl0_ce0(LANGUAGE_VNM_21_NL0_CE0_PERSON_VNM_21_NL0_AE1,SUBSTANCE_AD_26_NL0_CE0_MARKET_AD_26_NL0_AE1,SUBSTANCE_AD_26_NL0_CE0_HEALTHY_AD_26_NL0_AE2,SUBSTANCE_AD_26_NL0_CE0_DESIGN_AD_26_NL0_AE3,SUBSTANCE_AD_26_NL0_CE0_START_AD_26_NL0_AE4), set_ad_13_nl0_ce0(SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,LANGUAGE_VNM_21_NL0_CE0_BLOW_VNM_21_NL0_AE0KE0,SET_AD_13_NL0_CE0_TOUCH_AD_13_NL0_AE2,SET_AD_13_NL0_CE0_HARD_AD_13_NL0_AE3,SET_AD_13_NL0_CE0_REMAIN_AD_13_NL0_AE4), prove_ad_43_nl0_ce0(PROVE_AD_43_NL0_CE0_USE_AD_13_NL0_AE0KE0,PROVE_AD_43_NL0_CE0_HARD_AD_13_NL0_AE1,PROVE_AD_43_NL0_CE0_TOUCH_AD_13_NL0_AE2,SET_AD_13_NL0_CE0_HARD_AD_13_NL0_AE3,PROVE_AD_43_NL0_CE0_ADMIT_AD_43_NL0_AE4), jewel_vi_15_nl0_ce0(JEWEL_VI_15_NL0_CE0_NERVE_VI_15_NL0_AE0KE0JOINATTR,LANGUAGE_VNM_21_NL0_CE0_BLOW_VNM_21_NL0_AE0KE0), boot_vnm_5_nl0_ce0(LANGUAGE_VNM_21_NL0_CE0_BLOW_VNM_21_NL0_AE0KE0,BOOT_VNM_5_NL0_CE0_HEAD_VNM_5_NL0_AE1,BOOT_VNM_5_NL0_CE0_JUDGE_VNM_5_NL0_AE2,BOOT_VNM_5_NL0_CE0_FLAT_VNM_5_NL0_AE00) .
+q17(GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,GRASS_VNM_46_NL0_CE0_SAME_VNM_46_NL0_AE00,GRASS_VNM_46_NL0_CE0_ADVERTISEMENT_VNM_46_NL0_AE2,GRASS_VNM_46_NL0_CE0_ERROR_VNM_46_NL0_AE0KE0,SET_AD_13_NL0_CE0_TOUCH_AD_13_NL0_AE2)  :- grass_vnm_46_nl0_ce0(GRASS_VNM_46_NL0_CE0_ERROR_VNM_46_NL0_AE0KE0,GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,GRASS_VNM_46_NL0_CE0_ADVERTISEMENT_VNM_46_NL0_AE2,GRASS_VNM_46_NL0_CE0_SAME_VNM_46_NL0_AE00), set_ad_13_nl0_ce0(SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,SET_AD_13_NL0_CE0_TOUCH_AD_13_NL0_AE2,SET_AD_13_NL0_CE0_HARD_AD_13_NL0_AE3,SET_AD_13_NL0_CE0_REMAIN_AD_13_NL0_AE4), father_vh_14_nl0_ce1(GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,FATHER_VH_14_NL0_CE1_MARK_VH_14_NL0_AE3,FATHER_VH_14_NL0_CE1_YEAR_VH_14_NL0_AE0JOINATTR,FATHER_VH_14_NL0_CE1_YEAR_VH_14_NL0_AE0JOINATTRREF), contain_vh_15_nl0_ce0(GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,CONTAIN_VH_15_NL0_CE0_BRICK_VH_15_NL0_AE1,CONTAIN_VH_15_NL0_CE0_FLAT_VH_15_NL0_AE0JOINATTR), day_vh_43_nl0_ce1(DAY_VH_43_NL0_CE1_RECEIVE_VH_14_NL0_AE2,FATHER_VH_14_NL0_CE1_MARK_VH_14_NL0_AE3,DAY_VH_43_NL0_CE1_FIXED_VH_43_NL0_AE0JOINATTR,DAY_VH_43_NL0_CE1_FIXED_VH_43_NL0_AE0JOINATTRREF), prove_ad_43_nl0_ce0(SET_AD_13_NL0_CE0_USE_AD_13_NL0_AE0KE0,PROVE_AD_43_NL0_CE0_HARD_AD_13_NL0_AE1,PROVE_AD_43_NL0_CE0_TOUCH_AD_13_NL0_AE2,PROVE_AD_43_NL0_CE0_HARD_AD_13_NL0_AE3,PROVE_AD_43_NL0_CE0_ADMIT_AD_43_NL0_AE4), run_ad_15_nl0_ce0(GRASS_VNM_46_NL0_CE0_PURPOSE_VNM_46_NL0_AE1,RUN_AD_15_NL0_CE0_TREE_AD_15_NL0_AE1,RUN_AD_15_NL0_CE0_INDUSTRY_AD_15_NL0_AE2,RUN_AD_15_NL0_CE0_HOLD_AD_15_NL0_AE3), yellow_vnm_33_nl0_ce2(DAY_VH_43_NL0_CE1_RECEIVE_VH_14_NL0_AE2,YELLOW_VNM_33_NL0_CE2_OFFICE_VNM_33_NL1_AE01REF) .
+q19(PLAY_VH_59_NL0_CE1_BEGIN_VI_17_NL0_AE3,PLAY_VH_59_NL0_CE1_MAN_VI_17_NL0_AE2,SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,SHOE_VI_17_NL0_CE1_MAN_VI_17_NL0_AE2)  :- play_vh_59_nl0_ce1(PLAY_VH_59_NL0_CE1_MAN_VI_17_NL0_AE2,PLAY_VH_59_NL0_CE1_BEGIN_VI_17_NL0_AE3,PLAY_VH_59_NL0_CE1_SPADE_VH_59_NL0_AE0JOINATTR,PLAY_VH_59_NL0_CE1_SPADE_VH_59_NL0_AE0JOINATTRREF), shoe_vi_17_nl0_ce1(SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,SHOE_VI_17_NL0_CE1_MAN_VI_17_NL0_AE2,PLAY_VH_59_NL0_CE1_BEGIN_VI_17_NL0_AE3), answer_vh_59_nl0_ce0(SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,ANSWER_VH_59_NL0_CE0_STAND_VI_17_NL0_AE1,ANSWER_VH_59_NL0_CE0_SPADE_VH_59_NL0_AE0JOINATTR), hide_vi_17_nl0_ce0(SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,HIDE_VI_17_NL0_CE0_STAND_VI_17_NL0_AE1), sleep_vnm_12_nl0_ce0(SLEEP_VNM_12_NL0_CE0_DRIVING_VNM_12_NL0_AE0KE0,SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,SLEEP_VNM_12_NL0_CE0_DEPENDENT_VNM_12_NL0_AE00), regret_vi_54_nl0_ce1(REGRET_VI_54_NL0_CE1_INTEREST_VNM_7_NL0_AE0KE0REF,REGRET_VI_54_NL0_CE1_HEART_VNM_7_NL0_AE2,SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF), mean_vi_59_nl0_ce1(SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,MEAN_VI_59_NL0_CE1_ENGINE_VI_59_NL0_AE3,MEAN_VI_59_NL0_CE1_EDGE_VI_59_NL0_AE4,MEAN_VI_59_NL0_CE1_FORM_VI_59_NL0_AE5), change_vi_15_nl0_ce1(SHOE_VI_17_NL0_CE1_CRY_VI_17_NL0_AE0KE0REF,CHANGE_VI_15_NL0_CE1_WARN_VI_15_NL0_AE2) .
+q2(ENGINE_VNM_12_NL0_CE2_DESIRE_VNM_12_NL1_AE01REF,SETTLE_VH_8_NL0_CE1_EXCHANGE_VH_8_NL0_AE3,DELICATE_VI_38_NL0_CE1_ANGLE_VH_8_NL0_AE0REF,DELICATE_VI_38_NL0_CE1_EXCHANGE_VH_8_NL0_AE3)  :- engine_vnm_12_nl0_ce2(ENGINE_VNM_12_NL0_CE2_DEPENDENT_VNM_12_NL0_AE00REF,ENGINE_VNM_12_NL0_CE2_DESIRE_VNM_12_NL1_AE01REF), settle_vh_8_nl0_ce1(ENGINE_VNM_12_NL0_CE2_DESIRE_VNM_12_NL1_AE01REF,SETTLE_VH_8_NL0_CE1_EXCHANGE_VH_8_NL0_AE3,SETTLE_VH_8_NL0_CE1_DISCOVER_VH_8_NL0_AE0JOINATTR,SETTLE_VH_8_NL0_CE1_DISCOVER_VH_8_NL0_AE0JOINATTRREF), delicate_vi_38_nl0_ce1(DELICATE_VI_38_NL0_CE1_ANGLE_VH_8_NL0_AE0REF,ENGINE_VNM_12_NL0_CE2_DESIRE_VNM_12_NL1_AE01REF,DELICATE_VI_38_NL0_CE1_EXCHANGE_VH_8_NL0_AE3) .
+q3(WAX_AD_60_NL0_CE0_JELLY_AD_42_NL0_AE0KE0,WAX_AD_60_NL0_CE0_FIGHT_AD_42_NL0_AE2,TIGHT_VI_49_NL0_CE1_ATTENTION_VI_49_NL0_AE3)  :- wax_ad_60_nl0_ce0(WAX_AD_60_NL0_CE0_JELLY_AD_42_NL0_AE0KE0,WAX_AD_60_NL0_CE0_DOUBT_AD_42_NL0_AE1,WAX_AD_60_NL0_CE0_FIGHT_AD_42_NL0_AE2,WAX_AD_60_NL0_CE0_MUSCLE_AD_60_NL0_AE3), steel_ad_42_nl0_ce0(WAX_AD_60_NL0_CE0_JELLY_AD_42_NL0_AE0KE0,STEEL_AD_42_NL0_CE0_DOUBT_AD_42_NL0_AE1,STEEL_AD_42_NL0_CE0_FIGHT_AD_42_NL0_AE2,STEEL_AD_42_NL0_CE0_GLASS_AD_42_NL0_AE3), tight_vi_49_nl0_ce1(WAX_AD_60_NL0_CE0_DOUBT_AD_42_NL0_AE1,TIGHT_VI_49_NL0_CE1_ATTENTION_VI_49_NL0_AE3,TIGHT_VI_49_NL0_CE1_FEED_VI_49_NL0_AE4) .
+q6(WONDER_AD_30_NL0_CE0_NECESSARY_AD_30_NL0_AE0KE0,WONDER_AD_30_NL0_CE0_GOVERNMENT_AD_30_NL0_AE1,WONDER_AD_30_NL0_CE0_APPLY_AD_30_NL0_AE4,WONDER_AD_30_NL0_CE0_WOULD_AD_30_NL0_AE3)  :- wonder_ad_30_nl0_ce0(WONDER_AD_30_NL0_CE0_NECESSARY_AD_30_NL0_AE0KE0,WONDER_AD_30_NL0_CE0_GOVERNMENT_AD_30_NL0_AE1,WONDER_AD_30_NL0_CE0_CUT_AD_30_NL0_AE2,WONDER_AD_30_NL0_CE0_WOULD_AD_30_NL0_AE3,WONDER_AD_30_NL0_CE0_APPLY_AD_30_NL0_AE4,WONDER_AD_30_NL0_CE0_BE_AD_30_NL0_AE5), raise_vnm_17_nl0_ce1(WONDER_AD_30_NL0_CE0_CUT_AD_30_NL0_AE2,RAISE_VNM_17_NL0_CE1_WALK_VNM_17_NL0_AE3,RAISE_VNM_17_NL0_CE1_COUGH_VNM_17_NL1_AE01), knot_vnm_27_nl0_ce1(WONDER_AD_30_NL0_CE0_WOULD_AD_30_NL0_AE3,KNOT_VNM_27_NL0_CE1_DISGUST_VNM_27_NL0_AE3,KNOT_VNM_27_NL0_CE1_VALUE_VNM_27_NL0_AE4,KNOT_VNM_27_NL0_CE1_WRONG_VNM_27_NL1_AE01), thread_vi_13_nl0_ce0(THREAD_VI_13_NL0_CE0_AVOID_VI_13_NL0_AE0KE0JOINATTR,WONDER_AD_30_NL0_CE0_CUT_AD_30_NL0_AE2,THREAD_VI_13_NL0_CE0_KNOCK_VI_13_NL0_AE2) .
+q8(BAND_VI_18_NL0_CE1_SKY_VI_18_NL0_AE3,BAND_VI_18_NL0_CE1_OVEN_VI_18_NL0_AE2,BAND_VI_18_NL0_CE1_PUBLIC_VI_18_NL0_AE0KE0REF)  :- band_vi_18_nl0_ce1(BAND_VI_18_NL0_CE1_PUBLIC_VI_18_NL0_AE0KE0REF,BAND_VI_18_NL0_CE1_OVEN_VI_18_NL0_AE2,BAND_VI_18_NL0_CE1_SKY_VI_18_NL0_AE3), yellow_vnm_45_nl0_ce2(BAND_VI_18_NL0_CE1_OVEN_VI_18_NL0_AE2,YELLOW_VNM_45_NL0_CE2_SAME_VNM_45_NL1_AE01REF), garden_vnm_45_nl0_ce0(GARDEN_VNM_45_NL0_CE0_PREVENT_AD_5_NL0_AE0KE0,GARDEN_VNM_45_NL0_CE0_LOW_AD_5_NL0_AE1,BAND_VI_18_NL0_CE1_OVEN_VI_18_NL0_AE2), thick_ad_5_nl0_ce0(THICK_AD_5_NL0_CE0_PREVENT_AD_5_NL0_AE0KE0,THICK_AD_5_NL0_CE0_LOW_AD_5_NL0_AE1,BAND_VI_18_NL0_CE1_OVEN_VI_18_NL0_AE2,THICK_AD_5_NL0_CE0_BUTTER_AD_5_NL0_AE3,THICK_AD_5_NL0_CE0_COPY_AD_5_NL0_AE4,THICK_AD_5_NL0_CE0_CLOSE_AD_5_NL0_AE5) .
+q9(GREY_VI_61_NL0_CE1_WINTER_VI_61_NL0_AE0KE0REF,GREY_VI_61_NL0_CE1_FAT_VI_61_NL0_AE5,GREY_VI_61_NL0_CE1_NAME_VI_61_NL0_AE3,GREY_VI_61_NL0_CE1_DELIVER_VI_61_NL0_AE4)  :- grey_vi_61_nl0_ce1(GREY_VI_61_NL0_CE1_WINTER_VI_61_NL0_AE0KE0REF,GREY_VI_61_NL0_CE1_NAME_VI_61_NL0_AE3,GREY_VI_61_NL0_CE1_DELIVER_VI_61_NL0_AE4,GREY_VI_61_NL0_CE1_FAT_VI_61_NL0_AE5), engine_vnm_12_nl0_ce2(ENGINE_VNM_12_NL0_CE2_DEPENDENT_VNM_12_NL0_AE00REF,GREY_VI_61_NL0_CE1_WINTER_VI_61_NL0_AE0KE0REF), avoid_vi_61_nl0_ce0(GREY_VI_61_NL0_CE1_WINTER_VI_61_NL0_AE0KE0REF,AVOID_VI_61_NL0_CE0_BRIGHT_VI_61_NL0_AE1,AVOID_VI_61_NL0_CE0_WIRE_VI_61_NL0_AE2), baby_vnm_17_nl0_ce2(GREY_VI_61_NL0_CE1_WINTER_VI_61_NL0_AE0KE0REF,BABY_VNM_17_NL0_CE2_COUGH_VNM_17_NL1_AE01REF) .
+
+q1(X0)?

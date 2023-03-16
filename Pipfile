@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "<9.0.0,>=8.0.0"
+black = ">=22.1.0,<23"
+ipython = "*"
+requests = "*"
+isort = "*"
+pandas = "*"
+psutil = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

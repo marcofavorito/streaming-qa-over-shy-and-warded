@@ -1,0 +1,1 @@
+{"id": 1, "resultSet": {"q1": [["w"], ["mi"], ["o"], ["gr"], ["ca"], ["l"], ["ap"], ["cr"], ["p"], ["ta"], ["hea"], ["ac"], ["wi"], ["po"], ["ra"], ["h"], ["de"], ["a"]]}, "types": {"q1": ["STRING"]}, "columnNames": {"q1": ["LANGUAGE_VNM_3_NL0_CE2_CRUSH_VNM_3_NL0_AE00REF"]}}

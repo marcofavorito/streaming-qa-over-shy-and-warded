@@ -1,0 +1,1 @@
+../vadalog-engine-bankitalia/src/test/resources/programs_data/benchmark_data/LUBM_data/generate_LUBM_data.sh

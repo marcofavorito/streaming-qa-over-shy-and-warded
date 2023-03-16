@@ -1,0 +1,1 @@
+../vadalog-engine-bankitalia/src/test/resources/programs_data/benchmark_data/Ontology-256_data/generate_Ontology-256_data.sh

@@ -1,0 +1,6 @@
+
+hasAncestor(X,Y) :- person(X).
+personHarmful(Y) :- hasAncestor(X,Y).
+hasAncestor(X,Y) :- personHarmful(X).
+q(X) :- person(X),hasAncestor(X,Y).
+@output("q").

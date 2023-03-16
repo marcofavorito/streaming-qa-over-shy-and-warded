@@ -1,0 +1,80 @@
+DLV [build BEN/Jun 29 2018   gcc 5.4.0 20160609]
+
+18452 atoms generated ( 18452 in the last level).
+Resumptions to fixpoint: 0
+Atoms generated: 18452
+
+
+Options:   ORb = 1  ORp = 1  ORdr = 0  ODMS = 1  ODMS+ = 1  OODMS = 0  OS = 0  OGp = 1  OGo = 2  OGs = 1  OH = 1  OPf = 0
+
+
+Predicates                : 61
+|Herbrand Base|           : 4040799431
+|Residual Herbrand Univ.| : 18696
+|Residual Herbrand Base|  : 0
+Facts (EDB)               : 10837
+Rules (IDB)               : 18
+ are ground?              : no
+ full grounding           : 3164922376
+ actual grounding         : 0
+Constraints               : 0
+ are ground?              : yes
+ full grounding           : 0
+ actual grounding         : 0
+Weak Constraints          : 0
+ (actual) grounding       : 0
+
+I.positive                : 18452
+Structural Size           : 10837
+Time for first answer set : 0.188965
+ (including instantiation)
+Time for all answer sets  : 0.188965
+ (including instantiation)
+Parsing                   : 0.066991
+Rewriting-Basic           : 0.000001
+Rewriting-Projection      : 0.000171
+SubsumptionChecking       : 0.000000
+Magic Set rewriting       : 0.000343
+Instantiation time        : 0.121694
+ Depgraph                 : 0.000030
+ Postprocessing           : 0.000008
+ Constraints              : 0.002163
+ Indexing                 : 0.019734
+Model Generator time      : 0.000000
+ DS Initialisation        : 0.000000
+ Depgraph                 : 0.000003
+ Well-founded computation : 0.000000
+ PT computation           : 0.000000
+ Frontend callbacks       : 0.000000
+Model Checker time        : 0.000000
+ Total Model Check time   : 0.000000
+ Partial Model Check time : 0.000000
+  Quick Partial Check time: 0.000000
+Worst single MC time      : 0s
+Worst single inner MC time: 0s
+Max. atoms for inner MC   : 0
+
+(Timers are informational only and must not be used for benchmarks.  See
+<http://www.dbai.tuwien.ac.at/proj/dlv/bench/> for further information.)
+"308", "2323", "Rs4262", "PEIXDCZEHE", "HH30727"
+"308", "2298", "Rs4262", "HBMRNMFSAJ", "HH30727"
+"308", "4954", "Rs4262", "GZBVAZGLNH", "HH30727"
+"308", "5072", "Rs4262", "OSNRCSRTNQ", "HH30727"
+"308", "3830", "Rs4262", "BYZTKNQEKO", "HH30727"
+"308", "91", "Rs4262", "OONYHGDSKH", "HH30727"
+"308", "4286", "Rs4262", "KTJXGSDCAC", "HH30727"
+"308", "4057", "Rs4262", "JPSCVPLGTC", "HH30727"
+"308", "3280", "Rs4262", "KZZUZETQJA", "HH30727"
+"308", "749", "Rs4262", "KQWQHZQSZU", "HH30727"
+"187", "2375", "Tr0245", "YROMYMDWYC", "HH30727"
+"187", "97", "Tr0245", "SJJUZQMLUS", "HH30727"
+"187", "1936", "Tr0245", "TCDPDZCHIP", "HH30727"
+"187", "1692", "Tr0245", "PNLICZHJIW", "HH30727"
+"187", "4719", "Tr0245", "EXRIOQFQMD", "HH30727"
+"187", "4781", "Tr0245", "KJFSGJGUWX", "HH30727"
+"187", "2811", "Tr0245", "IIGHCNMXCR", "HH30727"
+"187", "1253", "Tr0245", "UTROGXAFQQ", "HH30727"
+"187", "677", "Tr0245", "WYDNENSXAW", "HH30727"
+
+Query Answering Time: 0.000147 sec
+Running command:  /home/datalog-benchmarking/datalog-benchmarking/third_party/TOCL_dlvEx/dlvExists /home/datalog-benchmarking/datalog-benchmarking/results/chasebench/doctors/dlve/0010000/q09/run-1/program.rul /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0010000/medprescription.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0010000/hospital.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0010000/physician.data /home/datalog-benchmarking/datalog-benchmarking/datasets/doctors/dlve/data/0010000/treatment.data -cautious -stats++
