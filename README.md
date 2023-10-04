@@ -69,18 +69,30 @@ To run a shell inside the container:
 ```
 
 
+## Download and generate datasets
+
+```
+./scripts/download-datasets.sh
+./scripts/generate-datasets
+```
+
+
 ## Run all
 
 To run all experiments:
 
 ```
-./benchmark/experiments/run-all.sh
+./benchmark/experiments/run-stronglink.sh
+./benchmark/experiments/run-has-parent.sh
+./benchmark/experiments/run-doctors.sh
+./benchmark/experiments/run-chasebench.sh
 ```
 
 ## Parse and plot results
 
 ```
 ./benchmark/plots/scalability-plot.py all-results/stronglink --dataset dbpedia-stronglink2 --output-dir plots/stronglink
+./benchmark/plots/scalability-plot.py all-results/has-parent --dataset has-ancestor --output-dir plots/has-parent
 ./benchmark/plots/scalability-plot.py all-results/chasebench --dataset doctors --output-dir plots/doctors
 ./benchmark/plots/histogram-plot.py --stb-128-dir all-results/chasebench/stb-128 --ontology-256-dir all-results/chasebench/ontology-256 --output-dir plots/chasebench
 ```
