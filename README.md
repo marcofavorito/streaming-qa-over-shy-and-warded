@@ -8,8 +8,16 @@ We tested the software on Ubuntu 22.04.
 
 - Clone the repository:
 ```
-git clone git@github.com:bancaditalia/vadalog-dlv-benchmarking.git --recursive
+git clone git@github.com:bancaditalia/vadalog-dlv-benchmarking.git
 ```
+
+- Sync the submodules:
+```
+./scripts/sync-submodules.sh
+```
+
+Note: you might not have access to the Vadalog repository. Please contact the authors if you want to reproduce the 
+experiments for that system. 
 
 - Make sure you have Python 3.10 installed.
 
