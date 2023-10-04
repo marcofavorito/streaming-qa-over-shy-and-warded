@@ -39,8 +39,8 @@ export PYTHONPATH=${PYTHONPATH:+$PYTHONPATH:}$(pwd)
 
 - Install JDK 15. Using [sdkman](https://sdkman.io/):
 ```
-sdk install java 15.0.2-open
-sdk use java 15.0.2-open
+sdk install java 16.0.2-open
+sdk use java 16.0.2-open
 ```
 
 - Install Maven 3+

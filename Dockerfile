@@ -53,8 +53,8 @@ WORKDIR /home/default
 
 RUN curl -s "https://get.sdkman.io" | bash
 RUN source ~/.sdkman/bin/sdkman-init.sh &&\
-    sdk install java 15.0.2-open &&\
-    sdk use java 15.0.2-open &&\
+    sdk install java 16.0.2-open &&\
+    sdk use java 16.2-open &&\
     sdk install maven 3.8.4 &&\
     sdk use maven 3.8.4
 
