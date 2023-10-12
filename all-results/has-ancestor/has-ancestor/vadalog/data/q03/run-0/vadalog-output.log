@@ -7,7 +7,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-13-03-2023 20:01:02.667 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 154915 (/home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by marcofavorito in /home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+13-03-2023 20:01:02.667 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 154915 (/home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking-2 in /home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
 13-03-2023 20:01:02.671 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStartupProfileInfo - No active profile set, falling back to default profiles: default
 13-03-2023 20:01:06.120 [main] INFO  o.n.driver.internal.DriverFactory.info - Direct driver instance 1058822905 created for server address localhost:7687
 13-03-2023 20:01:06.284 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarted - Started VadaEngine in 4.265 seconds (JVM running for 5.174)

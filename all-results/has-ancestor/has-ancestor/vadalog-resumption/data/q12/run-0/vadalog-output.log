@@ -7,7 +7,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-13-03-2023 20:02:42.734 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 158513 (/home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by marcofavorito in /home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+13-03-2023 20:02:42.734 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 158513 (/home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking-2 in /home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
 13-03-2023 20:02:42.737 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStartupProfileInfo - No active profile set, falling back to default profiles: default
 13-03-2023 20:02:46.060 [main] INFO  o.n.driver.internal.DriverFactory.info - Direct driver instance 1491522744 created for server address localhost:7687
 13-03-2023 20:02:46.177 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarted - Started VadaEngine in 4.062 seconds (JVM running for 4.953)
@@ -56,7 +56,7 @@
 13-03-2023 20:02:47.001 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgram - Output plan (q) {@bind("q","","","")} <- 
        Nested Loop Join plan (q(X0) ?- person(X0), hasAncestor(X0,X1), hasAncestor(X1,X2), hasAncestor(X2,X3), hasAncestor(X3,X4), hasAncestor(X4,X5), hasAncestor(X5,X6), hasAncestor(X6,X7), hasAncestor(X7,X8), hasAncestor(X8,X9), hasAncestor(X9,X10), hasAncestor(X10,X11), hasAncestor(X11,X12).) <- 
               operand (0):
-                     Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                     Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (1):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -65,9 +65,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (2):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -76,9 +76,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (3):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -87,9 +87,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (4):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -98,9 +98,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (5):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -109,9 +109,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (6):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -120,9 +120,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (7):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -131,9 +131,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (8):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -142,9 +142,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (9):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -153,9 +153,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (10):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -164,9 +164,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (11):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -175,9 +175,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
               operand (12):
                      Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                           Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
@@ -186,9 +186,9 @@
 ...
 ...
                                                                                     Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                                                                        Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                      Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                          Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                          Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
 
 13-03-2023 20:02:47.036 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgramFromRepo - END evaluating program from repo
 13-03-2023 20:02:47.037 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.processEvaluationOutput - BEGIN fetching.

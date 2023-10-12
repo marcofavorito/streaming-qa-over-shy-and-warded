@@ -7,4 +7,4 @@ hasAncestor(X,Y) :- personHarmful(X).
 
 q(X0)  ?- person(X0), hasAncestor(X0,X1), hasAncestor(X1, X2), hasAncestor(X2, X3), hasAncestor(X3, X4), hasAncestor(X4, X5), hasAncestor(X5, X6), hasAncestor(X6, X7), hasAncestor(X7, X8).
 @input("person").
-@bind("person", "csv", "/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data", "person.data").
+@bind("person", "csv", "/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data", "person.data").

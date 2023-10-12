@@ -7,7 +7,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-13-03-2023 20:00:56.387 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 154650 (/home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by marcofavorito in /home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+13-03-2023 20:00:56.387 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 154650 (/home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking-2 in /home/datalog-benchmarking-2/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
 13-03-2023 20:00:56.391 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStartupProfileInfo - No active profile set, falling back to default profiles: default
 13-03-2023 20:00:59.738 [main] INFO  o.n.driver.internal.DriverFactory.info - Direct driver instance 1821100643 created for server address localhost:7687
 13-03-2023 20:00:59.843 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarted - Started VadaEngine in 4.096 seconds (JVM running for 5.014)
@@ -76,7 +76,7 @@
                             operand (0):
                                           Nested Loop Join plan (vatom_1(X0,X1) :- person(X0), hasAncestor(X0,X1).) <- 
                                                                                     operand (0):
-                                                                                                                              Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                                                              Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                                                                                     operand (1):
                                                                                                                               Linear plan (hasAncestor(X,Y) :- person(X).) <- 
 ...
@@ -85,7 +85,7 @@
 
                             operand (1):
                                           Linear plan (hasAncestor(X,Y) :- person(X).) <- 
-                                                                                    Input plan (person) {[@bind("person","csv","/home/marcofavorito/workfolder/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
+                                                                                    Input plan (person) {[@bind("person","csv","/home/datalog-benchmarking-2/datalog-benchmarking/datasets/has-ancestor/vadalog/data","person.data")]}
                                           Linear plan (hasAncestor(X,Y) :- personHarmful(X).) <- 
                                                                                     Linear plan (personHarmful(Y) :- hasAncestor(X,Y).) <- 
                                                                                                                                                                         Linear plan (hasAncestor(X,Y) :- person(X).) <- 
