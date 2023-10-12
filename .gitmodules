@@ -1,9 +1,0 @@
-[submodule "third_party/vadalog-engine-bankitalia"]
-	path = third_party/vadalog-engine-bankitalia
-	url = git@github.com:bancaditalia/vadalog-engine-bankitalia.git
-[submodule "third_party/Llunatic"]
-	path = third_party/Llunatic
-	url = git@github.com:donatellosantoro/Llunatic.git
-[submodule "third_party/chasebench"]
-	path = third_party/chasebench
-	url = https://github.com/dbunibas/chasebench

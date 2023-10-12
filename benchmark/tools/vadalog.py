@@ -21,7 +21,7 @@ from benchmark.utils.jvm import JVMConfig, _get_max_default_heap_size_mb
 DEFAULT_JAVA_HOME = (
     Path(os.getenv("HOME")) / ".sdkman" / "candidates" / "java" / "current"
 )
-DEFAULT_VADALOG_ROOT = ROOT_DIR / "third_party" / "vadalog-engine-bankitalia"
+DEFAULT_VADALOG_ROOT = ROOT_DIR / "third_party" / "vadalog-engine"
 DEFAULT_VADALOG_SERVER_TIMEOUT = 30.0
 DEFAULT_VADALOG_URL = "http://localhost:8080"
 VADALOG_WRAPPER_PATH = ROOT_DIR / "bin" / "vadalog-wrapper"

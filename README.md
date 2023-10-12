@@ -11,13 +11,20 @@ We tested the software on Ubuntu 22.04.
 git clone git@github.com:bancaditalia/vadalog-dlv-benchmarking.git
 ```
 
-- Sync the submodules:
+- Clone the submodules
 ```
-./scripts/sync-submodules.sh
+# update Llunatic
+cd third_party/Llunatic
+git clone git@github.com:donatellosantoro/Llunatic.git .
+cd ../../
+
+# update chasebench
+cd third_party/chasebench
+git clone https://github.com/dbunibas/chasebench .
+cd ../../
 ```
 
-Note: you might not have access to the Vadalog repository. Please contact the authors if you want to reproduce the 
-experiments for that system. 
+Please contact the authors if you want to reproduce the experiments for `Vadalog`, and add the source code inside `third_party/vadalog-engine`
 
 - Make sure you have Python 3.10 installed.
 
