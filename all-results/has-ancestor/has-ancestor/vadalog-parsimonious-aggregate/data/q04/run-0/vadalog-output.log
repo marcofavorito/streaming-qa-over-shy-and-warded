@@ -1,0 +1,38 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+13-03-2023 20:03:56.909 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 161406 (/home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by marcofavorito in /home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+13-03-2023 20:03:56.912 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13-03-2023 20:04:00.371 [main] INFO  o.n.driver.internal.DriverFactory.info - Direct driver instance 1491522744 created for server address localhost:7687
+13-03-2023 20:04:00.513 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarted - Started VadaEngine in 4.257 seconds (JVM running for 5.145)
+13-03-2023 20:04:01.744 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgramFromRepo - BEGIN evaluating program from repo
+13-03-2023 20:04:01.760 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getInstance - Created EqualityGraphFactory and EqualityGraph.
+13-03-2023 20:04:01.761 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:04:01.761 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.prepareProgramFromFileWithParams - BEGIN parsing the program
+13-03-2023 20:04:01.762 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.recResolveIncludes - Analysing program for module inclusions...
+13-03-2023 20:04:01.870 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.prepareProgramFromFileWithParams - END parsing the program
+13-03-2023 20:04:01.870 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:04:01.872 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - BEGIN optimizing the evaluation of the program
+13-03-2023 20:04:01.872 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Fragment detection
+13-03-2023 20:04:01.878 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Multi-head rewriting
+13-03-2023 20:04:01.879 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Non-monotonic aggregate rewriting
+13-03-2023 20:04:01.890 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - BEGIN checking program for nearly-linearity
+13-03-2023 20:04:01.893 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Rule q(X0) :- person(X0), hasAncestor(X0,X1), hasAncestor(X1,X2), hasAncestor(X2,X3), hasAncestor(X3,X4). is not linear and contains the following harmful variables: [X1, X2, X3, X4]
+13-03-2023 20:04:01.894 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Nearly linearity test failed.
+13-03-2023 20:04:01.894 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - END checking program for nearly-linearity.
+13-03-2023 20:04:01.896 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - The program is not nearly-linear but warded
+13-03-2023 20:04:01.896 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Let's linearize the heads
+13-03-2023 20:04:01.897 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Let's choose the Termination Strategy
+13-03-2023 20:04:01.897 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - BEGIN checking program for nearly-linearity
+13-03-2023 20:04:01.898 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Rule q(X0) :- person(X0), hasAncestor(X0,X1), hasAncestor(X1,X2), hasAncestor(X2,X3), hasAncestor(X3,X4). is not linear and contains the following harmful variables: [X1, X2, X3, X4]
+13-03-2023 20:04:01.898 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Nearly linearity test failed.
+13-03-2023 20:04:01.898 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - END checking program for nearly-linearity.
+13-03-2023 20:04:01.903 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - The program is not protected, let's rewrite the attacked harmful joins
+13-03-2023 20:04:01.905 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.w.p.AttackedHJEProtectedWardedRewriter.attacked_harmfulJoinElimination - BEGIN rewriting attacked harmful joins into a protected equivalent version
+13-03-2023 20:04:18.771 [SpringApplicationShutdownHook] INFO  o.n.driver.internal.InternalDriver.info - Closing driver instance 1491522744

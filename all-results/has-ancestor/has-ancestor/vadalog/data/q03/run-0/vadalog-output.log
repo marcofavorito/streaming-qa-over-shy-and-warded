@@ -1,0 +1,111 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+13-03-2023 20:01:02.667 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarting - Starting VadaEngine v1.14.0 using Java 19.0.1 on Lafite-Pro-III-14 with PID 154915 (/home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by marcofavorito in /home/marcofavorito/workfolder/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+13-03-2023 20:01:02.671 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13-03-2023 20:01:06.120 [main] INFO  o.n.driver.internal.DriverFactory.info - Direct driver instance 1058822905 created for server address localhost:7687
+13-03-2023 20:01:06.284 [main] INFO  u.a.ox.cs.vada.vadaengine.VadaEngine.logStarted - Started VadaEngine in 4.265 seconds (JVM running for 5.174)
+13-03-2023 20:01:07.515 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgramFromRepo - BEGIN evaluating program from repo
+13-03-2023 20:01:07.538 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getInstance - Created EqualityGraphFactory and EqualityGraph.
+13-03-2023 20:01:07.538 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:01:07.539 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.prepareProgramFromFileWithParams - BEGIN parsing the program
+13-03-2023 20:01:07.539 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.recResolveIncludes - Analysing program for module inclusions...
+13-03-2023 20:01:07.687 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.prepareProgramFromFileWithParams - END parsing the program
+13-03-2023 20:01:07.687 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:01:07.689 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - BEGIN optimizing the evaluation of the program
+13-03-2023 20:01:07.689 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Fragment detection
+13-03-2023 20:01:07.696 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Multi-head rewriting
+13-03-2023 20:01:07.698 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Non-monotonic aggregate rewriting
+13-03-2023 20:01:07.712 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - BEGIN checking program for nearly-linearity
+13-03-2023 20:01:07.716 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Rule q(X0) :- person(X0), hasAncestor(X0,X1), hasAncestor(X1,X2), hasAncestor(X2,X3). is not linear and contains the following harmful variables: [X1, X2, X3]
+13-03-2023 20:01:07.717 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Nearly linearity test failed.
+13-03-2023 20:01:07.717 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - END checking program for nearly-linearity.
+13-03-2023 20:01:07.719 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - The program is not nearly-linear but warded
+13-03-2023 20:01:07.720 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Let's linearize the heads
+13-03-2023 20:01:07.720 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Let's choose the Termination Strategy
+13-03-2023 20:01:07.720 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - BEGIN checking program for nearly-linearity
+13-03-2023 20:01:07.721 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Rule q(X0) :- person(X0), hasAncestor(X0,X1), hasAncestor(X1,X2), hasAncestor(X2,X3). is not linear and contains the following harmful variables: [X1, X2, X3]
+13-03-2023 20:01:07.721 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - Nearly linearity test failed.
+13-03-2023 20:01:07.722 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.n.ModelNearlyLinearDecorator.isNearlyLinear - END checking program for nearly-linearity.
+13-03-2023 20:01:07.727 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - The program is not protected, let's rewrite the attacked harmful joins
+13-03-2023 20:01:07.729 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.w.p.AttackedHJEProtectedWardedRewriter.attacked_harmfulJoinElimination - BEGIN rewriting attacked harmful joins into a protected equivalent version
+13-03-2023 20:01:08.825 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.w.p.AttackedHJEProtectedWardedRewriter.attacked_harmfulJoinElimination - END rewriting attacked harmful joins into a protected equivalent version
+13-03-2023 20:01:08.826 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Choosing termination strategy
+13-03-2023 20:01:08.836 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - There are dangerous variables, so let's use the warded termination
+13-03-2023 20:01:08.837 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - The program is PWL warded.
+13-03-2023 20:01:08.837 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Multi-join optimization
+13-03-2023 20:01:08.839 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Right recursion inversion
+13-03-2023 20:01:08.842 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Push selections down and push projections down
+13-03-2023 20:01:08.854 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - Maximum number of resumptions: 1
+13-03-2023 20:01:08.855 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.o.ProgramEvaluationOptimizer.optimizeProgramEvaluation - END optimizing the evaluation of the program
+13-03-2023 20:01:08.863 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - BEGIN planning
+13-03-2023 20:01:08.863 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processAnnotations - START processing annotations
+13-03-2023 20:01:08.867 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processAnnotations - END processing annotations
+13-03-2023 20:01:08.950 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processFacts - BEGIN processing facts.
+13-03-2023 20:01:08.951 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processFacts - END processing facts.
+13-03-2023 20:01:08.954 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - hatom_1(X0,X1) :- hasAncestor(X0,X1), dom(*). (recursive?) : true
+13-03-2023 20:01:08.955 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: hatom_1(X0,X1) :- hasAncestor(X0,X1), dom(*).
+13-03-2023 20:01:08.956 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: hatom_1(X0,X1) :- hasAncestor(X0,X1), dom(*).
+13-03-2023 20:01:08.957 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - vatom_1(X0,X1) :- hatom_1(X0,X1), person(X0). (recursive?) : false
+13-03-2023 20:01:08.957 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - BEGIN processing Datalog rule: vatom_1(X0,X1) :- hatom_1(X0,X1), person(X0).
+13-03-2023 20:01:08.958 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - END processing Datalog rule: vatom_1(X0,X1) :- hatom_1(X0,X1), person(X0).
+13-03-2023 20:01:08.958 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - vatom_2(X0,X2) :- vatom_1(X0,X1), hatom_1(X1,X2). (recursive?) : false
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - BEGIN processing Datalog rule: vatom_2(X0,X2) :- vatom_1(X0,X1), hatom_1(X1,X2).
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - END processing Datalog rule: vatom_2(X0,X2) :- vatom_1(X0,X1), hatom_1(X1,X2).
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - vatom_3(X0) :- vatom_2(X0,X2), hatom_1(X2,X3). (recursive?) : false
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - BEGIN processing Datalog rule: vatom_3(X0) :- vatom_2(X0,X2), hatom_1(X2,X3).
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processDatalogRule - END processing Datalog rule: vatom_3(X0) :- vatom_2(X0,X2), hatom_1(X2,X3).
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - q(X0) :- vatom_3(X0). (recursive?) : false
+13-03-2023 20:01:08.959 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: q(X0) :- vatom_3(X0).
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: q(X0) :- vatom_3(X0).
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - personHarmful(Y) :- hasAncestor(X,Y). (recursive?) : true
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: personHarmful(Y) :- hasAncestor(X,Y).
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: personHarmful(Y) :- hasAncestor(X,Y).
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - hasAncestor(X,Y) :- person(X). (recursive?) : false
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: hasAncestor(X,Y) :- person(X).
+13-03-2023 20:01:08.960 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: hasAncestor(X,Y) :- person(X).
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - hasAncestor(X,Y) :- personHarmful(X). (recursive?) : true
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: hasAncestor(X,Y) :- personHarmful(X).
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: hasAncestor(X,Y) :- personHarmful(X).
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - hasAncestor(X0,X1) :- hatom_1(X0,X1). (recursive?) : true
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - BEGIN processing linear rule: hasAncestor(X0,X1) :- hatom_1(X0,X1).
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.processLinearRule - END processing linear rule: hasAncestor(X0,X1) :- hatom_1(X0,X1).
+13-03-2023 20:01:08.961 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.connectPlans - BEGIN connecting the plan
+13-03-2023 20:01:08.963 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.connectPlans - END connecting the plan
+13-03-2023 20:01:08.964 [http-nio-8080-exec-5] INFO  u.a.o.c.v.vadaengine.planner.Planner.makePlan - END planning
+13-03-2023 20:01:08.964 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgram - Access plan:
+
+13-03-2023 20:01:08.968 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgram - Output plan (q) {@bind("q","","","")} <- 
+       Linear plan (q(X0) :- vatom_3(X0).) <- 
+              Nested Loop Join plan (vatom_3(X0) :- vatom_2(X0,X2), hatom_1(X2,X3).) <- 
+                            operand (0):
+                                          Nested Loop Join plan (vatom_2(X0,X2) :- vatom_1(X0,X1), hatom_1(X1,X2).) <- 
+                                                                                    operand (0):
+                                                                                                                              Nested Loop Join plan (vatom_1(X0,X1) :- hatom_1(X0,X1), person(X0).) <- 
+                                                                                                                                                                                                                                                            operand (0):
+...
+                                                                                                                                                                                                                                                            operand (1):
+...
+
+                                                                                    operand (1):
+                                                                                                                              Linear plan (hatom_1(X0,X1) :- hasAncestor(X0,X1), dom(*).) <- 
+
+
+                            operand (1):
+                                          Linear plan (hatom_1(X0,X1) :- hasAncestor(X0,X1), dom(*).) <- 
+
+
+13-03-2023 20:01:08.992 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.evaluateProgramFromRepo - END evaluating program from repo
+13-03-2023 20:01:08.993 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.processEvaluationOutput - BEGIN fetching.
+13-03-2023 20:01:08.993 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.processEvaluationOutput - BEGIN fetching facts
+13-03-2023 20:01:08.997 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.processEvaluationOutput - END fetching
+13-03-2023 20:01:08.998 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.c.VadaEngineController.processEvaluationOutput - Number of generated facts: 8
+13-03-2023 20:01:08.999 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:01:09.000 [http-nio-8080-exec-5] INFO  u.a.o.c.v.v.q.e.e.EqualityStructureFactory.getEqualityGraph - Setting EqualityGraph.
+13-03-2023 20:01:09.136 [SpringApplicationShutdownHook] INFO  o.n.driver.internal.InternalDriver.info - Closing driver instance 1058822905

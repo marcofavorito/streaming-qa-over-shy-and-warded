@@ -92,7 +92,7 @@ To run all experiments:
 
 ```
 ./benchmark/plots/scalability-plot.py all-results/stronglink --dataset dbpedia-stronglink2 --output-dir plots/stronglink
-./benchmark/plots/scalability-plot.py all-results/has-parent --dataset has-ancestor --output-dir plots/has-parent
+./benchmark/plots/has-ancestor-plot.py all-results/has-ancestor --output-dir plots/has-parent
 ./benchmark/plots/scalability-plot.py all-results/chasebench --dataset doctors --output-dir plots/doctors
 ./benchmark/plots/histogram-plot.py --stb-128-dir all-results/chasebench/stb-128 --ontology-256-dir all-results/chasebench/ontology-256 --output-dir plots/chasebench
 ```
