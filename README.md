@@ -58,7 +58,7 @@ sdk use maven 3.8.4
 
 - Build the Vadalog project:
 ```
-cd third_party/vadalog-engine-bankitalia
+cd third_party/vadalog-engine
 mvn -f pom.xml package
 ```
 

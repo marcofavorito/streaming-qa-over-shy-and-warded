@@ -8,7 +8,7 @@
                                           \___/'
 
 Vadalog 1.14.0 -- (c) University of Oxford -- Banca d'Italia Fork
-2023-03-13 23:42:00.185  INFO 101246 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking with PID 101246 (/home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia/target/VadaEngine-1.14.0.jar started by datalog-benchmarking in /home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine-bankitalia)
+2023-03-13 23:42:00.185  INFO 101246 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : Starting VadaEngine v1.14.0 using Java 19.0.2 on datalog-benchmarking with PID 101246 (/home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine/target/VadaEngine-1.14.0.jar started by datalog-benchmarking in /home/datalog-benchmarking/datalog-benchmarking/third_party/vadalog-engine)
 2023-03-13 23:42:00.188  INFO 101246 --- [           main] uk.ac.ox.cs.vada.vadaengine.VadaEngine   : No active profile set, falling back to default profiles: default
 2023-03-13 23:42:02.353  INFO 101246 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
 2023-03-13 23:42:02.367  INFO 101246 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
