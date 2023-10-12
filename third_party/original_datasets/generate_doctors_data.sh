@@ -1,1 +1,1 @@
-../vadalog-engine-bankitalia/src/test/resources/programs_data/benchmark_data/doctors_data/generate_doctors_data.sh
+../vadalog-engine/src/test/resources/programs_data/benchmark_data/doctors_data/generate_doctors_data.sh

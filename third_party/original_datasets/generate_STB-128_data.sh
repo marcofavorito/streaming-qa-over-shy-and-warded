@@ -1,1 +1,1 @@
-../vadalog-engine-bankitalia/src/test/resources/programs_data/benchmark_data/STB-128_data/generate_STB-128_data.sh
+../vadalog-engine/src/test/resources/programs_data/benchmark_data/STB-128_data/generate_STB-128_data.sh
