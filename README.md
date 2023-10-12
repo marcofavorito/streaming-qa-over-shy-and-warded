@@ -37,7 +37,7 @@ pipenv install
 export PYTHONPATH=${PYTHONPATH:+$PYTHONPATH:}$(pwd)
 ```
 
-- Install JDK 15. Using [sdkman](https://sdkman.io/):
+- Install JDK 16. Using [sdkman](https://sdkman.io/):
 ```
 sdk install java 16.0.2-open
 sdk use java 16.0.2-open
