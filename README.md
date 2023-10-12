@@ -4,6 +4,11 @@ This repository contains code and datasets for benchmarking Datalog^E reasoners.
 
 We tested the software on Ubuntu 22.04.
 
+In order to fully reproduce the experiment, you have to request the Vadalog code to the authors.
+Please contact the authors if you want to reproduce the experiments, and put the source code inside `third_party/vadalog-engine`
+
+You can still inspect the experiment results and reproduce the plots.
+
 ## Preliminaries
 
 - Clone the repository:
@@ -24,7 +29,6 @@ git clone https://github.com/dbunibas/chasebench .
 cd ../../
 ```
 
-Please contact the authors if you want to reproduce the experiments for `Vadalog`, and add the source code inside `third_party/vadalog-engine`
 
 - Make sure you have Python 3.10 installed.
 
